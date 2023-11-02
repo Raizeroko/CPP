@@ -1,0 +1,13 @@
+﻿  cpp_02_08.cpp
+D:\c语言\repository\cpp_practice\cpp_02_08\cpp_02_08\cpp_02_08.cpp(7,17): error C2061: 语法错误: 标识符“vector”
+D:\c语言\repository\cpp_practice\cpp_02_08\cpp_02_08\cpp_02_08.cpp(8,14): error C2065: “nums”: 未声明的标识符
+D:\c语言\repository\cpp_practice\cpp_02_08\cpp_02_08\cpp_02_08.cpp(8,28): error C2065: “nums”: 未声明的标识符
+D:\c语言\repository\cpp_practice\cpp_02_08\cpp_02_08\cpp_02_08.cpp(8,9): error C3861: “sort”: 找不到标识符
+D:\c语言\repository\cpp_practice\cpp_02_08\cpp_02_08\cpp_02_08.cpp(10,40): error C2065: “nums”: 未声明的标识符
+D:\c语言\repository\cpp_practice\cpp_02_08\cpp_02_08\cpp_02_08.cpp(13,24): error C2065: “nums”: 未声明的标识符
+D:\c语言\repository\cpp_practice\cpp_02_08\cpp_02_08\cpp_02_08.cpp(15,25): error C2065: “nums”: 未声明的标识符
+D:\c语言\repository\cpp_practice\cpp_02_08\cpp_02_08\cpp_02_08.cpp(15,35): error C2065: “nums”: 未声明的标识符
+D:\c语言\repository\cpp_practice\cpp_02_08\cpp_02_08\cpp_02_08.cpp(15,21): error C3861: “abs”: 找不到标识符
+D:\c语言\repository\cpp_practice\cpp_02_08\cpp_02_08\cpp_02_08.cpp(22,17): error C2065: “nums”: 未声明的标识符
+D:\c语言\repository\cpp_practice\cpp_02_08\cpp_02_08\cpp_02_08.cpp(22,28): error C2065: “nums”: 未声明的标识符
+D:\c语言\repository\cpp_practice\cpp_02_08\cpp_02_08\cpp_02_08.cpp(23,27): error C3861: “max”: 找不到标识符

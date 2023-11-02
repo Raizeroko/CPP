@@ -1,0 +1,7 @@
+﻿  Test.cpp
+D:\c语言\repository\cpp_project\Class_String_02_09\Class_String_02_09\string.h(100,4): warning C4018: “<=”: 有符号/无符号不匹配
+D:\c语言\repository\cpp_project\Class_String_02_09\Class_String_02_09\string.h(106,4): warning C4018: “<=”: 有符号/无符号不匹配
+D:\c语言\repository\cpp_project\Class_String_02_09\Class_String_02_09\string.h(159,17): warning C4018: “>”: 有符号/无符号不匹配
+D:\c语言\repository\cpp_project\Class_String_02_09\Class_String_02_09\string.h(218,25): warning C4018: “<”: 有符号/无符号不匹配
+D:\c语言\repository\cpp_project\Class_String_02_09\Class_String_02_09\string.h(248): warning C4715: “zwr::string::erase”: 不是所有的控件路径都返回值
+  Class_String_02_09.vcxproj -> D:\c语言\repository\cpp_project\Class_String_02_09\Debug\Class_String_02_09.exe
