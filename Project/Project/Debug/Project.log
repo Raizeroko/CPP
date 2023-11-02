@@ -1,0 +1,4 @@
+﻿  test.cpp
+D:\c语言\repository\cpp_practice\Project\Project\test.cpp(18,10): warning C4101: “B”: 未引用的局部变量
+D:\c语言\repository\cpp_practice\Project\Project\test.cpp(18,8): warning C4101: “A”: 未引用的局部变量
+  Project.vcxproj -> D:\c语言\repository\cpp_practice\Project\Debug\Project.exe
