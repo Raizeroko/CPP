@@ -2,6 +2,10 @@
 
 using namespace zwr;
 
+void test_iostream();
+
+void test_overloads();
+
 void test_modifiers()
 {
 	;
