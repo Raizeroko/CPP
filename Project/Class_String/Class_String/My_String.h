@@ -222,8 +222,80 @@ namespace zwr {
 		}
 		String& insert(size_t pos, const char* s)
 		{
-
+			assert(pos < _size && pos >= 0);
+			size_t len = strlen(s);
+			if (_size + len > _capacity)
+			{
+				reserve(_size + len);
+			}
+			size_t end = _size;
+			while (end >= pos)
+			{
+				_str[end + len] = _str[end];
+				end--;
+			}
+			for (size_t i = 0; i < len; i++)
+			{
+				_str[pos + i] = s[i];
+			}
+			_size += len;
+			return *this;
 		}
+		String& insert(size_t pos, const String& str)
+		{
+			insert(pos, str._str);
+			return *this;
+		}
+		String& erase(size_t pos = 0, size_t len = npos)
+		{
+			assert(pos <= _size);
+			if (pos + len > _size || len == npos)
+			{
+				_str[pos] = '\0';
+				_size = pos;
+			}
+			else
+			{
+				size_t end = pos+len;
+				while (end <= _size)
+				{
+					_str[end - len] = _str[end];
+					end++;
+				}
+				_size -= len;
+			}
+		}
+		void pop_back()
+		{
+			_str[_size - 1] = '\0';
+			_size--;
+		}
+		//overloads
+		bool operator<(const String& s) const
+		{
+			int ret = strcmp(_str, s._str);
+			return ret < 0 ? true : false;
+		}
+		bool operator==(const String& s) const
+		{
+			int ret = strcmp(_str, s._str);
+			return ret == 0 ? true : false;
+		}
+		bool operator>(const String& s) const
+		{
+			return !(*this <= s);
+		}
+		bool operator>=(const String& s) const
+		{
+			return !(*this < s);
+		}
+		bool operator<=(const String& s) const
+		{
+			return (*this < s || *this == s);
+		}
+
+
+
 		//destructor
 		~String()
 		{
@@ -243,4 +315,52 @@ namespace zwr {
 	};
 	//?
 	const size_t String::npos = -1;
+
+
+	std::ostream& operator<<(std::ostream& os, const String& s)
+	{
+		for (int i = 0; i < s.size(); i++)
+		{
+			os << s[i];
+		}
+	}
+
+
+	//不是自己写的
+	std::istream& operator>>(std::istream& is, String& s)
+	{
+		s.clear();
+		char ch = is.get();
+		while (ch == ' ' || ch == '\n')
+		{
+			ch = is.get();
+		}
+		char buff[128];
+		int i = 0;
+
+		while (ch != ' ' && ch != '\n')
+		{
+			buff[i++] = ch;
+			if (i == 127)
+			{
+				buff[i] = '\0';
+				s += buff;
+				i = 0;
+			}
+
+			//in >> ch;
+			ch = is.get();
+		}
+
+		if (i != 0)
+		{
+			buff[i] = '\0';
+			s += buff;
+		}
+
+		return is;
+
+	}
 }
+
+
