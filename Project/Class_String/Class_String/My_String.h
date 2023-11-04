@@ -182,6 +182,7 @@ namespace zwr {
 				reserve(len + _size);
 			}
 			strcpy(_str + _size, str);
+			_size += len;
 			return *this;
 		}
 		String& operator+= (const String& str)
@@ -208,6 +209,7 @@ namespace zwr {
 				reserve(str._size);
 			}
 			strcpy(_str, str._str);
+			_size = str._size;
 			return *this;
 		}
 		String& assign(const char* s)
@@ -218,20 +220,38 @@ namespace zwr {
 				reserve(len);
 			}
 			strcpy(_str, s);
+			_size = len;
+			return *this;
+		}
+		String& insert(size_t pos, const char ch)
+		{
+			assert(pos <= _size && pos >= 0);
+			if (_size == _capacity)
+			{
+				reserve(_capacity + 1);
+			}
+			size_t end = _size + 1;
+			while (end > pos)
+			{
+				_str[end] = _str[end - 1];
+				end--;
+			}
+			_str[pos] = ch;
+			_size += 1;
 			return *this;
 		}
 		String& insert(size_t pos, const char* s)
 		{
-			assert(pos < _size && pos >= 0);
+			assert(pos <= _size && pos >= 0);
 			size_t len = strlen(s);
 			if (_size + len > _capacity)
 			{
 				reserve(_size + len);
 			}
-			size_t end = _size;
-			while (end >= pos)
+			size_t end = _size + len;
+			while (end > pos + len - 1)
 			{
-				_str[end + len] = _str[end];
+				_str[end] = _str[end - len];
 				end--;
 			}
 			for (size_t i = 0; i < len; i++)
@@ -249,7 +269,7 @@ namespace zwr {
 		String& erase(size_t pos = 0, size_t len = npos)
 		{
 			assert(pos <= _size);
-			if (pos + len > _size || len == npos)
+			if (pos + len >= _size || len == npos)
 			{
 				_str[pos] = '\0';
 				_size = pos;
@@ -264,6 +284,7 @@ namespace zwr {
 				}
 				_size -= len;
 			}
+			return *this;
 		}
 		void pop_back()
 		{
@@ -292,6 +313,10 @@ namespace zwr {
 		bool operator<=(const String& s) const
 		{
 			return (*this < s || *this == s);
+		}
+		bool operator!=(const String& s) const
+		{
+			return !(*this == s);
 		}
 
 
@@ -323,6 +348,7 @@ namespace zwr {
 		{
 			os << s[i];
 		}
+		return os;
 	}
 
 
@@ -351,13 +377,11 @@ namespace zwr {
 			//in >> ch;
 			ch = is.get();
 		}
-
 		if (i != 0)
 		{
 			buff[i] = '\0';
 			s += buff;
 		}
-
 		return is;
 
 	}
