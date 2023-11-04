@@ -2,13 +2,109 @@
 
 using namespace zwr;
 
-void test_iostream();
+void test_iostream()
+{
+	String s1;
+	std::cin >> s1;
+	std::cout << s1 << std::endl;
+	std::cin >> s1;
+	std::cout << s1 << std::endl;
 
-void test_overloads();
+}
+
+void test_overloads()
+{
+	String s1 = "0123456789";
+	String s2(s1);
+	String s3 = s1;
+	s2.pop_back();
+
+	if (s1 > s2)
+	{
+		std::cout << "s1>s2" << std::endl;
+	}
+	if (s1 == s3)
+	{
+		std::cout << "s1==s3" << std::endl;
+	}
+	if (s2 < s1)
+	{
+		std::cout << "s2<s1" << std::endl;
+	}
+	if (s1 != s2)
+	{
+		std::cout << "s1!=s2" << std::endl;
+	}
+	if (s1 >= s3)
+	{
+		std::cout << "s1>=s3" << std::endl;
+	}
+	if (s2 <= s1)
+	{
+		std::cout << "s1<=s2" << std::endl;
+
+	}
+}
 
 void test_modifiers()
 {
-	;
+	String s1("0123456789");
+	String s2("6789");
+	String s3("xxx");
+	/*s1.push_back('0');
+	std::cout << s1 << std::endl;
+	s1.append("123456789");
+	std::cout << s1 << std::endl;
+	s1 += '0';
+	std::cout << s1 << std::endl;
+	s1 += "12345";
+	std::cout << s1 << std::endl;
+	s1 += s2;
+	std::cout << s1 << std::endl;
+	s1.assign(s2);
+	std::cout << s1 << std::endl;
+	s1.assign("0123456789");
+	std::cout << s1 << std::endl;*/
+
+	/*s1.insert(0, 'x');
+	std::cout << s1 << std::endl;
+	s1.insert(3, 'x');
+	std::cout << s1 << std::endl;
+	s1.insert(s1.size(), 'x');
+	std::cout << s1 << std::endl;*/
+
+	/*s1.insert(0, "xxx");
+	std::cout << s1 << std::endl;
+	s1.insert(5, "xxx");
+	std::cout << s1 << std::endl;
+	s1.insert(s1.size(), "xxx");
+	std::cout << s1 << std::endl;*/
+
+	/*s1.insert(0, s3);
+	std::cout << s1 << std::endl;
+	s1.insert(5, s3);
+	std::cout << s1 << std::endl;
+	s1.insert(s1.size(), s3);
+	std::cout << s1 << std::endl;*/
+
+	s1.pop_back();
+	std::cout << s1 << std::endl;
+	s1.erase(s1.size() - 1);
+	std::cout << s1 << std::endl;
+	s1.erase(3, 4);
+	std::cout << s1 << std::endl;
+	s1.erase(3);
+	std::cout << s1 << std::endl;
+	s1.erase(0);
+	std::cout << s1 << std::endl;
+	s1.assign("0123456789");
+	s1.erase(0, 2);
+	std::cout << s1 << std::endl;
+	s1.erase(1, 2);
+	std::cout << s1 << std::endl;
+
+
+
 }
 
 void test_iterator()
@@ -119,6 +215,9 @@ int main()
 {
 	//test_constructor();
 	//test_capacity();
-	test_iterator();
+	//test_iterator();
+	//test_modifiers();
+	//test_iostream();
+	test_overloads();
 	return 0;
 }
