@@ -25,7 +25,9 @@ namespace zwr {
 		{
 			return _finish;
 		}
-
+		//constructor
+		vector()
+		{}
 		vector(size_t n, const T& val = T())
 		{
 			_start = new T[n];
@@ -49,14 +51,33 @@ namespace zwr {
 			_finish = _start + v.size();
 			_endofstorage = _start + v.capacity();
 		}
-
-
-
-
-		T& operator[](size_t n)
+		template<class InputIterator>
+		vector(InputIterator first, InputIterator last)
 		{
-			return _start[n];
+			size_t sz = last - first;
+			reserve(sz);
+			T* tmp = _start;
+			for (int i = 0; i < sz; i++)
+			{
+				tmp[i] = first[i];
+			}
+			_finish = _start + sz;
 		}
+		T& operator=(const T& x)
+		{
+			T* tmp = T(x);
+			swap(tmp);
+			
+			return *this;
+		}
+		void swap(T& v)
+		{
+			std::swap(_start, v._start);
+			std::swap(_finish, v._finish);
+			std::swap(_endofstorage, v._endofstorage);
+
+		}
+
 		//capacity
 		size_t size() const
 		{
@@ -102,9 +123,15 @@ namespace zwr {
 			}
 			return false;
 		}
+		//access
+		T& operator[](size_t n)
+		{
+			return _start[n];
+		}
 
+		//modifiers
 
-
+		//destructor
 		~vector()
 		{
 			delete[] _start;
