@@ -1,5 +1,6 @@
 #pragma once
 #include<iostream>
+#include<assert.h>
 
 namespace zwr {
 	template<class T>
@@ -63,20 +64,14 @@ namespace zwr {
 			}
 			_finish = _start + sz;
 		}
-		T& operator=(const T& x)
+		/*T& operator=(const T& x)
 		{
 			T* tmp = T(x);
 			swap(tmp);
 			
 			return *this;
-		}
-		void swap(T& v)
-		{
-			std::swap(_start, v._start);
-			std::swap(_finish, v._finish);
-			std::swap(_endofstorage, v._endofstorage);
-
-		}
+		}*/
+		
 
 		//capacity
 		size_t size() const
@@ -88,13 +83,23 @@ namespace zwr {
 			return _endofstorage - _start;
 		}
 
-		void resize(size_t n)
+		void resize(size_t n, T val = T())
 		{
-			if (n > capacity())
+			if (n < size())
 			{
-				reserve(n);
+				_finish = _start + n;
 			}
-			_finish = _start + n;
+			else 
+			{
+				if (n > capacity())
+					reserve(n);
+				while (_finish != _start + n)
+				{
+					*_finish = val;
+					_finish++;
+				}
+			}
+			
 		}
 		void reserve(size_t n)
 		{
@@ -115,7 +120,7 @@ namespace zwr {
 				_endofstorage = tmp + n;
 			}
 		}
-		bool empty()
+		bool empty() const
 		{
 			if (_finish == _start)
 			{
@@ -130,6 +135,97 @@ namespace zwr {
 		}
 
 		//modifiers
+		void push_back(const T& val)
+		{
+			if (capacity() == size())
+			{
+				reserve(capacity() == 0 ? 4 : 2 * capacity());
+			}
+			*_finish = val;
+			_finish++;
+		}
+		void pop_back()
+		{
+			assert(!empty());
+			_finish--;
+		}
+		iterator insert(iterator pos, const T& val)
+		{
+			//sz用于处理迭代器失效
+			int posi = pos - _start;
+			if (_finish == _endofstorage)
+			{
+				reserve(capacity() == 0 ? 4 : 2 * capacity());
+			}
+			iterator end = _finish;
+			pos = _start + posi;
+			while (end != pos)
+			{
+				*end = *(end - 1);
+				end--;
+			}
+			*pos = val;
+			_finish++;
+			return end;
+		}
+		void insert(iterator pos, size_t n, const T& val)
+		{
+			int posi = pos - _start;
+			if (_finish == _endofstorage)
+			{
+				reserve(capacity() + n);
+			}
+			iterator end = _finish + n;
+			pos = _start + posi;
+			while (end != pos + n)
+			{
+				*(end-1) = *(end - n - 1);
+				--end;
+			}
+			while (pos != end)
+			{
+				*pos = val;
+				pos++;
+			}
+			_finish += n;
+		}
+		iterator erase(iterator pos)
+		{
+			//sz控制迭代器失效
+			int sz = pos - _start;
+			iterator end = pos+1;
+			while (end != _finish)
+			{
+				*(end-1) = *end;
+				end++;
+			}
+			_finish--;
+			//返回删除的pos位置的下一个位置
+			return _start + sz;
+		}
+		iterator erase(iterator first, iterator last)
+		{
+			int sz = last - first;
+			iterator end = last;
+			while (end != _finish)
+			{
+				*(end - sz) = *end;
+				end++;
+			}
+			_finish -= sz;
+			return end - sz;
+		}
+		void swap(vector& v)
+		{
+			std::swap(_start, v._start);
+			std::swap(_finish, v._finish);
+			std::swap(_endofstorage, v._endofstorage);
+		}
+		void clear()
+		{
+			erase(begin(), end());
+		}
+
 
 		//destructor
 		~vector()
