@@ -374,6 +374,7 @@ namespace zwr {
 				i = 0;
 			}
 
+
 			//in >> ch;
 			ch = is.get();
 		}
