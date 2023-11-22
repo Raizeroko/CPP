@@ -56,7 +56,7 @@ void test_std_vector()
 	v4.push_back(2);
 	v4.push_back(3);
 	vector<int>::iterator it4 = v4.erase(v4.begin(), v4.end() - 1);
-	cout << *it4;
+	cout << *it4 << endl;
 
 
 
@@ -206,7 +206,7 @@ void test_constructor()
 	cout << endl;
 
 	//Éî¿½±´²âÊÔ
-	/*zwr::vector<int> v(10);
+	zwr::vector<int> v(10);
 	for (int i = 0; i < 10; i++)
 	{
 		v[i] = i;
@@ -221,16 +221,16 @@ void test_constructor()
 	{
 		for (int j = 0; j < vv[i].size(); j++)
 		{
-			cout << vv[i][j] << endl;
+			cout << vv[i][j] << ' ';
 		}
 		cout << endl;
-	}*/
+	}
 }
 
 int main()
 {
-	//test_std_vector();
-	//test_constructor();
+	test_std_vector();
+	test_constructor();
 	test_modifiers();
 	return 0;
 }
