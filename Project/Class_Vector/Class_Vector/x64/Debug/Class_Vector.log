@@ -1,24 +1,24 @@
 ﻿  test.cpp
-F:\git-repository\CPP\Project\Class_Vector\Class_Vector\Vector.h(195,11): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
-F:\git-repository\CPP\Project\Class_Vector\Class_Vector\Vector.h(192,12): message : 在编译 类 模板 成员函数“int *zwr::vector<int>::erase(int *)”时
+F:\git-repository\CPP\Project\Class_Vector\Class_Vector\Vector.h(226,11): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+F:\git-repository\CPP\Project\Class_Vector\Class_Vector\Vector.h(223,12): message : 在编译 类 模板 成员函数“int *zwr::vector<int>::erase(int *)”时
 F:\git-repository\CPP\Project\Class_Vector\Class_Vector\test.cpp(120,6): message : 请参阅 "test_modifiers" 中对 "zwr::vector<int>::erase" 的第一个引用
 F:\git-repository\CPP\Project\Class_Vector\Class_Vector\test.cpp(68,19): message : 查看对正在编译的 类 模板 实例化“zwr::vector<int>”的引用
-F:\git-repository\CPP\Project\Class_Vector\Class_Vector\Vector.h(173,13): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
-F:\git-repository\CPP\Project\Class_Vector\Class_Vector\Vector.h(171,8): message : 在编译 类 模板 成员函数“void zwr::vector<int>::insert(int *,size_t,const T &)”时
+F:\git-repository\CPP\Project\Class_Vector\Class_Vector\Vector.h(204,13): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+F:\git-repository\CPP\Project\Class_Vector\Class_Vector\Vector.h(202,8): message : 在编译 类 模板 成员函数“void zwr::vector<int>::insert(int *,size_t,const T &)”时
           with
           [
               T=int
           ]
 F:\git-repository\CPP\Project\Class_Vector\Class_Vector\test.cpp(94,11): message : 请参阅 "test_modifiers" 中对 "zwr::vector<int>::insert" 的第一个引用
-F:\git-repository\CPP\Project\Class_Vector\Class_Vector\Vector.h(155,13): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
-F:\git-repository\CPP\Project\Class_Vector\Class_Vector\Vector.h(152,12): message : 在编译 类 模板 成员函数“int *zwr::vector<int>::insert(int *,const T &)”时
+F:\git-repository\CPP\Project\Class_Vector\Class_Vector\Vector.h(186,13): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+F:\git-repository\CPP\Project\Class_Vector\Class_Vector\Vector.h(183,12): message : 在编译 类 模板 成员函数“int *zwr::vector<int>::insert(int *,const T &)”时
           with
           [
               T=int
           ]
 F:\git-repository\CPP\Project\Class_Vector\Class_Vector\test.cpp(86,11): message : 请参阅 "test_modifiers" 中对 "zwr::vector<int>::insert" 的第一个引用
-F:\git-repository\CPP\Project\Class_Vector\Class_Vector\Vector.h(208,11): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
-F:\git-repository\CPP\Project\Class_Vector\Class_Vector\Vector.h(206,12): message : 在编译 类 模板 成员函数“int *zwr::vector<int>::erase(int *,int *)”时
-F:\git-repository\CPP\Project\Class_Vector\Class_Vector\Vector.h(226,9): message : 请参阅 "zwr::vector<int>::clear" 中对 "zwr::vector<int>::erase" 的第一个引用
+F:\git-repository\CPP\Project\Class_Vector\Class_Vector\Vector.h(239,11): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+F:\git-repository\CPP\Project\Class_Vector\Class_Vector\Vector.h(237,12): message : 在编译 类 模板 成员函数“int *zwr::vector<int>::erase(int *,int *)”时
+F:\git-repository\CPP\Project\Class_Vector\Class_Vector\Vector.h(257,9): message : 请参阅 "zwr::vector<int>::clear" 中对 "zwr::vector<int>::erase" 的第一个引用
 F:\git-repository\CPP\Project\Class_Vector\Class_Vector\test.cpp(176,10): message : 请参阅 "test_modifiers" 中对 "zwr::vector<int>::clear" 的第一个引用
   Class_Vector.vcxproj -> F:\git-repository\CPP\Project\Class_Vector\x64\Debug\Class_Vector.exe

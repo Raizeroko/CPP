@@ -10,6 +10,7 @@ namespace zwr {
 		typedef T* iterator;
 		typedef const T* const_iterator;
 
+		//iterator
 		iterator begin()
 		{
 			return _start;
@@ -31,7 +32,8 @@ namespace zwr {
 		{}
 		vector(size_t n, const T& val = T())
 		{
-			_start = new T[n];
+			//传统实现
+			/*_start = new T[n];
 			
 			T* tmp = _start;
 			while (tmp != _start + n)
@@ -40,9 +42,17 @@ namespace zwr {
 				tmp++;
 			}
 			_finish = _start + n;
-			_endofstorage = _start + n;
+			_endofstorage = _start + n;*/
+
+			//push_back实现
+			for (int i = 0; i < n; i++)
+			{
+				push_back(val);
+			}
+
+
 		}
-		vector(const vector& v)
+		vector(const vector<T>& v)
 		{
 			_start = new T[v.capacity()];
 			for (int i = 0; i < v.size(); i++)
@@ -52,23 +62,44 @@ namespace zwr {
 			_finish = _start + v.size();
 			_endofstorage = _start + v.capacity();
 		}
+
 		template<class InputIterator>
 		vector(InputIterator first, InputIterator last)
 		{
-			size_t sz = last - first;
+			//传统实现
+			/*size_t sz = last - first;
 			reserve(sz);
 			T* tmp = _start;
 			for (int i = 0; i < sz; i++)
 			{
 				tmp[i] = first[i];
 			}
-			_finish = _start + sz;
+			_finish = _start + sz;*/
+
+			//push_back实现
+			while (first != last)
+			{
+				push_back(*first);
+				first++;
+			}
+
 		}
-		/*T& operator=(const T& x)
+		//现代写法
+		vector<T>& operator=(vector<T> v)
 		{
-			T* tmp = T(x);
-			swap(tmp);
-			
+			swap(v);
+			return *this;
+		}
+		//传统写法
+		/*vector<T>& operator=(const vector<T>& v)
+		{
+			_start = new T[v.size()];
+			for (int i = 0; i < v.size(); i++)
+			{
+				_start[i] = v._start[i];
+			}
+			_finish = _start + v.size();
+			_endofstorage = _start + v.capacity();
 			return *this;
 		}*/
 		
