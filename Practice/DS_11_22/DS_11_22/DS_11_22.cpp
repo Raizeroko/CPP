@@ -1,6 +1,7 @@
 # include<iostream>
 # include<queue>
 
+
 using namespace std;
 
 class BinaryTree{
@@ -74,13 +75,122 @@ public:
 		}
 	}
 	//(5)
-	int _max_width(stack& h)
+#define MAXDEPTH 100
+	void _max_width(int level, vector<int>& v)
 	{
-		;
+		if (this)
+		{
+			v[level]++;
+			_left->_max_width(level + 1, v);
+			_right->_max_width(level + 1, v);
+		}
 	}
 	int max_width()
 	{
-
+		if (this)
+		{
+			vector<int> v(MAXDEPTH, 0);
+			int level = 1;
+			_max_width(level, v);
+			int max = 0;
+			for (int i = 1; v[i] != 0; i++)
+			{
+				if (v[i] > max)
+					max = v[i];
+			}
+			return max;
+		}
+	}
+	//(6)
+	int degree_one()
+	{
+		queue<BinaryTree> q;
+		q.push(*this);
+		int ret = 0;
+		while (!q.empty())
+		{
+			BinaryTree tmp = q.front();
+			q.pop();
+			if (tmp._left && tmp._right)
+			{
+				q.push(*tmp._left);
+				q.push(*tmp._right);
+			}
+			else if (tmp._left || tmp._right)
+			{
+				ret++;
+				if (tmp._left)
+				{
+					q.push(*tmp._left);
+				}
+				else
+				{
+					q.push(*tmp._right);
+				}
+			}
+		}
+		return ret;
+	}
+	//(7)
+	vector<value_type> _max_route()
+	{
+		if (this)
+		{
+			vector<value_type> vl = _left ? _left->_max_route() : vector<value_type>();
+			vector<value_type> vr = _right ? _right->_max_route() : vector<value_type>();
+			if (vl.size() >= vr.size())
+			{
+				vl.push_back(_val);
+				return vl;
+			}
+			else
+			{
+				vr.push_back(_val);
+				return vr;
+			}
+		}
+		return vector<value_type>();
+	}
+	void max_route()
+	{
+		if (this)
+		{
+			vector<value_type> v = _max_route();
+			auto rit = v.rbegin();
+			while (rit != v.rend())
+			{
+				cout << *rit << ' ';
+				rit++;
+			}
+		}
+		
+	}
+	//(8)
+	void all_route(queue<value_type> q = queue<value_type>())
+	{
+		if (this)
+		{
+			q.push(_val);
+			//р╤вс╫з╣Ц
+			if (_left == nullptr && _right == nullptr)
+			{
+				while (!q.empty())
+				{
+					value_type tmp = q.front();
+					cout << tmp;
+					q.pop();
+				}
+				cout << endl;
+			}
+			if (_left)
+			{
+				_left->all_route(q);
+			}
+			if (_right)
+			{
+				_right->all_route(q);
+			}
+		}
 	}
 
 private:
