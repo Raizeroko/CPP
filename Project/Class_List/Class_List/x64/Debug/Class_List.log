@@ -1,27 +1,2 @@
 ﻿  test.cpp
-F:\git-repository\CPP\Project\Class_List\Class_List\List.h(9,20): error C2143: 语法错误: 缺少“;”(在“<”的前面)
-F:\git-repository\CPP\Project\Class_List\Class_List\List.h(39,3): message : 查看对正在编译的 类 模板 实例化“zwr::list_iterator<T>”的引用
-F:\git-repository\CPP\Project\Class_List\Class_List\List.h(9,1): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
-F:\git-repository\CPP\Project\Class_List\Class_List\List.h(9,28): error C2238: 意外的标记位于“;”之前
-F:\git-repository\CPP\Project\Class_List\Class_List\List.h(12,7): error C2143: 语法错误: 缺少“;”(在“*”的前面)
-F:\git-repository\CPP\Project\Class_List\Class_List\List.h(12,1): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
-F:\git-repository\CPP\Project\Class_List\Class_List\List.h(12,14): error C2238: 意外的标记位于“;”之前
-F:\git-repository\CPP\Project\Class_List\Class_List\List.h(14,17): error C2061: 语法错误: 标识符“node”
-F:\git-repository\CPP\Project\Class_List\Class_List\List.h(18,13): error C2143: 语法错误: 缺少“;”(在“*”的前面)
-F:\git-repository\CPP\Project\Class_List\Class_List\List.h(19,3): error C2334: “{”的前面有意外标记；跳过明显的函数体
-F:\git-repository\CPP\Project\Class_List\Class_List\List.h(35,1): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
-F:\git-repository\CPP\Project\Class_List\Class_List\List.h(15,5): error C3861: “_node”: 找不到标识符
-F:\git-repository\CPP\Project\Class_List\Class_List\List.h(15,11): error C3861: “p”: 找不到标识符
-F:\git-repository\CPP\Project\Class_List\Class_List\List.h(15,11): error C2065: “p”: 未声明的标识符
-F:\git-repository\CPP\Project\Class_List\Class_List\List.h(25,4): error C3861: “_node”: 找不到标识符
-F:\git-repository\CPP\Project\Class_List\Class_List\List.h(25,10): error C3861: “_node”: 找不到标识符
-F:\git-repository\CPP\Project\Class_List\Class_List\List.h(25,4): error C2065: “_node”: 未声明的标识符
-F:\git-repository\CPP\Project\Class_List\Class_List\List.h(25,10): error C2065: “_node”: 未声明的标识符
-F:\git-repository\CPP\Project\Class_List\Class_List\List.h(30,19): error C3861: “_node”: 找不到标识符
-F:\git-repository\CPP\Project\Class_List\Class_List\List.h(31,4): error C3861: “_node”: 找不到标识符
-F:\git-repository\CPP\Project\Class_List\Class_List\List.h(31,10): error C3861: “_node”: 找不到标识符
-F:\git-repository\CPP\Project\Class_List\Class_List\List.h(30,19): error C2065: “_node”: 未声明的标识符
-F:\git-repository\CPP\Project\Class_List\Class_List\List.h(31,4): error C2065: “_node”: 未声明的标识符
-F:\git-repository\CPP\Project\Class_List\Class_List\List.h(31,10): error C2065: “_node”: 未声明的标识符
-F:\git-repository\CPP\Project\Class_List\Class_List\List.h(36,11): error C3861: “_node”: 找不到标识符
-F:\git-repository\CPP\Project\Class_List\Class_List\List.h(36,11): error C2065: “_node”: 未声明的标识符
+  Class_List.vcxproj -> F:\git-repository\CPP\Project\Class_List\x64\Debug\Class_List.exe
