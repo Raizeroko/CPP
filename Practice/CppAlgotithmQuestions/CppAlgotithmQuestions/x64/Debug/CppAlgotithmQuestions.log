@@ -1,0 +1,12 @@
+﻿  main.cpp
+F:\git-repository\CPP\Practice\CppAlgotithmQuestions\CppAlgotithmQuestions\AQ_string.h(66,44): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\git-repository\CPP\Practice\CppAlgotithmQuestions\CppAlgotithmQuestions\AQ_string.h(77,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\git-repository\CPP\Practice\CppAlgotithmQuestions\CppAlgotithmQuestions\AQ_string.h(108,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\git-repository\CPP\Practice\CppAlgotithmQuestions\CppAlgotithmQuestions\AQ_string.h(128,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\git-repository\CPP\Practice\CppAlgotithmQuestions\CppAlgotithmQuestions\AQ_string.h(138,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\git-repository\CPP\Practice\CppAlgotithmQuestions\CppAlgotithmQuestions\AQ_string.h(149,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\git-repository\CPP\Practice\CppAlgotithmQuestions\CppAlgotithmQuestions\AQ_string.h(150,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\git-repository\CPP\Practice\CppAlgotithmQuestions\CppAlgotithmQuestions\AQ_string.h(240,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\git-repository\CPP\Practice\CppAlgotithmQuestions\CppAlgotithmQuestions\AQ_string.h(255,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\git-repository\CPP\Practice\CppAlgotithmQuestions\CppAlgotithmQuestions\AQ_string.h(258,22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  CppAlgotithmQuestions.vcxproj -> F:\git-repository\CPP\Practice\CppAlgotithmQuestions\x64\Debug\CppAlgotithmQuestions.exe
