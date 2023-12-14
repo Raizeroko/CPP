@@ -26,5 +26,8 @@
     <ClInclude Include="AQ_string.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="AQ_stack_queue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
