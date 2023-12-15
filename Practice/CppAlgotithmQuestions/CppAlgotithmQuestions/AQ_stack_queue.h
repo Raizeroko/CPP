@@ -62,8 +62,63 @@ public:
         return st.top();
     }
     //------------------------------------------------------------------//
-    bool IsPopOrder(vector<int>& pushV, vector<int>& popV)
-    {
+    bool IsPopOrder(vector<int>& pushV, vector<int>& popV) {
+        stack<int> st;
+        int i = 0;
+        int j = 0;
+        while (i < pushV.size())
+        {
+            if (!st.empty() && st.top() == popV[j])
+            {
+                st.pop();
+                j++;
+                continue;
+            }
+            st.push(pushV[i++]);
+        }
+        while (j < popV.size())
+        {
+            int tmp = st.top();
+            if (tmp != popV[j])
+            {
+                return false;
+            }
+            j++;
+            st.pop();
+        }
+        return true;
     }
+    //------------------------------------------------------------------//
+    class MinStack {
+    public:
+        MinStack() {
+        }
 
+        void push(int val) {
+            data.push(val);
+            if (min.empty() || val < min.top())
+            {
+                min.push(val);
+            }
+            else
+            {
+                min.push(min.top());
+            }
+        }
+
+        void pop() {
+            data.pop();
+            min.pop();
+        }
+
+        int top() {
+            return data.top();
+        }
+
+        int getMin() {
+            return min.top();
+        }
+        stack<int> data;
+        stack<int> min;
+    };
 };
