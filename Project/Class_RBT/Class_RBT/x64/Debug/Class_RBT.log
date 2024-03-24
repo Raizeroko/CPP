@@ -1,0 +1,14 @@
+﻿  test.cpp
+E:\git_repository\CPP\Project\Class_RBT\Class_RBT\test.cpp(16,22): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+E:\git_repository\CPP\Project\Class_RBT\Class_RBT\RBT.h(143,10): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+  (编译源文件“test.cpp”)
+  E:\git_repository\CPP\Project\Class_RBT\Class_RBT\RBT.h(143,10):
+  模板实例化上下文(最早的实例化上下文)为
+  	E:\git_repository\CPP\Project\Class_RBT\Class_RBT\test.cpp(24,19):
+  	查看对正在编译的 类 模板 实例化“zwr::RBTree<int,int>”的引用
+  	E:\git_repository\CPP\Project\Class_RBT\Class_RBT\RBT.h(140,4):
+  	在编译 类 模板 成员函数“zwr::RBTree<int,int>::~RBTree(void)”时
+  		E:\git_repository\CPP\Project\Class_RBT\Class_RBT\test.cpp(24,19):
+  		请参阅 "RBTTest3" 中对 "zwr::RBTree<int,int>::~RBTree" 的第一个引用
+  
+  Class_RBT.vcxproj -> E:\git_repository\CPP\Project\Class_RBT\x64\Debug\Class_RBT.exe
