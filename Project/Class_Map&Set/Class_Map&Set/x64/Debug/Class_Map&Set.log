@@ -1,0 +1,22 @@
+﻿  test.cpp
+E:\git_repository\CPP\Project\Class_Map&Set\Class_Map&Set\Map.h(31,4): error C2440: “return”: 无法从“zwr::_RBTreeIterator<T,T &,T *>”转换为“zwr::_RBTreeIterator<T,const T &,const T *>”
+E:\git_repository\CPP\Project\Class_Map&Set\Class_Map&Set\Map.h(31,4): error C2440:         with
+E:\git_repository\CPP\Project\Class_Map&Set\Class_Map&Set\Map.h(31,4): error C2440:         [
+E:\git_repository\CPP\Project\Class_Map&Set\Class_Map&Set\Map.h(31,4): error C2440:             T=std::pair<int,int>
+E:\git_repository\CPP\Project\Class_Map&Set\Class_Map&Set\Map.h(31,4): error C2440:         ]
+  (编译源文件“test.cpp”)
+  E:\git_repository\CPP\Project\Class_Map&Set\Class_Map&Set\Map.h(31,4):
+  没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  E:\git_repository\CPP\Project\Class_Map&Set\Class_Map&Set\Map.h(31,4):
+  模板实例化上下文(最早的实例化上下文)为
+  	E:\git_repository\CPP\Project\Class_Map&Set\Class_Map&Set\test.cpp(27,16):
+  	查看对正在编译的 类 模板 实例化“zwr::Map<int,int>”的引用
+  	E:\git_repository\CPP\Project\Class_Map&Set\Class_Map&Set\Map.h(29,18):
+  	在编译 类 模板 成员函数“zwr::_RBTreeIterator<T,const T &,const T *> zwr::Map<int,int>::end(void)”时
+          with
+          [
+              T=std::pair<int,int>
+          ]
+  		E:\git_repository\CPP\Project\Class_Map&Set\Class_Map&Set\test.cpp(38,2):
+  		请参阅 "MapTest1" 中对 "zwr::Map<int,int>::end" 的第一个引用
+  
