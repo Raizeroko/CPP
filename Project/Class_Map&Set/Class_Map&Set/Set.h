@@ -15,7 +15,20 @@ namespace zwr {
 
 		typedef RBTree<K, K, SetKeyOfT> RBTree;
 	public:
-		bool Insert(const K& _data)
+		typedef typename RBTree::const_iterator iterator;
+		typedef typename RBTree::const_iterator const_iterator;
+
+		const_iterator begin() const
+		{
+			return _set.begin();
+		}
+
+		const_iterator end() const
+		{
+			return _set.end();
+		}
+
+		std::pair<iterator, bool> Insert(const K& _data)
 		{
 			return _set.Insert(_data);
 		}
