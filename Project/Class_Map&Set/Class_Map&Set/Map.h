@@ -21,26 +21,33 @@ namespace zwr {
 		typedef typename RBTree::const_iterator iterator;
 		typedef typename RBTree::const_iterator const_iterator;
 
-		const_iterator begin()
+		const_iterator begin() const
 		{
 			return _map.begin();
 		}
 
-		const_iterator end()
+		const_iterator end() const	
 		{
 			return _map.end();
 		}
 
+		/*V& operator[](const K& key)
+		{
+			pair<iterator, bool> ret = _t.Insert(make_pair(key, V()));
+			return ret.first->second;
+		}*/
 
-		bool Insert(std::pair<K, V> _data)
+
+		std::pair<iterator, bool> Insert(std::pair<K, V> _data)
 		{
 			return _map.Insert(_data);
 		}
 
-		void InOrder()
+
+		/*void InOrder()
 		{
 			_map.InOrder();
-		}
+		}*/
 
 		void Find(const K& key)
 		{

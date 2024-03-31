@@ -1,7 +1,6 @@
 #pragma once
 
 #pragma once
-
 #include <iostream>
 
 namespace zwr {
@@ -55,7 +54,7 @@ namespace zwr {
 				Node* cur = _iter->_right;
 				while (cur->_left)
 				{
-					_iter = _iter->_left;
+					cur = cur->_left;
 				}
 				_iter = cur;
 				return *this;
@@ -81,7 +80,7 @@ namespace zwr {
 				Node* cur = _iter->_left;
 				while (cur->_right)
 				{
-					_iter = _iter->_right;
+					cur = cur->_right;
 				}
 				_iter = cur;
 				return *this;
@@ -146,13 +145,13 @@ namespace zwr {
 			:_root(nullptr)
 		{}
 
-		bool Insert(const T& kv)
+		std::pair<const_iterator, bool> Insert(const T& kv)
 		{
 			if (_root == nullptr)
 			{
 				_root = new Node(kv);
 				_root->_color = BLACK;
-				return true;
+				return std::make_pair(const_iterator(_root), true);
 			}
 			Node* father = nullptr;
 			Node* child = _root;
@@ -174,7 +173,7 @@ namespace zwr {
 				}
 				else
 				{
-					return false;
+					return std::make_pair(const_iterator(nullptr), false);
 				}
 
 			}
@@ -238,7 +237,7 @@ namespace zwr {
 				}
 			}
 			_root->_color = BLACK;
-			return true;
+			return std::make_pair(const_iterator(child), true);
 		}
 
 		Node* Find(const K& key)
@@ -262,11 +261,11 @@ namespace zwr {
 			return nullptr;
 		}
 
-		void InOrder()
+		/*void InOrder()
 		{
 			_InOrder(_root);
 			std::cout << std::endl;
-		}
+		}*/
 
 		bool IsRBT()
 		{
@@ -280,7 +279,7 @@ namespace zwr {
 
 
 	protected:
-		void _InOrder(Node* cur)
+		/*void _InOrder(Node* cur)
 		{
 			if (cur == nullptr)
 				return;
@@ -288,7 +287,7 @@ namespace zwr {
 			_InOrder(cur->_left);
 			std::cout << kot(cur->_kv) << ' ';
 			_InOrder(cur->_right);
-		}
+		}*/
 		void _RotateR(Node* child)
 		{
 			Node* father = child->_father;
