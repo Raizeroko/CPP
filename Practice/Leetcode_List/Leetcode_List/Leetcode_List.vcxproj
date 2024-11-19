@@ -127,11 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AddTwoNumbers_II .cpp" />
     <ClCompile Include="GetIntersectionNode.cpp" />
     <ClCompile Include="MergeTwoLists.cpp" />
     <ClCompile Include="RemoveDuplicatesFromSortedList.cpp" />
     <ClCompile Include="RemoveNthNodeFromEndofList.cpp" />
     <ClCompile Include="ReverseList.cpp" />
+    <ClCompile Include="SwapNodesInPairs.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="List.h" />
