@@ -30,6 +30,12 @@
     <ClCompile Include="RemoveNthNodeFromEndofList.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="SwapNodesInPairs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AddTwoNumbers_II .cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="List.h">
