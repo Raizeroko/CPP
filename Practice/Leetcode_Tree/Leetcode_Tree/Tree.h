@@ -1,5 +1,7 @@
 #pragma once
 #include <math.h>
+#include <algorithm>
+
 
 class TreeNode{
 	TreeNode()
