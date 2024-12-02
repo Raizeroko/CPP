@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E6AE484-E297-4C5F-9A66-97E06E3D99B9}|Leetcode_Harsh\\Leetcode_Harsh.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\ContainsDuplicate.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9E6AE484-E297-4C5F-9A66-97E06E3D99B9}|Leetcode_Harsh\\Leetcode_Harsh.vcxproj|solutionrelative:Leetcode_Harsh\\ContainsDuplicate.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\LongestConsecutiveSequence.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Leetcode_Harsh\\LongestConsecutiveSequence.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContainsDuplicate.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\ContainsDuplicate.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Harsh\\ContainsDuplicate.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\ContainsDuplicate.cpp",
+              "RelativeToolTip": "Leetcode_Harsh\\ContainsDuplicate.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-02T13:42:20.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LongestConsecutiveSequence.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\LongestConsecutiveSequence.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Harsh\\LongestConsecutiveSequence.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\LongestConsecutiveSequence.cpp",
+              "RelativeToolTip": "Leetcode_Harsh\\LongestConsecutiveSequence.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-26T12:14:44.997Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
