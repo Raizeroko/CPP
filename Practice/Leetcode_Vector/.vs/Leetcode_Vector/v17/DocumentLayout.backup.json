@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\PlusOne.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|solutionrelative:Leetcode_Vector\\PlusOne.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlusOne.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\PlusOne.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Vector\\PlusOne.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\PlusOne.cpp",
+              "RelativeToolTip": "Leetcode_Vector\\PlusOne.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-26T11:40:50.295Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
