@@ -1,7 +1,7 @@
 #include "List.h"
 
 //MySolution
-class Solution {
+class Solution2 {
 public:
 
     int add(ListNode* l1, ListNode* l2) {

@@ -51,6 +51,9 @@
     <ClCompile Include="LinkedLlistCycle_II.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="SortList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="List.h">

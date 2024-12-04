@@ -1,0 +1,35 @@
+﻿  AddTwoNumbers_II .cpp
+E:\git_repository\CPP\Practice\Leetcode_List\Leetcode_List\AddTwoNumbers_II .cpp(88,42): error C2661: “ListNode::ListNode”: 没有重载函数接受 2 个参数
+      E:\git_repository\CPP\Practice\Leetcode_List\Leetcode_List\AddTwoNumbers_II .cpp(88,42):
+      尝试匹配参数列表“(int, ListNode *)”时
+  
+  IntersectionOfTwoLinkedLists.cpp
+E:\git_repository\CPP\Practice\Leetcode_List\Leetcode_List\IntersectionOfTwoLinkedLists.cpp(59,7): error C2011: “Solution”:“class”类型重定义
+      E:\git_repository\CPP\Practice\Leetcode_List\Leetcode_List\IntersectionOfTwoLinkedLists.cpp(5,7):
+      参见“Solution”的声明
+  
+  MergeTwoLists.cpp
+E:\git_repository\CPP\Practice\Leetcode_List\Leetcode_List\MergeTwoLists.cpp(37,7): error C2011: “Solution”:“class”类型重定义
+      E:\git_repository\CPP\Practice\Leetcode_List\Leetcode_List\MergeTwoLists.cpp(5,7):
+      参见“Solution”的声明
+  
+  OddEvenLinkedList.cpp
+  RemoveNthNodeFromEndofList.cpp
+E:\git_repository\CPP\Practice\Leetcode_List\Leetcode_List\RemoveNthNodeFromEndofList.cpp(33,7): error C2011: “Solution”:“class”类型重定义
+      E:\git_repository\CPP\Practice\Leetcode_List\Leetcode_List\RemoveNthNodeFromEndofList.cpp(4,7):
+      参见“Solution”的声明
+  
+  ReverseList.cpp
+E:\git_repository\CPP\Practice\Leetcode_List\Leetcode_List\ReverseList.cpp(21,7): error C2011: “Solution”:“class”类型重定义
+      E:\git_repository\CPP\Practice\Leetcode_List\Leetcode_List\ReverseList.cpp(4,7):
+      参见“Solution”的声明
+  
+  SortList.cpp
+E:\git_repository\CPP\Practice\Leetcode_List\Leetcode_List\SortList.cpp(25,7): error C2011: “Solution”:“class”类型重定义
+      E:\git_repository\CPP\Practice\Leetcode_List\Leetcode_List\SortList.cpp(4,7):
+      参见“Solution”的声明
+  
+E:\git_repository\CPP\Practice\Leetcode_List\Leetcode_List\SortList.cpp(102,14): error C2079: “s”使用未定义的 class“Solution”
+  SplitLinkedListInParts.cpp
+  SwapNodesInPairs.cpp
+  正在生成代码...
