@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DailyTemperatures.cpp" />
     <ClCompile Include="IsSubsequence.cpp" />
     <ClCompile Include="MinStack.cpp" />
   </ItemGroup>
