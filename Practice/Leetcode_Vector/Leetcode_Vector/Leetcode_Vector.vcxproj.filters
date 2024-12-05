@@ -21,5 +21,8 @@
     <ClCompile Include="HScore.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="MergeIntervals.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
