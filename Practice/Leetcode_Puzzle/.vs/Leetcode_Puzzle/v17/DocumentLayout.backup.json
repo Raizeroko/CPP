@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\NumberOf1Bits.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|solutionrelative:Leetcode_Puzzle\\NumberOf1Bits.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\ClimbingStairs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|solutionrelative:Leetcode_Puzzle\\ClimbingStairs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -23,19 +19,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NumberOf1Bits.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\NumberOf1Bits.cpp",
-              "RelativeDocumentMoniker": "Leetcode_Puzzle\\NumberOf1Bits.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\NumberOf1Bits.cpp",
-              "RelativeToolTip": "Leetcode_Puzzle\\NumberOf1Bits.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-06T11:17:51.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "ClimbingStairs.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\ClimbingStairs.cpp",
               "RelativeDocumentMoniker": "Leetcode_Puzzle\\ClimbingStairs.cpp",
