@@ -54,6 +54,9 @@
     <ClCompile Include="SortList.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="RotateList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="List.h">
