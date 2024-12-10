@@ -21,5 +21,11 @@
     <ClCompile Include="NumberOf1Bits.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="NumberOfIslands.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiralMatrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
