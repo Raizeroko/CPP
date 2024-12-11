@@ -88,3 +88,42 @@ public:
         return ret;
     }
 };
+
+// UpdateMySolution
+class Solution {
+public:
+    vector<int> spiralOrder(vector<vector<int>>& matrix) {
+        vector<int> ret;
+        int up = 0;
+        int right = matrix[0].size() - 1;
+        int down = matrix.size() - 1;
+        int left = 0;
+        while (true) {
+            // up:left->right
+            if (up > down) break;
+            for (int i = left; i <= right; i++) {
+                ret.push_back(matrix[up][i]);
+            }
+            up++;
+            // right:up->down
+            if (left > right) break;
+            for (int i = up; i <= down; i++) {
+                ret.push_back(matrix[i][right]);
+            }
+            right--;
+            // down:right->left
+            if (up > down) break;
+            for (int i = right; i >= left; i--) {
+                ret.push_back(matrix[down][i]);
+            }
+            down--;
+            // left:down->up
+            if (left > right)   break;
+            for (int i = down; i >= up; i--) {
+                ret.push_back(matrix[i][left]);
+            }
+            left++;
+        }
+        return ret;
+    }
+};
