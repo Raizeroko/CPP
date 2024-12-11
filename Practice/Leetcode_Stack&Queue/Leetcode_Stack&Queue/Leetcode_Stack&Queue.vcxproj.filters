@@ -24,5 +24,11 @@
     <ClCompile Include="DailyTemperatures.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ImplementQueueUsingStacks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementStackUsingQueues.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
