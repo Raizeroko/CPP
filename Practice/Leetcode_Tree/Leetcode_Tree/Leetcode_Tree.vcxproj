@@ -132,6 +132,7 @@
   <ItemGroup>
     <ClCompile Include="BalancedBinaryTree.cpp" />
     <ClCompile Include="DiameterOfBinaryTree.cpp" />
+    <ClCompile Include="HouseRobber_III.cpp" />
     <ClCompile Include="InvertBinaryTree.cpp" />
     <ClCompile Include="LongestUnivaluePath.cpp" />
     <ClCompile Include="MaximumDepthOfBinaryTree.cpp" />
