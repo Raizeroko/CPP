@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\SubarrayProductLessThanK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|solutionrelative:Leetcode_Vector\\SubarrayProductLessThanK.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\FindAllNumbersDisappearedInAnArray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|solutionrelative:Leetcode_Vector\\FindAllNumbersDisappearedInAnArray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\MaximumLengthOfRepeatedSubarray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|solutionrelative:Leetcode_Vector\\MaximumLengthOfRepeatedSubarray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\MergeIntervals.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|solutionrelative:Leetcode_Vector\\MergeIntervals.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\HScore.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|solutionrelative:Leetcode_Vector\\HScore.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\MergeIntervals.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|solutionrelative:Leetcode_Vector\\MergeIntervals.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\PlusOne.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -31,6 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SubarrayProductLessThanK.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\SubarrayProductLessThanK.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Vector\\SubarrayProductLessThanK.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\SubarrayProductLessThanK.cpp",
+              "RelativeToolTip": "Leetcode_Vector\\SubarrayProductLessThanK.cpp",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-13T08:54:57.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FindAllNumbersDisappearedInAnArray.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\FindAllNumbersDisappearedInAnArray.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Vector\\FindAllNumbersDisappearedInAnArray.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\FindAllNumbersDisappearedInAnArray.cpp",
+              "RelativeToolTip": "Leetcode_Vector\\FindAllNumbersDisappearedInAnArray.cpp",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwC4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-12T07:06:41.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MaximumLengthOfRepeatedSubarray.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\MaximumLengthOfRepeatedSubarray.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\MaximumLengthOfRepeatedSubarray.cpp",
@@ -38,12 +72,11 @@
               "RelativeToolTip": "Leetcode_Vector\\MaximumLengthOfRepeatedSubarray.cpp",
               "ViewState": "AgIAABsAAAAAAAAAAAAwwCkAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-06T08:20:38.012Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T08:20:38.012Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MergeIntervals.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\MergeIntervals.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\MergeIntervals.cpp",
@@ -51,12 +84,11 @@
               "RelativeToolTip": "Leetcode_Vector\\MergeIntervals.cpp",
               "ViewState": "AgIAAFEAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-05T11:59:10.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T11:59:10.246Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HScore.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\HScore.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\HScore.cpp",
@@ -68,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "PlusOne.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\PlusOne.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\PlusOne.cpp",

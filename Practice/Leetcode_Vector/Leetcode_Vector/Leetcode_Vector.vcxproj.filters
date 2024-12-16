@@ -27,5 +27,14 @@
     <ClCompile Include="MaximumLengthOfRepeatedSubarray.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="FindAllNumbersDisappearedInAnArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SubarrayProductLessThanK.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimumSizeSubarraySum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
