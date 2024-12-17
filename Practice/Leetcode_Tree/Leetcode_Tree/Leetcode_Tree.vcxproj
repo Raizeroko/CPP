@@ -140,6 +140,7 @@
     <ClCompile Include="MinimumDepthOfBinaryTree.cpp" />
     <ClCompile Include="PathSum.cpp" />
     <ClCompile Include="PathSum_III.cpp" />
+    <ClCompile Include="SameTree.cpp" />
     <ClCompile Include="SubtreeOfAnotherTree .cpp" />
     <ClCompile Include="SumOfLeftLeaves.cpp" />
     <ClCompile Include="SymmetricTree.cpp" />
