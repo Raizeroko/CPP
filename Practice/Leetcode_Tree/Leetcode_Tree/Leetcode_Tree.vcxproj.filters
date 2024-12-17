@@ -59,5 +59,8 @@
     <ClCompile Include="HouseRobber_III.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="SameTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
