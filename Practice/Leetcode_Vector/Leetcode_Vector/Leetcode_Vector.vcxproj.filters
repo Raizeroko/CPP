@@ -39,5 +39,8 @@
     <ClCompile Include="RotateArray.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="SortColors.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -134,6 +134,7 @@
     <ClCompile Include="MinimumSizeSubarraySum.cpp" />
     <ClCompile Include="PlusOne.cpp" />
     <ClCompile Include="RotateArray.cpp" />
+    <ClCompile Include="SortColors.cpp" />
     <ClCompile Include="SubarrayProductLessThanK.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
