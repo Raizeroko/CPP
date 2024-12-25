@@ -130,10 +130,16 @@
     <ClInclude Include="Tree.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AverageOfLevelsInBinaryTree.cpp" />
     <ClCompile Include="BalancedBinaryTree.cpp" />
+    <ClCompile Include="BinaryTreeInorderTraversal.cpp" />
+    <ClCompile Include="BinaryTreePostorderTraversal.cpp" />
+    <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
     <ClCompile Include="DiameterOfBinaryTree.cpp" />
+    <ClCompile Include="FindBottomLeftTreeValue.cpp" />
     <ClCompile Include="HouseRobber_III.cpp" />
     <ClCompile Include="InvertBinaryTree.cpp" />
+    <ClCompile Include="KthSmallestElementInABst.cpp" />
     <ClCompile Include="LongestUnivaluePath.cpp" />
     <ClCompile Include="MaximumDepthOfBinaryTree.cpp" />
     <ClCompile Include="MergeTwoBinaryTrees .cpp" />
@@ -144,6 +150,7 @@
     <ClCompile Include="SubtreeOfAnotherTree .cpp" />
     <ClCompile Include="SumOfLeftLeaves.cpp" />
     <ClCompile Include="SymmetricTree.cpp" />
+    <ClCompile Include="TrimABinarySearchTree.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

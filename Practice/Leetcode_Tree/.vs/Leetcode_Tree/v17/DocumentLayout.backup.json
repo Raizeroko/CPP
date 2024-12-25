@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6CDD2A3C-8F3C-4F31-B48A-A33C69752792}|Leetcode_Tree\\Leetcode_Tree.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\SameTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CDD2A3C-8F3C-4F31-B48A-A33C69752792}|Leetcode_Tree\\Leetcode_Tree.vcxproj|solutionrelative:Leetcode_Tree\\SameTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6CDD2A3C-8F3C-4F31-B48A-A33C69752792}|Leetcode_Tree\\Leetcode_Tree.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\LongestUnivaluePath.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6CDD2A3C-8F3C-4F31-B48A-A33C69752792}|Leetcode_Tree\\Leetcode_Tree.vcxproj|solutionrelative:Leetcode_Tree\\LongestUnivaluePath.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -73,11 +77,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "SameTree.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\SameTree.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Tree\\SameTree.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\SameTree.cpp",
+              "RelativeToolTip": "Leetcode_Tree\\SameTree.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-17T07:10:49.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "MinimumDepthOfBinaryTree.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\MinimumDepthOfBinaryTree.cpp",
               "RelativeDocumentMoniker": "Leetcode_Tree\\MinimumDepthOfBinaryTree.cpp",
@@ -85,12 +102,11 @@
               "RelativeToolTip": "Leetcode_Tree\\MinimumDepthOfBinaryTree.cpp",
               "ViewState": "AgIAABEAAAAAAAAAAAAawBoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-27T13:37:11.921Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T13:37:11.921Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PathSum.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\PathSum.cpp",
               "RelativeDocumentMoniker": "Leetcode_Tree\\PathSum.cpp",
@@ -98,12 +114,11 @@
               "RelativeToolTip": "Leetcode_Tree\\PathSum.cpp",
               "ViewState": "AgIAABIAAAAAAAAAAAAawBgAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-13T13:01:57.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T13:01:57.079Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "PathSum_III.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\PathSum_III.cpp",
               "RelativeDocumentMoniker": "Leetcode_Tree\\PathSum_III.cpp",
@@ -111,12 +126,11 @@
               "RelativeToolTip": "Leetcode_Tree\\PathSum_III.cpp",
               "ViewState": "AgIAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-21T13:15:21.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T13:15:21.39Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "SubtreeOfAnotherTree .cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\SubtreeOfAnotherTree .cpp",
               "RelativeDocumentMoniker": "Leetcode_Tree\\SubtreeOfAnotherTree .cpp",
@@ -124,12 +138,11 @@
               "RelativeToolTip": "Leetcode_Tree\\SubtreeOfAnotherTree .cpp",
               "ViewState": "AgIAABsAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-21T13:15:21.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T13:15:21.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SumOfLeftLeaves.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\SumOfLeftLeaves.cpp",
               "RelativeDocumentMoniker": "Leetcode_Tree\\SumOfLeftLeaves.cpp",
@@ -137,12 +150,11 @@
               "RelativeToolTip": "Leetcode_Tree\\SumOfLeftLeaves.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-27T13:58:45.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T13:58:45.493Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SymmetricTree.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\SymmetricTree.cpp",
               "RelativeDocumentMoniker": "Leetcode_Tree\\SymmetricTree.cpp",
@@ -150,12 +162,11 @@
               "RelativeToolTip": "Leetcode_Tree\\SymmetricTree.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-27T13:35:43.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T13:35:43.834Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LongestUnivaluePath.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\LongestUnivaluePath.cpp",
               "RelativeDocumentMoniker": "Leetcode_Tree\\LongestUnivaluePath.cpp",
@@ -168,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Tree.h",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\Tree.h",
               "RelativeDocumentMoniker": "Leetcode_Tree\\Tree.h",
@@ -176,12 +187,11 @@
               "RelativeToolTip": "Leetcode_Tree\\Tree.h",
               "ViewState": "AgIAAD8AAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-20T12:31:03.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T12:31:03.777Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "MergeTwoBinaryTrees .cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\MergeTwoBinaryTrees .cpp",
               "RelativeDocumentMoniker": "Leetcode_Tree\\MergeTwoBinaryTrees .cpp",
@@ -189,12 +199,11 @@
               "RelativeToolTip": "Leetcode_Tree\\MergeTwoBinaryTrees .cpp",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-21T13:15:21.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T13:15:21.343Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "MaximumDepthOfBinaryTree.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\MaximumDepthOfBinaryTree.cpp",
               "RelativeDocumentMoniker": "Leetcode_Tree\\MaximumDepthOfBinaryTree.cpp",
@@ -202,12 +211,11 @@
               "RelativeToolTip": "Leetcode_Tree\\MaximumDepthOfBinaryTree.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-20T12:31:30.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T12:31:30.867Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "InvertBinaryTree.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\InvertBinaryTree.cpp",
               "RelativeDocumentMoniker": "Leetcode_Tree\\InvertBinaryTree.cpp",
@@ -215,12 +223,11 @@
               "RelativeToolTip": "Leetcode_Tree\\InvertBinaryTree.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-21T13:15:21.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T13:15:21.366Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "HouseRobber_III.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\HouseRobber_III.cpp",
               "RelativeDocumentMoniker": "Leetcode_Tree\\HouseRobber_III.cpp",
@@ -228,12 +235,11 @@
               "RelativeToolTip": "Leetcode_Tree\\HouseRobber_III.cpp",
               "ViewState": "AgIAADYAAAAAAAAAAAAAAC8AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-11T13:14:16.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T13:14:16.741Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "DiameterOfBinaryTree.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\DiameterOfBinaryTree.cpp",
               "RelativeDocumentMoniker": "Leetcode_Tree\\DiameterOfBinaryTree.cpp",
@@ -241,12 +247,11 @@
               "RelativeToolTip": "Leetcode_Tree\\DiameterOfBinaryTree.cpp",
               "ViewState": "AgIAADIAAAAAAAAAAAAawCYAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-13T13:00:07.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T13:00:07.377Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "BalancedBinaryTree.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\BalancedBinaryTree.cpp",
               "RelativeDocumentMoniker": "Leetcode_Tree\\BalancedBinaryTree.cpp",
@@ -254,12 +259,11 @@
               "RelativeToolTip": "Leetcode_Tree\\BalancedBinaryTree.cpp",
               "ViewState": "AgIAABkAAAAAAAAAAAAawBwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-20T12:38:27.194Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T12:38:27.194Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "11_22.c",
               "DocumentMoniker": "E:\\git_repository\\C\\Practice\\c_11_22\\c_11_22\\11_22.c",
               "RelativeDocumentMoniker": "..\\..\\..\\C\\Practice\\c_11_22\\c_11_22\\11_22.c",
@@ -267,12 +271,11 @@
               "RelativeToolTip": "..\\..\\..\\C\\Practice\\c_11_22\\c_11_22\\11_22.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-12-13T12:50:16.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T12:50:16.089Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "SecondMinimumNodeInABinaryTree.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\SecondMinimumNodeInABinaryTree.cpp",
               "RelativeDocumentMoniker": "Leetcode_Tree\\SecondMinimumNodeInABinaryTree.cpp",
