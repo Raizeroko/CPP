@@ -13,6 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\Recursion">
+      <UniqueIdentifier>{3b481426-a4d9-404d-8a1a-b0d11ae179df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Level Order Traversal">
+      <UniqueIdentifier>{89456271-9bd4-40d9-af00-46c305901470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Binary Search Tree">
+      <UniqueIdentifier>{5148e7a1-1b43-4585-93d4-705a7a8cc332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Oreder Traversal">
+      <UniqueIdentifier>{f2440abf-c4a2-4015-a2ba-0052137e0cda}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Tree.h">
@@ -20,47 +32,68 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MaximumDepthOfBinaryTree.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="BalancedBinaryTree.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="DiameterOfBinaryTree.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="InvertBinaryTree.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="MergeTwoBinaryTrees .cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="PathSum.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="PathSum_III.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="SubtreeOfAnotherTree .cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="SymmetricTree.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="MinimumDepthOfBinaryTree.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Recursion</Filter>
     </ClCompile>
     <ClCompile Include="SumOfLeftLeaves.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Recursion</Filter>
     </ClCompile>
-    <ClCompile Include="LongestUnivaluePath.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="HouseRobber_III.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="SubtreeOfAnotherTree .cpp">
+      <Filter>源文件\Recursion</Filter>
     </ClCompile>
     <ClCompile Include="SameTree.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="PathSum_III.cpp">
+      <Filter>源文件\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="PathSum.cpp">
+      <Filter>源文件\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimumDepthOfBinaryTree.cpp">
+      <Filter>源文件\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeTwoBinaryTrees .cpp">
+      <Filter>源文件\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="MaximumDepthOfBinaryTree.cpp">
+      <Filter>源文件\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestUnivaluePath.cpp">
+      <Filter>源文件\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="InvertBinaryTree.cpp">
+      <Filter>源文件\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="HouseRobber_III.cpp">
+      <Filter>源文件\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="DiameterOfBinaryTree.cpp">
+      <Filter>源文件\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="BalancedBinaryTree.cpp">
+      <Filter>源文件\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="AverageOfLevelsInBinaryTree.cpp">
+      <Filter>源文件\Level Order Traversal</Filter>
+    </ClCompile>
+    <ClCompile Include="FindBottomLeftTreeValue.cpp">
+      <Filter>源文件\Level Order Traversal</Filter>
+    </ClCompile>
+    <ClCompile Include="TrimABinarySearchTree.cpp">
+      <Filter>源文件\Binary Search Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="KthSmallestElementInABst.cpp">
+      <Filter>源文件\Binary Search Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreeInorderTraversal.cpp">
+      <Filter>源文件\Oreder Traversal</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreePostorderTraversal.cpp">
+      <Filter>源文件\Oreder Traversal</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreePreorderTraversal.cpp">
+      <Filter>源文件\Oreder Traversal</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
