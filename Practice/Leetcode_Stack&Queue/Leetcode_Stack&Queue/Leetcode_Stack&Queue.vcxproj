@@ -132,6 +132,7 @@
     <ClCompile Include="ImplementStackUsingQueues.cpp" />
     <ClCompile Include="IsSubsequence.cpp" />
     <ClCompile Include="MinStack.cpp" />
+    <ClCompile Include="ValidateStackSequences.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
