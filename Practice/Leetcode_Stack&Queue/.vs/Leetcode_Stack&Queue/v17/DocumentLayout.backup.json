@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A54BA10B-3E8A-4F4F-81DA-DF6753428469}|Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\ImplementStackUsingQueues.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A54BA10B-3E8A-4F4F-81DA-DF6753428469}|Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue.vcxproj|solutionrelative:Leetcode_Stack\u0026Queue\\ImplementStackUsingQueues.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A54BA10B-3E8A-4F4F-81DA-DF6753428469}|Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\ImplementQueueUsingStacks.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A54BA10B-3E8A-4F4F-81DA-DF6753428469}|Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue.vcxproj|solutionrelative:Leetcode_Stack\u0026Queue\\ImplementQueueUsingStacks.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -31,19 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ImplementStackUsingQueues.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\ImplementStackUsingQueues.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Stack\u0026Queue\\ImplementStackUsingQueues.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\ImplementStackUsingQueues.cpp",
+              "RelativeToolTip": "Leetcode_Stack\u0026Queue\\ImplementStackUsingQueues.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-11T13:11:56.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ImplementQueueUsingStacks.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\ImplementQueueUsingStacks.cpp",
               "RelativeDocumentMoniker": "Leetcode_Stack\u0026Queue\\ImplementQueueUsingStacks.cpp",
               "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\ImplementQueueUsingStacks.cpp",
               "RelativeToolTip": "Leetcode_Stack\u0026Queue\\ImplementQueueUsingStacks.cpp",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-11T02:40:50.612Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DailyTemperatures.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\DailyTemperatures.cpp",
               "RelativeDocumentMoniker": "Leetcode_Stack\u0026Queue\\DailyTemperatures.cpp",
@@ -51,12 +68,11 @@
               "RelativeToolTip": "Leetcode_Stack\u0026Queue\\DailyTemperatures.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-05T14:29:01.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T14:29:01.056Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MinStack.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\MinStack.cpp",
               "RelativeDocumentMoniker": "Leetcode_Stack\u0026Queue\\MinStack.cpp",
@@ -68,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IsSubsequence.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\IsSubsequence.cpp",
               "RelativeDocumentMoniker": "Leetcode_Stack\u0026Queue\\IsSubsequence.cpp",
