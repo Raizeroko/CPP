@@ -1,6 +1,4 @@
-    #include<unordered_set>
-
-    using namespace std;
+#include "harsh.h"
 
     // MySolution
     class Solution {

@@ -21,5 +21,19 @@
     <ClCompile Include="ContainsDuplicate_II.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="TwoSum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestHarmoniousSubsequence.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestConsecutiveSequence.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="harsh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
