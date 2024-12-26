@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E6AE484-E297-4C5F-9A66-97E06E3D99B9}|Leetcode_Harsh\\Leetcode_Harsh.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\ContainsDuplicate.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9E6AE484-E297-4C5F-9A66-97E06E3D99B9}|Leetcode_Harsh\\Leetcode_Harsh.vcxproj|solutionrelative:Leetcode_Harsh\\ContainsDuplicate.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9E6AE484-E297-4C5F-9A66-97E06E3D99B9}|Leetcode_Harsh\\Leetcode_Harsh.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\LongestHarmoniousSubsequence.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9E6AE484-E297-4C5F-9A66-97E06E3D99B9}|Leetcode_Harsh\\Leetcode_Harsh.vcxproj|solutionrelative:Leetcode_Harsh\\LongestHarmoniousSubsequence.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\LongestConsecutiveSequence.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Leetcode_Harsh\\LongestConsecutiveSequence.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E6AE484-E297-4C5F-9A66-97E06E3D99B9}|Leetcode_Harsh\\Leetcode_Harsh.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\ContainsDuplicate_II.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9E6AE484-E297-4C5F-9A66-97E06E3D99B9}|Leetcode_Harsh\\Leetcode_Harsh.vcxproj|solutionrelative:Leetcode_Harsh\\ContainsDuplicate_II.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E6AE484-E297-4C5F-9A66-97E06E3D99B9}|Leetcode_Harsh\\Leetcode_Harsh.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\ContainsDuplicate.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9E6AE484-E297-4C5F-9A66-97E06E3D99B9}|Leetcode_Harsh\\Leetcode_Harsh.vcxproj|solutionrelative:Leetcode_Harsh\\ContainsDuplicate.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E6AE484-E297-4C5F-9A66-97E06E3D99B9}|Leetcode_Harsh\\Leetcode_Harsh.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\TwoSum.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9E6AE484-E297-4C5F-9A66-97E06E3D99B9}|Leetcode_Harsh\\Leetcode_Harsh.vcxproj|solutionrelative:Leetcode_Harsh\\TwoSum.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E6AE484-E297-4C5F-9A66-97E06E3D99B9}|Leetcode_Harsh\\Leetcode_Harsh.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\harsh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9E6AE484-E297-4C5F-9A66-97E06E3D99B9}|Leetcode_Harsh\\Leetcode_Harsh.vcxproj|solutionrelative:Leetcode_Harsh\\harsh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,12 +39,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LongestHarmoniousSubsequence.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\LongestHarmoniousSubsequence.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Harsh\\LongestHarmoniousSubsequence.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\LongestHarmoniousSubsequence.cpp",
+              "RelativeToolTip": "Leetcode_Harsh\\LongestHarmoniousSubsequence.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-26T11:54:56.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "harsh.h",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\harsh.h",
+              "RelativeDocumentMoniker": "Leetcode_Harsh\\harsh.h",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\harsh.h",
+              "RelativeToolTip": "Leetcode_Harsh\\harsh.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-26T07:27:24.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TwoSum.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\TwoSum.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Harsh\\TwoSum.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\TwoSum.cpp",
+              "RelativeToolTip": "Leetcode_Harsh\\TwoSum.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-26T07:27:02.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContainsDuplicate_II.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\ContainsDuplicate_II.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Harsh\\ContainsDuplicate_II.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\ContainsDuplicate_II.cpp",
+              "RelativeToolTip": "Leetcode_Harsh\\ContainsDuplicate_II.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-02T13:45:37.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ContainsDuplicate.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\ContainsDuplicate.cpp",
               "RelativeDocumentMoniker": "Leetcode_Harsh\\ContainsDuplicate.cpp",
               "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\ContainsDuplicate.cpp",
               "RelativeToolTip": "Leetcode_Harsh\\ContainsDuplicate.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-02T13:42:20.11Z",
               "EditorCaption": ""
