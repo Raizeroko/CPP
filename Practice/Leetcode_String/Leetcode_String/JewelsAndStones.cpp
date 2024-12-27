@@ -1,7 +1,4 @@
-#include <string>
-#include <unordered_set>
-
-using namespace std;
+#include "string.h"
 
 // MySolution
 class Solution {
