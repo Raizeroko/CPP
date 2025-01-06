@@ -1,7 +1,4 @@
-#include <vector>
-#include <algorithm>
-
-using namespace std;
+#include "Vector.h"
 
 // MySolution
 class Solution {
