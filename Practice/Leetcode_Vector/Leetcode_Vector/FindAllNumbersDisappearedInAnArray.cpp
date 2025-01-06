@@ -1,6 +1,5 @@
-#include <vector>
+#include "Vector.h"
 
-using namespace std;
 
 // MySolution
 class Solution {
