@@ -132,6 +132,7 @@
     <ClCompile Include="MaximumLengthOfRepeatedSubarray.cpp" />
     <ClCompile Include="MergeIntervals.cpp" />
     <ClCompile Include="MinimumSizeSubarraySum.cpp" />
+    <ClCompile Include="NextGreaterElement_I.cpp" />
     <ClCompile Include="PlusOne.cpp" />
     <ClCompile Include="RotateArray.cpp" />
     <ClCompile Include="SearchA2dMatrix_II.cpp" />
