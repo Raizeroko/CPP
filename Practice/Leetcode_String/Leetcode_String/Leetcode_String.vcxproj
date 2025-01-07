@@ -129,12 +129,13 @@
   <ItemGroup>
     <ClCompile Include="JewelsAndStones.cpp" />
     <ClCompile Include="LongestPalindrome.cpp" />
+    <ClCompile Include="MultiplyStrings.cpp" />
     <ClCompile Include="ReverseSubstringsBetweenEachPairOfParentheses.cpp" />
     <ClCompile Include="ValidAnagram.cpp" />
     <ClCompile Include="RepeatedDnaSequences.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="string.h" />
+    <ClInclude Include="String.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
