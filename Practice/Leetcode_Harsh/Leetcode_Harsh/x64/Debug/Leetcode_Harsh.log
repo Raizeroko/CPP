@@ -1,0 +1,21 @@
+﻿  ContainsDuplicate.cpp
+  ContainsDuplicate_II.cpp
+  LongestConsecutiveSequence.cpp
+E:\git_repository\CPP\Practice\Leetcode_Harsh\Leetcode_Harsh\ContainsDuplicate_II.cpp(29,7): error C2011: “Solution”:“class”类型重定义
+      E:\git_repository\CPP\Practice\Leetcode_Harsh\Leetcode_Harsh\ContainsDuplicate_II.cpp(4,7):
+      参见“Solution”的声明
+  
+  LongestHarmoniousSubsequence.cpp
+E:\git_repository\CPP\Practice\Leetcode_Harsh\Leetcode_Harsh\LongestHarmoniousSubsequence.cpp(28,7): error C2011: “Solution”:“class”类型重定义
+      E:\git_repository\CPP\Practice\Leetcode_Harsh\Leetcode_Harsh\LongestHarmoniousSubsequence.cpp(4,7):
+      参见“Solution”的声明
+  
+  SortCharactersByFrequency.cpp
+E:\git_repository\CPP\Practice\Leetcode_Harsh\Leetcode_Harsh\SortCharactersByFrequency.cpp(8,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\git_repository\CPP\Practice\Leetcode_Harsh\Leetcode_Harsh\SortCharactersByFrequency.cpp(20,21): error C2429: 语言功能 "结构化绑定" 需要编译器标志 "/std:c++17"
+E:\git_repository\CPP\Practice\Leetcode_Harsh\Leetcode_Harsh\SortCharactersByFrequency.cpp(31,7): error C2011: “Solution”:“class”类型重定义
+      E:\git_repository\CPP\Practice\Leetcode_Harsh\Leetcode_Harsh\SortCharactersByFrequency.cpp(4,7):
+      参见“Solution”的声明
+  
+  TwoSum.cpp
+  正在生成代码...
