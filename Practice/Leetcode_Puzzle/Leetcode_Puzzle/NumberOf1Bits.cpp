@@ -1,3 +1,4 @@
+#include "Puzzle.h"
 
 // MySolution
 class Solution {

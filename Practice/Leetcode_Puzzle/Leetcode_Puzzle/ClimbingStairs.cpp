@@ -1,3 +1,4 @@
+#include "Puzzle.h"
 
 // MySolution
 class Solution {
@@ -15,5 +16,19 @@ public:
             }
         }
         return step[1];
+    }
+};
+
+
+// Review(2025_01_10)
+class Solution {
+public:
+    int climbStairs(int n) {
+        pair<int, int> climbSteps(1, 1);
+        while (n-- > 1) {
+            pair<int, int> tmp(climbSteps.second, climbSteps.first + climbSteps.second);
+            climbSteps = tmp;
+        }
+        return climbSteps.second;
     }
 };
