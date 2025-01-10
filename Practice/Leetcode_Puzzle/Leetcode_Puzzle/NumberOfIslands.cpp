@@ -1,7 +1,4 @@
-#include <vector>
-
-
-using namespace std;
+#include "Puzzle.h"
 
 // MySolution
 class Solution {

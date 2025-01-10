@@ -128,9 +128,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ClimbingStairs.cpp" />
+    <ClCompile Include="MinCostClimbingStairs.cpp" />
     <ClCompile Include="NumberOf1Bits.cpp" />
     <ClCompile Include="NumberOfIslands.cpp" />
     <ClCompile Include="SpiralMatrix.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Puzzle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
