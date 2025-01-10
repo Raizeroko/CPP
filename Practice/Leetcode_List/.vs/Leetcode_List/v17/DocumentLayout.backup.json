@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\RotateList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|solutionrelative:Leetcode_List\\RotateList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\PalindromeLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|solutionrelative:Leetcode_List\\PalindromeLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -62,11 +66,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "RotateList.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\RotateList.cpp",
+              "RelativeDocumentMoniker": "Leetcode_List\\RotateList.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\RotateList.cpp",
+              "RelativeToolTip": "Leetcode_List\\RotateList.cpp",
+              "ViewState": "AgIAACIAAAAAAAAAAAAwwDMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-10T13:35:22.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "SortList.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\SortList.cpp",
               "RelativeDocumentMoniker": "Leetcode_List\\SortList.cpp",
@@ -78,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AddTwoNumbers_II .cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\AddTwoNumbers_II .cpp",
               "RelativeDocumentMoniker": "Leetcode_List\\AddTwoNumbers_II .cpp",
@@ -90,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "SwapNodesInPairs.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\SwapNodesInPairs.cpp",
               "RelativeDocumentMoniker": "Leetcode_List\\SwapNodesInPairs.cpp",
@@ -102,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "RemoveNthNodeFromEndofList.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\RemoveNthNodeFromEndofList.cpp",
               "RelativeDocumentMoniker": "Leetcode_List\\RemoveNthNodeFromEndofList.cpp",
@@ -114,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "List.h",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\List.h",
               "RelativeDocumentMoniker": "Leetcode_List\\List.h",
@@ -126,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "OddEvenLinkedList.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\OddEvenLinkedList.cpp",
               "RelativeDocumentMoniker": "Leetcode_List\\OddEvenLinkedList.cpp",
@@ -138,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MergeTwoLists.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\MergeTwoLists.cpp",
               "RelativeDocumentMoniker": "Leetcode_List\\MergeTwoLists.cpp",
@@ -150,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PalindromeLinkedList.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\PalindromeLinkedList.cpp",
               "RelativeDocumentMoniker": "Leetcode_List\\PalindromeLinkedList.cpp",
@@ -163,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "LinkedLlistCycle_II.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\LinkedLlistCycle_II.cpp",
               "RelativeDocumentMoniker": "Leetcode_List\\LinkedLlistCycle_II.cpp",
@@ -175,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "LinkedListCycle.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\LinkedListCycle.cpp",
               "RelativeDocumentMoniker": "Leetcode_List\\LinkedListCycle.cpp",
@@ -187,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "RemoveDuplicatesFromSortedList.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\RemoveDuplicatesFromSortedList.cpp",
               "RelativeDocumentMoniker": "Leetcode_List\\RemoveDuplicatesFromSortedList.cpp",
@@ -199,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "SplitLinkedListInParts.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\SplitLinkedListInParts.cpp",
               "RelativeDocumentMoniker": "Leetcode_List\\SplitLinkedListInParts.cpp",
@@ -211,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ReverseList.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\ReverseList.cpp",
               "RelativeDocumentMoniker": "Leetcode_List\\ReverseList.cpp",
