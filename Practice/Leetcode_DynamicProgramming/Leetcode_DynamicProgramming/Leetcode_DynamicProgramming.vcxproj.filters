@@ -24,5 +24,16 @@
     <ClCompile Include="JumpGame.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="BestTimeToBuyAndSellStock_II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BestTimeToBuyAndSellStock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,6 +1,4 @@
-#include <vector>
-
-using namespace std;
+#include "DP.h"
 
 // MySolution
 class Solution {
