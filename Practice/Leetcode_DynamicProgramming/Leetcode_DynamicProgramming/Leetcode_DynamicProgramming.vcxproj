@@ -127,9 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BestTimeToBuyAndSellStock.cpp" />
     <ClCompile Include="BestTimeToBuyAndSellStockWithTransactionFee.cpp" />
+    <ClCompile Include="BestTimeToBuyAndSellStock_II.cpp" />
     <ClCompile Include="JumpGame.cpp" />
     <ClCompile Include="JumpGame_II.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DP.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
