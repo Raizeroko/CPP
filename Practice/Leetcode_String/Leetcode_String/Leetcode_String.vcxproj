@@ -131,6 +131,7 @@
     <ClCompile Include="LongestPalindrome.cpp" />
     <ClCompile Include="MultiplyStrings.cpp" />
     <ClCompile Include="ReverseSubstringsBetweenEachPairOfParentheses.cpp" />
+    <ClCompile Include="ReverseWordsInAString.cpp" />
     <ClCompile Include="ValidAnagram.cpp" />
     <ClCompile Include="RepeatedDnaSequences.cpp" />
   </ItemGroup>
