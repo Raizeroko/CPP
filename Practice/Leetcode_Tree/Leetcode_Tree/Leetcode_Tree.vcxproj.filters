@@ -95,5 +95,8 @@
     <ClCompile Include="BinaryTreePreorderTraversal.cpp">
       <Filter>源文件\Oreder Traversal</Filter>
     </ClCompile>
+    <ClCompile Include="SumOfRootToLeafBinaryNumbers.cpp">
+      <Filter>源文件\Recursion</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
