@@ -129,13 +129,14 @@
   <ItemGroup>
     <ClCompile Include="ContainsDuplicate.cpp" />
     <ClCompile Include="ContainsDuplicate_II.cpp" />
+    <ClCompile Include="FirstUniqueCharacterInAString.cpp" />
     <ClCompile Include="LongestConsecutiveSequence.cpp" />
     <ClCompile Include="LongestHarmoniousSubsequence.cpp" />
     <ClCompile Include="SortCharactersByFrequency.cpp" />
     <ClCompile Include="TwoSum.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="harsh.h" />
+    <ClInclude Include="Harsh.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
