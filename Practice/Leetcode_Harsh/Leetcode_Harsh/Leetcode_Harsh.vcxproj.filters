@@ -33,9 +33,12 @@
     <ClCompile Include="SortCharactersByFrequency.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="FirstUniqueCharacterInAString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="harsh.h">
+    <ClInclude Include="Harsh.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
