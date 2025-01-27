@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BinarySearch.cpp" />
     <ClCompile Include="ClimbingStairs.cpp" />
     <ClCompile Include="MinCostClimbingStairs.cpp" />
     <ClCompile Include="NumberOf1Bits.cpp" />
