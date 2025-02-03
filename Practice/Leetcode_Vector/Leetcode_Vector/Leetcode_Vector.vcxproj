@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="FindAllNumbersDisappearedInAnArray.cpp" />
+    <ClCompile Include="FindFirstAndLastPositionOfElementInSortedArray.cpp" />
     <ClCompile Include="HScore.cpp" />
     <ClCompile Include="MaximumLengthOfRepeatedSubarray.cpp" />
     <ClCompile Include="MergeIntervals.cpp" />
