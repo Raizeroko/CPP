@@ -144,12 +144,14 @@
     <ClCompile Include="MaximumDepthOfBinaryTree.cpp" />
     <ClCompile Include="MergeTwoBinaryTrees .cpp" />
     <ClCompile Include="MinimumDepthOfBinaryTree.cpp" />
+    <ClCompile Include="OpeningCeremonyFireworks.cpp" />
     <ClCompile Include="PathSum.cpp" />
     <ClCompile Include="PathSum_III.cpp" />
     <ClCompile Include="SameTree.cpp" />
     <ClCompile Include="SubtreeOfAnotherTree .cpp" />
     <ClCompile Include="SumOfLeftLeaves.cpp" />
     <ClCompile Include="SumOfRootToLeafBinaryNumbers.cpp" />
+    <ClCompile Include="SumRootToLeafNumbers.cpp" />
     <ClCompile Include="SymmetricTree.cpp" />
     <ClCompile Include="TrimABinarySearchTree.cpp" />
   </ItemGroup>

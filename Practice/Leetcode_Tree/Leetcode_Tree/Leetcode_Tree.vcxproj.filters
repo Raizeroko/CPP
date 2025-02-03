@@ -98,5 +98,11 @@
     <ClCompile Include="SumOfRootToLeafBinaryNumbers.cpp">
       <Filter>源文件\Recursion</Filter>
     </ClCompile>
+    <ClCompile Include="SumRootToLeafNumbers.cpp">
+      <Filter>源文件\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="OpeningCeremonyFireworks.cpp">
+      <Filter>源文件\Recursion</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
