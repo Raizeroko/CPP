@@ -16,4 +16,4 @@ public:
         int path = 0;
         return _sumRootToLeaf(root, path);
     }
-};
+};  
