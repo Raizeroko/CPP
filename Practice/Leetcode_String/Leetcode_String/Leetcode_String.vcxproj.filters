@@ -36,6 +36,18 @@
     <ClCompile Include="ReverseWordsInAString.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ReverseOnlyLetters.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimumWindowSubstring.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SimplifyPath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LengthOfLastWord.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="String.h">

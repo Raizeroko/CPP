@@ -128,10 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="JewelsAndStones.cpp" />
+    <ClCompile Include="LengthOfLastWord.cpp" />
     <ClCompile Include="LongestPalindrome.cpp" />
+    <ClCompile Include="MinimumWindowSubstring.cpp" />
     <ClCompile Include="MultiplyStrings.cpp" />
+    <ClCompile Include="ReverseOnlyLetters.cpp" />
     <ClCompile Include="ReverseSubstringsBetweenEachPairOfParentheses.cpp" />
     <ClCompile Include="ReverseWordsInAString.cpp" />
+    <ClCompile Include="SimplifyPath.cpp" />
     <ClCompile Include="ValidAnagram.cpp" />
     <ClCompile Include="RepeatedDnaSequences.cpp" />
   </ItemGroup>
