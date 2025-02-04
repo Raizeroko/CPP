@@ -138,6 +138,7 @@
     <ClCompile Include="SimplifyPath.cpp" />
     <ClCompile Include="ValidAnagram.cpp" />
     <ClCompile Include="RepeatedDnaSequences.cpp" />
+    <ClCompile Include="ValidPalindrome_II.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="String.h" />
