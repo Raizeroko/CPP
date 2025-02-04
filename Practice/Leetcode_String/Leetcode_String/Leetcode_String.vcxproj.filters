@@ -48,6 +48,9 @@
     <ClCompile Include="LengthOfLastWord.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ValidPalindrome_II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="String.h">
