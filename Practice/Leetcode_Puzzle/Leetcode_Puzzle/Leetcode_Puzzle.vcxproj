@@ -133,6 +133,7 @@
     <ClCompile Include="NumberOf1Bits.cpp" />
     <ClCompile Include="NumberOfIslands.cpp" />
     <ClCompile Include="SpiralMatrix.cpp" />
+    <ClCompile Include="Sqrtx.cpp" />
     <ClCompile Include="UniquePaths.cpp" />
     <ClCompile Include="UniquePaths_II.cpp" />
   </ItemGroup>
