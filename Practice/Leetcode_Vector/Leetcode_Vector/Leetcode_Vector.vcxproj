@@ -135,6 +135,7 @@
     <ClCompile Include="MinimumSizeSubarraySum.cpp" />
     <ClCompile Include="NextGreaterElement_I.cpp" />
     <ClCompile Include="NextGreaterElement_II.cpp" />
+    <ClCompile Include="Permutations_II.cpp" />
     <ClCompile Include="PlusOne.cpp" />
     <ClCompile Include="RotateArray.cpp" />
     <ClCompile Include="SearchA2dMatrix_II.cpp" />
