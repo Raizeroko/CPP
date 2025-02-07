@@ -135,6 +135,7 @@
     <ClCompile Include="LongestHarmoniousSubsequence.cpp" />
     <ClCompile Include="MinimumConsecutiveCardsToPickUp.cpp" />
     <ClCompile Include="SortCharactersByFrequency.cpp" />
+    <ClCompile Include="SubarraySumEqualsK.cpp" />
     <ClCompile Include="TwoSum.cpp" />
   </ItemGroup>
   <ItemGroup>
