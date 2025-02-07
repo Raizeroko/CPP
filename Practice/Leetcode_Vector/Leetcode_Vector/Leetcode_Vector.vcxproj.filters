@@ -57,6 +57,9 @@
     <ClCompile Include="Permutations_II.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="SpiralMatrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Vector.h">
