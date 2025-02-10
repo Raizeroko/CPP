@@ -128,11 +128,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DailyTemperatures.cpp" />
+    <ClCompile Include="EvaluateReversePolishNotation.cpp" />
     <ClCompile Include="ImplementQueueUsingStacks.cpp" />
     <ClCompile Include="ImplementStackUsingQueues.cpp" />
     <ClCompile Include="IsSubsequence.cpp" />
     <ClCompile Include="MinStack.cpp" />
     <ClCompile Include="ValidateStackSequences.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Stack&amp;Queue.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

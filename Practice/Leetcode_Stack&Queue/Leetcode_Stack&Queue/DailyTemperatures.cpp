@@ -1,7 +1,4 @@
-#include<vector>
-#include<stack>
-
-using namespace std;
+#include "Stack&Queue.h"
 
 // MySolution
 class Solution {
