@@ -89,3 +89,25 @@ public:
     }
 };
 
+// Review(2025/2/10)
+class Solution {
+public:
+    vector<vector<int>> merge(vector<vector<int>>& intervals) {
+        // sort(intervals.begin(), intervals.end(), [&](vector<int> a, vector<int> b){return a[0] < b[0];});
+        sort(intervals.begin(), intervals.end());
+        vector<vector<int>> ret;
+        ret.push_back(intervals[0]);
+        for (int i = 1; i < intervals.size(); i++) {
+            int& retRight = ret.back()[1];
+            vector<int> interval = intervals[i];
+            if (retRight < interval[0]) {
+                ret.push_back(interval);
+            }
+            else {
+                retRight = retRight > interval[1] ? retRight : interval[1];
+            }
+        }
+
+        return ret;
+    }
+};
