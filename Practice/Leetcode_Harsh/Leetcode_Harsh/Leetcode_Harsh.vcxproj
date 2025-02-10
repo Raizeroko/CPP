@@ -131,6 +131,7 @@
     <ClCompile Include="ContainsDuplicate_II.cpp" />
     <ClCompile Include="FirstUniqueCharacterInAString.cpp" />
     <ClCompile Include="HappyNumber.cpp" />
+    <ClCompile Include="IsUniqueLcci.cpp" />
     <ClCompile Include="LongestConsecutiveSequence.cpp" />
     <ClCompile Include="LongestHarmoniousSubsequence.cpp" />
     <ClCompile Include="MinimumConsecutiveCardsToPickUp.cpp" />
