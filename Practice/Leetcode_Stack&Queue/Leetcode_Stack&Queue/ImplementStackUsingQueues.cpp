@@ -1,7 +1,6 @@
-#include <queue>
+#include "Stack&Queue.h"
 
-using namespace std;
-
+// MySolution
 class MyStack {
 public:
     MyStack()

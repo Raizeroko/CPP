@@ -1,7 +1,5 @@
-#include <queue>
-#include <string>
+#include "Stack&Queue.h"
 
-using namespace std;
 
 // MySolution
 class Solution {
