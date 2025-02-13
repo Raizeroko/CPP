@@ -2,9 +2,6 @@
 
 // Nowcoder
 // MySolution
-#include <iostream>
-using namespace std;
-
 long long int GetDivisor(long long int num) {
     long long int ret = 0;
     for (int i = 1; i <= num; i += 2) {

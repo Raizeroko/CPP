@@ -45,6 +45,9 @@
     <ClCompile Include="TheMaximumOddDivisor.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="BuyApples.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Puzzle.h">
