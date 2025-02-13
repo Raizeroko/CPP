@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CharacterOverlay.cpp" />
     <ClCompile Include="JewelsAndStones.cpp" />
     <ClCompile Include="LengthOfLastWord.cpp" />
     <ClCompile Include="LongestPalindrome.cpp" />
