@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\BuyApples.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|solutionrelative:Leetcode_Puzzle\\BuyApples.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\TheMaximumOddDivisor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|solutionrelative:Leetcode_Puzzle\\TheMaximumOddDivisor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\Sqrtx.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|solutionrelative:Leetcode_Puzzle\\Sqrtx.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\SpiralMatrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|solutionrelative:Leetcode_Puzzle\\SpiralMatrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\BinarySearch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|solutionrelative:Leetcode_Puzzle\\BinarySearch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\Sqrtx.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|solutionrelative:Leetcode_Puzzle\\Sqrtx.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\UniquePaths_II.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -35,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|solutionrelative:Leetcode_Puzzle\\ClimbingStairs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\SpiralMatrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|solutionrelative:Leetcode_Puzzle\\SpiralMatrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\NumberOfIslands.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|solutionrelative:Leetcode_Puzzle\\NumberOfIslands.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -59,19 +63,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TheMaximumOddDivisor.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\TheMaximumOddDivisor.cpp",
-              "RelativeDocumentMoniker": "Leetcode_Puzzle\\TheMaximumOddDivisor.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\TheMaximumOddDivisor.cpp",
-              "RelativeToolTip": "Leetcode_Puzzle\\TheMaximumOddDivisor.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAADAAAAAAAAAA==",
+              "Title": "BuyApples.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\BuyApples.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Puzzle\\BuyApples.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\BuyApples.cpp",
+              "RelativeToolTip": "Leetcode_Puzzle\\BuyApples.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-12T14:44:25.693Z",
+              "WhenOpened": "2025-02-13T04:06:13.219Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "TheMaximumOddDivisor.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\TheMaximumOddDivisor.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Puzzle\\TheMaximumOddDivisor.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\TheMaximumOddDivisor.cpp",
+              "RelativeToolTip": "Leetcode_Puzzle\\TheMaximumOddDivisor.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-12T14:44:25.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Sqrtx.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\Sqrtx.cpp",
               "RelativeDocumentMoniker": "Leetcode_Puzzle\\Sqrtx.cpp",
@@ -79,12 +95,11 @@
               "RelativeToolTip": "Leetcode_Puzzle\\Sqrtx.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-04T02:37:16.763Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T02:37:16.763Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BinarySearch.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\BinarySearch.cpp",
               "RelativeDocumentMoniker": "Leetcode_Puzzle\\BinarySearch.cpp",
@@ -96,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "UniquePaths_II.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\UniquePaths_II.cpp",
               "RelativeDocumentMoniker": "Leetcode_Puzzle\\UniquePaths_II.cpp",
@@ -108,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "UniquePaths.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\UniquePaths.cpp",
               "RelativeDocumentMoniker": "Leetcode_Puzzle\\UniquePaths.cpp",
@@ -120,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "MinCostClimbingStairs.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\MinCostClimbingStairs.cpp",
               "RelativeDocumentMoniker": "Leetcode_Puzzle\\MinCostClimbingStairs.cpp",
@@ -132,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Puzzle.h",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\Puzzle.h",
               "RelativeDocumentMoniker": "Leetcode_Puzzle\\Puzzle.h",
@@ -144,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "SpiralMatrix.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\SpiralMatrix.cpp",
               "RelativeDocumentMoniker": "Leetcode_Puzzle\\SpiralMatrix.cpp",
@@ -156,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "NumberOfIslands.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\NumberOfIslands.cpp",
               "RelativeDocumentMoniker": "Leetcode_Puzzle\\NumberOfIslands.cpp",
@@ -168,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "NumberOf1Bits.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\NumberOf1Bits.cpp",
               "RelativeDocumentMoniker": "Leetcode_Puzzle\\NumberOf1Bits.cpp",
@@ -180,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "ClimbingStairs.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\ClimbingStairs.cpp",
               "RelativeDocumentMoniker": "Leetcode_Puzzle\\ClimbingStairs.cpp",
