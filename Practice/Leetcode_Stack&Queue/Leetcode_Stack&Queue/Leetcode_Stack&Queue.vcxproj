@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CompleteBracketMatching.cpp" />
     <ClCompile Include="DailyTemperatures.cpp" />
     <ClCompile Include="EvaluateReversePolishNotation.cpp" />
     <ClCompile Include="ImplementQueueUsingStacks.cpp" />
