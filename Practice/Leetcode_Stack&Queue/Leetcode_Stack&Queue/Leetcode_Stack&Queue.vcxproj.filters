@@ -36,6 +36,9 @@
     <ClCompile Include="EvaluateReversePolishNotation.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CompleteBracketMatching.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Stack&amp;Queue.h">
