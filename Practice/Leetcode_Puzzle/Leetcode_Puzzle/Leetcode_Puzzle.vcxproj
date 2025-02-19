@@ -130,6 +130,7 @@
     <ClCompile Include="BinarySearch.cpp" />
     <ClCompile Include="BuyApples.cpp" />
     <ClCompile Include="ClimbingStairs.cpp" />
+    <ClCompile Include="EmployeeAttendanceRecords.cpp" />
     <ClCompile Include="MinCostClimbingStairs.cpp" />
     <ClCompile Include="NumberOf1Bits.cpp" />
     <ClCompile Include="NumberOfIslands.cpp" />
