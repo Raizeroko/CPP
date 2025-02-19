@@ -132,6 +132,7 @@
     <ClCompile Include="BestTimeToBuyAndSellStock_II.cpp" />
     <ClCompile Include="JumpGame.cpp" />
     <ClCompile Include="JumpGame_II.cpp" />
+    <ClCompile Include="LongestPalindromicSubstring.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DP.h" />
