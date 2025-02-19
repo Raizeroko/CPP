@@ -141,6 +141,7 @@
     <ClCompile Include="InvertBinaryTree.cpp" />
     <ClCompile Include="KthSmallestElementInABst.cpp" />
     <ClCompile Include="LongestUnivaluePath.cpp" />
+    <ClCompile Include="LowestCommonAncestorOfABinaryTree.cpp" />
     <ClCompile Include="MaximumDepthOfBinaryTree.cpp" />
     <ClCompile Include="MergeTwoBinaryTrees .cpp" />
     <ClCompile Include="MinimumDepthOfBinaryTree.cpp" />
