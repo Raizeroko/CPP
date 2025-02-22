@@ -1,16 +1,16 @@
 #include "harsh.h"
 
-    // MySolution
-    class Solution {
-    public:
-        bool containsDuplicate(vector<int>& nums) {
-            unordered_set<int> set;
-            for (auto e : nums) {
-                if (set.find(e) != set.end()) {
-                    return true;
-                }
-                set.insert(e);
+// MySolution
+class Solution {
+public:
+    bool containsDuplicate(vector<int>& nums) {
+        unordered_set<int> set;
+        for (auto e : nums) {
+            if (set.find(e) != set.end()) {
+                return true;
             }
-            return false;
+            set.insert(e);
         }
-    };
+        return false;
+    }
+};
