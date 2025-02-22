@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ColorfulBricks.cpp" />
     <ClCompile Include="ContainsDuplicate.cpp" />
     <ClCompile Include="ContainsDuplicate_II.cpp" />
     <ClCompile Include="DeleteCommonCharacters.cpp" />
