@@ -57,6 +57,9 @@
     <ClCompile Include="ColorfulBricks.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="StatisticalCharacters.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Harsh.h">
