@@ -139,6 +139,7 @@
     <ClCompile Include="FindBottomLeftTreeValue.cpp" />
     <ClCompile Include="HouseRobber_III.cpp" />
     <ClCompile Include="InvertBinaryTree.cpp" />
+    <ClCompile Include="IsCompleteTree.cpp" />
     <ClCompile Include="KthSmallestElementInABst.cpp" />
     <ClCompile Include="LongestUnivaluePath.cpp" />
     <ClCompile Include="LowestCommonAncestorOfABinaryTree.cpp" />

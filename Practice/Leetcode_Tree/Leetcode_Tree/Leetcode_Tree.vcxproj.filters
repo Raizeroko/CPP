@@ -107,5 +107,8 @@
     <ClCompile Include="LowestCommonAncestorOfABinaryTree.cpp">
       <Filter>源文件\Recursion</Filter>
     </ClCompile>
+    <ClCompile Include="IsCompleteTree.cpp">
+      <Filter>源文件\Recursion</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
