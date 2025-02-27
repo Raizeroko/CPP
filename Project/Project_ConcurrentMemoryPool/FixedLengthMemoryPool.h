@@ -1,5 +1,7 @@
 #pragma once
 
+#include <iostream>
+
 #define MEMORY_LENGTH 1024*8 //256KB
 
 template<class T>
