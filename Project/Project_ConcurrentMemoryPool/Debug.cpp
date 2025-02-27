@@ -1,34 +1,34 @@
 #include "FixedLengthMemoryPool.h"
-#include "HarshMapRules.h"
+#include "Utils.h"
 
 #include <iostream>
 #include <vector>
 
 // TestCode
 void testAlignSize() {
-	HarshMap harshMap;
+	// Utils utils;
 
 	// 测试 AlignSize 方法
-	assert(harshMap.AlignSize(10) == 16); // 8 byte对齐
-	assert(harshMap.AlignSize(128) == 128); // 16 byte对齐
-	assert(harshMap.AlignSize(150) == 160); // 16 byte对齐
-	assert(harshMap.AlignSize(1025) == 1152); // 128 byte对齐
-	assert(harshMap.AlignSize(2000) == 2048); // 1024 byte对齐
-	assert(harshMap.AlignSize(100000) == 106496); // 8*1024 byte对齐
+	assert(Utils::AlignSize(10) == 16); // 8 byte对齐
+	assert(Utils::AlignSize(128) == 128); // 16 byte对齐
+	assert(Utils::AlignSize(150) == 160); // 16 byte对齐
+	assert(Utils::AlignSize(1025) == 1152); // 128 byte对齐
+	assert(Utils::AlignSize(2000) == 2048); // 1024 byte对齐
+	assert(Utils::AlignSize(100000) == 106496); // 8*1024 byte对齐
 
 	std::cout << "AlignSize test passed!" << std::endl;
 }
 
 void testIndex() {
-	HarshMap harshMap;
+	//Utils utils;
 
 	// 测试 Index 方法
-	assert(harshMap.Index(10) == 1); // 在第一个区间
-	assert(harshMap.Index(100) == 12); // 在第一个区间
-	assert(harshMap.Index(500) == 47); // 在第二个区间
-	assert(harshMap.Index(1500) == 83); // 在第三个区间
-	assert(harshMap.Index(50000) == 176); // 在第四个区间
-	assert(harshMap.Index(150000) == 202); // 在第五个区间
+	assert(Utils::Index(10) == 1); // 在第一个区间
+	assert(Utils::Index(100) == 12); // 在第一个区间
+	assert(Utils::Index(500) == 47); // 在第二个区间
+	assert(Utils::Index(1500) == 83); // 在第三个区间
+	assert(Utils::Index(50000) == 176); // 在第四个区间
+	assert(Utils::Index(150000) == 202); // 在第五个区间
 
 	std::cout << "Index test passed!" << std::endl;
 }

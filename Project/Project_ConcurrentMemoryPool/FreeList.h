@@ -9,8 +9,15 @@ public:
 	void Push(void* pushNode)
 	{
 		// Í·²å
-		*((void**)pushNode) = _freeListHead;
+		Next(pushNode) = _freeListHead;
 		_freeListHead = pushNode;
+	}
+
+	void Push(void* start, void* end)
+	{
+		// Í·²å
+		Next(end) = _freeListHead;
+		_freeListHead = start;
 	}
 
 	void* Pop()
@@ -26,6 +33,15 @@ public:
 		return _freeListHead == nullptr;
 	}
 
+	size_t& FetchBatch() {
+		return _fetchBatch;
+	}
+
+	static void*& Next(void* cur) {
+		return *(void**)cur;
+	}
+
 private:
 	void* _freeListHead;
+	size_t _fetchBatch = 1;
 };
