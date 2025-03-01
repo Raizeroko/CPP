@@ -1,10 +1,24 @@
 ﻿#pragma once
 #include <cassert>
+#include <iostream>
 
-#define HARSH_SIZE 208
-#define MAX_SIZE 256*1024
-#define UPPER 512
-#define LOWER 2
+#ifdef _WIN32
+	#include <windows.h>
+#elif 
+	//linux
+#endif
+
+// ThreadCache 和 CentralCache哈希表大小
+const size_t HARSH_SIZE = 208;
+// 申请最大字节数
+const size_t MAX_SIZE = 256 * 1024;
+// [2, 512]
+const size_t UPPER = 512;
+const size_t LOWER = 2;
+// PageCache哈希表大小
+const size_t MAX_PAGE = 129;
+// 8*1024 = 2^13, 1page = 8*1024 = (8KB)
+const size_t PAGE_SHIFT = 13;
 
 class Utils {
 public:
@@ -72,10 +86,32 @@ public:
 		if (upper < LOWER) {
 			upper = LOWER;
 		}
-		if (upper < UPPER) {
+		if (upper > UPPER) {
 			upper = UPPER;
 		}
 		return upper;
+	}
+
+	static size_t NumPage(size_t alignSize) {
+		size_t upper = MoveBatchUpperLimit(alignSize);
+		size_t numPage = upper * alignSize;
+		numPage = numPage >> PAGE_SHIFT;
+		if (numPage == 0)
+			numPage = 1;
+		return numPage;
+	}
+
+
+	static void* SystemAllocate(size_t kPages) {
+		#ifdef _WIN32
+		void* newMemory = VirtualAlloc(NULL, kPages << 13, MEM_COMMIT | MEM_RESERVE, PAGE_READWRITE);
+		#elif 
+		//linux
+		#endif
+		if (newMemory == nullptr) {
+			throw std::bad_alloc();
+		}
+		return newMemory;
 	}
 
 
@@ -94,12 +130,6 @@ private:
 		// 优化算法
 		return ((bytes + alignByte - 1) & ~(alignByte - 1));
 	}
-
-	
-
-
-
-
 
 };
 
