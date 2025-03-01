@@ -1,15 +1,17 @@
 #pragma once
 #include "ThreadCache.h"
 
-
 class ConcurrentAllocate {
-	void* cmalloc(size_t allocateMemorySize) {
+public:
+	static void* cmalloc(size_t allocateMemorySize) {
 		if (LocalThreadCache == nullptr) {
 			LocalThreadCache = new ThreadCache;
 		}
+		cout << std::this_thread::get_id() << ":" << LocalThreadCache << endl;
 		return LocalThreadCache->Allocate(allocateMemorySize);
 	}
-	void cmfree(void* freeMemory, size_t memorySize) {
-		LocalThreadCache->Deallocate(freeMemory, memorySize);
+	static void cmfree(void* freeAddress, size_t deallocateMemorySize) {
+		assert(freeAddress);
+		LocalThreadCache->Deallocate(freeAddress, deallocateMemorySize);
 	}
 };

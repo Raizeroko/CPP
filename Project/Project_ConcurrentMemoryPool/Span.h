@@ -13,8 +13,8 @@ typedef size_t PAGE_ID;
 struct SpanNode {
 	// 页号
 	PAGE_ID _pageID = 0;
-	// ？？页的数量
-	size_t _n = 0;
+	// 页数量
+	size_t _pageNum = 0;
 
 
 	//双向循环链表
@@ -25,18 +25,44 @@ struct SpanNode {
 	void* _freeList = nullptr;
 
 	// 该Page已经使用的内存数
-	size_t _usecount = 0;
+	size_t _useCount = 0;
 };
 
 
 // 带头双向链表
 class SpanList {
+public:
 	SpanList() {
 		// 初始化带头双向循环链表，将前后指针指向头
 		_spanListHead = new SpanNode();
 		_spanListHead->_next = _spanListHead;
 		_spanListHead->_prev = _spanListHead;
 	}
+
+	SpanNode* Begin() {
+		return _spanListHead->_next;
+	}
+
+	SpanNode* End() {
+		return _spanListHead;
+	}
+
+	bool Empty() {
+		return _spanListHead == _spanListHead->_next;
+	}
+
+	SpanNode* PopFront() {
+		SpanNode* popNode = Begin();
+		Erase(popNode);
+		return popNode;
+
+	}
+
+	void PushFront(SpanNode* pushNode) {
+		Insert(End(), pushNode);
+	}
+
+
 	void Insert(SpanNode* pos, SpanNode* pushNode) {
 		assert(pos);
 		assert(pushNode);
@@ -63,5 +89,4 @@ class SpanList {
 public:
 	SpanNode* _spanListHead = nullptr;
 	std::mutex _mutex;
-
 };

@@ -1,11 +1,13 @@
 #include "FixedLengthMemoryPool.h"
 #include "Utils.h"
+#include "ConcurrentAllocate.h"
+
 
 #include <iostream>
 #include <vector>
 
 // TestCode
-void testAlignSize() {
+void TestAlignSize() {
 	// Utils utils;
 
 	// 测试 AlignSize 方法
@@ -19,7 +21,7 @@ void testAlignSize() {
 	std::cout << "AlignSize test passed!" << std::endl;
 }
 
-void testIndex() {
+void TestIndex() {
 	//Utils utils;
 
 	// 测试 Index 方法
@@ -34,62 +36,74 @@ void testIndex() {
 }
 
 
-
-// Text Code
-using std::vector;
-using std::cout;
-using std::cin;
-using std::endl;
-
-struct TreeNode {
-	int _val; TreeNode* _left; TreeNode* _right;
-	TreeNode()
-		:_val(0)
-		, _left(nullptr)
-		, _right(nullptr) {}
-};
-
-void testFixedLengthMemoryPool() {
-	// 申请释放的轮次
-	const size_t Rounds = 3;
-	// 每轮申请释放多少次
-	const size_t N = 100000;
-	size_t begin1 = clock();
-	std::vector<TreeNode*> v1; v1.reserve(N);
-	for (size_t j = 0; j < Rounds; ++j) {
-		for (int i = 0; i < N; ++i) {
-			v1.push_back(new TreeNode);
-		}
-		for (int i = 0; i < N; ++i) {
-			delete v1[i];
-		} v1.clear();
-	}
-	size_t end1 = clock();
-	FixedLengthMemoryPool<TreeNode> TNPool;
-	size_t begin2 = clock();
-	std::vector<TreeNode*> v2;
-	v2.reserve(N);
-	for (size_t j = 0; j < Rounds; ++j)
-	{
-		for (int i = 0; i < N; ++i) {
-			v2.push_back(TNPool.New());
-		}
-		for (int i = 0; i < N; ++i) {
-			TNPool.Delete(v2[i]);
-		}
-		v2.clear();
-	}
-	size_t end2 = clock();
-	cout << "new cost time:" << end1 - begin1 << endl;
-	cout << "object pool cost time:" << end2 - begin2 << endl;
+void TestAllocationProcess() {
+	ConcurrentAllocate ca;
+	ca.cmalloc(5);
 }
 
 
+void Alloc1()
+{
+	for (size_t i = 0; i < 5; ++i)
+	{
+		void* ptr = ConcurrentAllocate::cmalloc(6);
+	}
+}
+
+void Alloc2()
+{
+	for (size_t i = 0; i < 5; ++i)
+	{
+		void* ptr = ConcurrentAllocate::cmalloc(7);
+	}
+}
+
+void TLSTest()
+{
+	std::thread t1(Alloc1);
+
+	std::thread t2(Alloc2);
+	t1.join();
+
+	t2.join();
+}
+
+void TestConcurrentAlloc1()
+{
+	void* p1 = ConcurrentAllocate::cmalloc(6);
+	void* p2 = ConcurrentAllocate::cmalloc(8);
+	void* p3 = ConcurrentAllocate::cmalloc(1);
+	void* p4 = ConcurrentAllocate::cmalloc(7);
+	void* p5 = ConcurrentAllocate::cmalloc(8);
+
+	cout << p1 << endl;
+	cout << p2 << endl;
+	cout << p3 << endl;
+	cout << p4 << endl;
+	cout << p5 << endl;
+}
+
+void TestConcurrentAlloc2()
+{
+	for (size_t i = 0; i < 1024; ++i)
+	{
+		void* p1 = ConcurrentAllocate::cmalloc(6);
+		cout << p1 << endl;
+	}
+
+	void* p2 = ConcurrentAllocate::cmalloc(8);
+	cout << p2 << endl;
+}
+
 
 int main() {
-	//testFixedLengthMemoryPool();
-	testAlignSize();
-	testIndex();
+	//TestFixedLengthMemoryPool();
+	//TestAlignSize();
+	//TestIndex();
+	//TestAllocationProcess();
+	//TLSTest();
+	//TestConcurrentAlloc1();
+	TestConcurrentAlloc2();
 }
 
 
