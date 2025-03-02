@@ -16,6 +16,8 @@ struct SpanNode {
 	// 页数量
 	size_t _pageNum = 0;
 
+	// 该Span是否在用
+	bool _isUse = false;
 
 	//双向循环链表
 	SpanNode* _prev = nullptr;

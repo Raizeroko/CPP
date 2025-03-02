@@ -2,16 +2,18 @@
 
 #include "Span.h"
 #include "Utils.h"
-
+#include <unordered_map>
 
 class PageCache {
 public:
 	SpanNode* GetKPage(size_t k);
-	void ReturnToPageCache(SpanNode* span);
+	void ReturnFromCentralCache(SpanNode* span);
+	SpanNode* MapAddressToSpan(void* address);
 
 private:
 	// 成员变量
 	SpanList _pageCache[MAX_PAGE];
+	std::unordered_map<size_t, SpanNode*> _pageIDToSpan;
 public:
 	std::mutex _centralMutex;
 
