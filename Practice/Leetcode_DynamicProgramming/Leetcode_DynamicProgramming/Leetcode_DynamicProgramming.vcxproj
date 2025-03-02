@@ -135,6 +135,7 @@
     <ClCompile Include="JumpGame_II.cpp" />
     <ClCompile Include="LongestPalindromicSubstring.cpp" />
     <ClCompile Include="MinimumCostOfClimbingStairs.cpp" />
+    <ClCompile Include="PartitionEqualSubsetSum.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DP.h" />
