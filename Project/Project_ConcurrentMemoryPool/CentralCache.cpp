@@ -80,35 +80,81 @@ size_t CentralCache::FetchToThreadCache(void*& start, void*& end, size_t batchSi
 }
 
 
-void CentralCache::ReturnFromCentralCache(void* start, size_t alignSize) {
+void CentralCache::ReturnFromThreadCache(void* start, size_t alignSize) {
 	// 将ThreadCache返回的批量结点挂回CentralCache
 	size_t index = Utils::Index(alignSize);
 
+	// 归还给哪一个Span？
+	SpanNode* returnSpan = PageCache::GetInstance()->MapAddressToSpan(start);
+
+	// 要向CentralCache插入结点需要加锁
+	_centralCache[index]._mutex.lock();
+
 	while (start) {
+		// 头插到该span的freeList;
+		void* next = FreeList::Next(start);
+		FreeList::Next(start) = returnSpan->_freeList;
+		returnSpan->_freeList;
+		returnSpan->_useCount--;
+		if (returnSpan->_useCount == 0) {
+			// 从CentralCache分离该span
 
-		void* next = Next(start);
+			/*
+			_centralCache->Erase(returnSpan); 这种写法为什么不会报错？？？？？
+			数组名退化为指针：当使用 _centralCache-> 时，数组名 _centralCache 会隐式退化为指向数组首元素的指针
+			(&_centralCache[0])->Erase(returnSpan);
+			*/ 
 
-		// 返给哪个span??
-		SpanNode* span = new SpanNode;
-		FreeList::Next(start) = span->_freeList;
-		span->_freeList = start;
-		span->_useCount--;
-		
-		// 该span结点已经全部挂回，由CentralCache归还给ThreadCache
-		if (span->_useCount == 0) {
-			_centralCache->Erase(span);
-			span->_next = nullptr;
-			span->_prev = 0;
-			span->_freeList = nullptr;
+			_centralCache[index].Erase(returnSpan);  
+			// PageCache能通过_pageID找到地址，不需要管理_freeList的连接，所以直接指空
+			returnSpan->_freeList == nullptr;
 
-			PageCache::GetInstance()->ReturnToPageCache(span);
+			// 归还给PageCache表示没有被使用
+			returnSpan->_isUse = false;
 
-			
+			// 归还到PageCache解除CentralCache的锁，加上PageCache的锁
+			_centralCache[index]._mutex.unlock();
+			PageCache::GetInstance()->_centralMutex.lock();
+			PageCache::GetInstance()->ReturnFromCentralCache(returnSpan);
+			// 回到CentralCache解除PageCache的锁，加上CentralChe的锁
+			PageCache::GetInstance()->_centralMutex.unlock();
+			_centralCache[index]._mutex.lock();
 		}
 		start = next;
 	}
-	
+	_centralCache[index]._mutex.unlock();
 
 
 }
+
+
+//void CentralCache::ReturnFromCentralCache(void* start, size_t alignSize) {
+//	// 将ThreadCache返回的批量结点挂回CentralCache
+//	size_t index = Utils::Index(alignSize);
+//
+//	while (start) {
+//
+//		void* next = Next(start);
+//
+//		// 返给哪个span??
+//		SpanNode* span = new SpanNode;
+//		FreeList::Next(start) = span->_freeList;
+//		span->_freeList = start;
+//		span->_useCount--;
+//		
+//		// 该span结点已经全部挂回，由CentralCache归还给ThreadCache
+//		if (span->_useCount == 0) {
+//			_centralCache->Erase(span);
+//			span->_next = nullptr;
+//			span->_prev = 0;
+//			span->_freeList = nullptr;
+//
+//			PageCache::GetInstance()->ReturnToPageCache(span);
+//
+//			
+//		}
+//		start = next;
+//	}
+//
+//}
 

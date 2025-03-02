@@ -81,19 +81,69 @@ void TestConcurrentAlloc1()
 	cout << p3 << endl;
 	cout << p4 << endl;
 	cout << p5 << endl;
+
+	ConcurrentAllocate::cmfree(p1, 6);
+	ConcurrentAllocate::cmfree(p2, 8);
+	ConcurrentAllocate::cmfree(p3, 1);
+	ConcurrentAllocate::cmfree(p4, 7);
+	ConcurrentAllocate::cmfree(p5, 8);
+
+
+
 }
 
 void TestConcurrentAlloc2()
 {
-	for (size_t i = 0; i < 1024; ++i)
+	for (size_t i = 0; i < 7; ++i)
 	{
-		void* p1 = ConcurrentAllocate::cmalloc(6);
+		void* p1 = ConcurrentAllocate::cmalloc(16);
 		cout << p1 << endl;
 	}
 
 	void* p2 = ConcurrentAllocate::cmalloc(8);
 	cout << p2 << endl;
 }
+
+
+
+void MultiThreadAlloc1()
+{
+	std::vector<void*> v;
+	for (size_t i = 0; i < 1024; ++i)
+	{
+		void* ptr = ConcurrentAllocate::cmalloc(6);
+		v.push_back(ptr);
+	}
+
+	for (auto e : v)
+	{
+		ConcurrentAllocate::cmfree(e, 6);
+	}
+}
+
+void MultiThreadAlloc2()
+{
+	std::vector<void*> v;
+	for (size_t i = 0; i < 1024; ++i)
+	{
+		void* ptr = ConcurrentAllocate::cmalloc(16);
+		v.push_back(ptr);
+	}
+	for (auto e : v)
+	{
+		ConcurrentAllocate::cmfree(e, 16);
+	}
+}
+
+void TestMultiThread()
+{
+	std::thread t1(MultiThreadAlloc1);
+	std::thread t2(MultiThreadAlloc2);
+
+	t1.join();
+	t2.join();
+}
+
 
 
 int main() {
@@ -103,7 +153,8 @@ int main() {
 	//TestAllocationProcess();
 	//TLSTest();
 	//TestConcurrentAlloc1();
-	TestConcurrentAlloc2();
+	//TestConcurrentAlloc2();
+	TestMultiThread();
 }
 
 

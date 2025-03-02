@@ -36,7 +36,7 @@ void* ThreadCache::Allocate(size_t allocateMemorySize) {
 	size_t index = Utils::Index(allocateMemorySize);
 	size_t alignSize = Utils::AlignSize(allocateMemorySize);
 	if (!_threadCache[index].Empty()) {
-		return _threadCache->Pop();
+		return _threadCache[index].Pop();
 	}
 	return FetchFromCentralCache(index, alignSize);
 }
@@ -58,5 +58,5 @@ void ThreadCache::ReturnToCentralCache(FreeList& returnList, size_t alignSize) {
 	// Pop出BatchSize个结点归还给CentralCache
 	void* start = returnList.Pop(returnList.BatchSize());
 
-	CentralCache::GetInstance()->ReturnFromCentralCache(start, alignSize);
+	CentralCache::GetInstance()->ReturnFromThreadCache(start, alignSize);
 }
