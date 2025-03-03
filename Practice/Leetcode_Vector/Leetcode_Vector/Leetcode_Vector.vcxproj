@@ -141,6 +141,7 @@
     <ClCompile Include="NextGreaterElement_II.cpp" />
     <ClCompile Include="Permutations_II.cpp" />
     <ClCompile Include="PlusOne.cpp" />
+    <ClCompile Include="RemoveDuplicatesFromSortedArray_II.cpp" />
     <ClCompile Include="RemoveElement.cpp" />
     <ClCompile Include="RotateArray.cpp" />
     <ClCompile Include="SearchA2dMatrix_II.cpp" />
