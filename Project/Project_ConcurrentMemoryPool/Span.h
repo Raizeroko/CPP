@@ -1,5 +1,6 @@
 #pragma once
 #include "FreeList.h"
+#include "FixedLengthMemoryPool.h"
 #include <cassert>
 #include <mutex>
 
@@ -19,6 +20,9 @@ struct SpanNode {
 	// 该Span是否在用
 	bool _isUse = false;
 
+	// 该Span下连接的结点大小
+	size_t _size = 0;
+
 	//双向循环链表
 	SpanNode* _prev = nullptr;
 	SpanNode* _next = nullptr;
@@ -36,7 +40,7 @@ class SpanList {
 public:
 	SpanList() {
 		// 初始化带头双向循环链表，将前后指针指向头
-		_spanListHead = new SpanNode();
+		_spanListHead = new SpanNode;
 		_spanListHead->_next = _spanListHead;
 		_spanListHead->_prev = _spanListHead;
 	}
@@ -61,6 +65,7 @@ public:
 	}
 
 	void PushFront(SpanNode* pushNode) {
+		assert(pushNode);
 		Insert(End(), pushNode);
 	}
 
@@ -87,6 +92,8 @@ public:
 		pos->_prev = nullptr;
 		pos->_next = nullptr;
 	}
+	
+
 
 public:
 	SpanNode* _spanListHead = nullptr;

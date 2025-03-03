@@ -18,10 +18,25 @@ public:
 	// 函数重载
 	void Push(void* start, void* end, size_t pushSize)
 	{
-		// 头插批量
+		
 		Next(end) = _freeListHead;
+		
 		_freeListHead = start;
 		_size += pushSize;
+
+		/*size_t i = 0;
+		void* tmp = _freeListHead;
+		void* prev = nullptr;
+		while (tmp) {
+			prev = tmp;
+			tmp = FreeList::Next(tmp);
+
+			i++;
+		}
+		if (i != _size) {
+			int x = 0;
+		}*/
+		
 	}
 
 	void* Pop()
@@ -31,6 +46,8 @@ public:
 		_freeListHead = *(void**)_freeListHead;
 		_size -= 1;
 		return popNode;
+
+		
 	}
 
 	void* Pop(size_t popSize) {
@@ -38,15 +55,18 @@ public:
 
 		// 头删popSize个结点
 		void* end = _freeListHead;
-		size_t cur = 0;
-		while (cur < popSize - 1) {
+		size_t curSize = 0;
+		while (curSize < popSize - 1) {
 			end = Next(end);
-			cur++;
+			curSize++;
 		}
 		void* start = _freeListHead;
 		_freeListHead = Next(end);
 		Next(end) = nullptr;
 		_size -= popSize;
+
+		
+
 		return start;
 	}
 
@@ -62,7 +82,7 @@ public:
 	}
 
 	static void*& Next(void* cur) {
-		return *(void**)cur;
+		return *((void**)cur);
 	}
 
 	size_t Size() {

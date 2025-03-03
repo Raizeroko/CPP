@@ -2,6 +2,7 @@
 
 #include "Span.h"
 #include "Utils.h"
+#include "FixedLengthMemoryPool.h"
 #include <unordered_map>
 
 class PageCache {
@@ -15,7 +16,8 @@ private:
 	SpanList _pageCache[MAX_PAGE];
 	std::unordered_map<size_t, SpanNode*> _pageIDToSpan;
 public:
-	std::mutex _centralMutex;
+	FixedLengthMemoryPool<SpanNode> _spanNodePool;
+	std::mutex _pageMutex;
 
 
 // µ¥ÀýÄ£Ê½
