@@ -7,6 +7,8 @@ CentralCache CentralCache::_centralCacheInstance;
 // 获取一个非空的span(一个Span可能放了不止1个Page)
 SpanNode* CentralCache::GetOneSpan(SpanList& spanList, size_t alignSize)
 {
+	assert(alignSize > 0 && alignSize < MAX_SIZE);
+
 	// 检查CentralCache[index]有无可分配Span
 	SpanNode* spanCur = spanList.Begin();
 	while (spanCur != spanList.End()) {
@@ -21,11 +23,10 @@ SpanNode* CentralCache::GetOneSpan(SpanList& spanList, size_t alignSize)
 	size_t numPage = Utils::NumPage(alignSize);
 
 	// 可能有多个线程同时从PageCache获取内存
-	PageCache::GetInstance()->_centralMutex.lock();
+	PageCache::GetInstance()->_pageMutex.lock();
 	// 从PageCache获取K页的内存信息（页号，页数）
 	SpanNode* kPage = PageCache::GetInstance()->GetKPage(numPage);
-	PageCache::GetInstance()->_centralMutex.unlock();
-
+	PageCache::GetInstance()->_pageMutex.unlock();
 
 	// 根据页号获取申请的内存地址,用char*方便利用alignSize决定分割地址
 	kPage->_freeList = (void*)(kPage->_pageID << PAGE_SHIFT);
@@ -39,11 +40,25 @@ SpanNode* CentralCache::GetOneSpan(SpanList& spanList, size_t alignSize)
 		cur = next;
 		next = next + alignSize;
 	}
-	// cur = end - alignSize, 对最后的尾指控
+	// cur = end - alignSize, 对最后的尾指空
 	FreeList::Next(cur) = nullptr;
+
+	// 初始化kPage->_size大小
+	kPage->_size = alignSize;
 
 	// 要对中心缓存操作，所以加锁
 	spanList._mutex.lock();
+
+
+	/*size_t i = 0;
+	void* tmp = kPage->_freeList;
+	while (tmp) {
+		tmp = FreeList::Next(tmp);
+		i++;
+	}
+	if (i != bytes/ kPage->_size) {
+		int x = 0;
+	}*/
 
 	// 将连接好的内存放入中心缓存中
 	spanList.PushFront(kPage);
@@ -53,6 +68,9 @@ SpanNode* CentralCache::GetOneSpan(SpanList& spanList, size_t alignSize)
 // 从中心缓存获取一定数量的对象给thread cache
 size_t CentralCache::FetchToThreadCache(void*& start, void*& end, size_t batchSize, size_t alignSize)
 {
+
+	assert(batchSize > 0 && batchSize < UPPER);
+	assert(alignSize > 0 && alignSize < MAX_SIZE);
 	size_t index = Utils::Index(alignSize);
 
 	// 不同线程可能同时对中心缓存同一个SpanList访问，所以需要加锁
@@ -76,19 +94,35 @@ size_t CentralCache::FetchToThreadCache(void*& start, void*& end, size_t batchSi
 	spanHead->_useCount += actualSize;
 	_centralCache[index]._mutex.unlock();
 
+	size_t i = 0;
+	void* cur = start;
+	/*while (cur && FreeList::Next(cur)) {
+		cur = FreeList::Next(cur);
+		i++;
+	}
+	if (i != actualSize) {
+		int x = 0;
+	}
+	if (cur != end) {
+		int x;
+	}*/
+
 	return actualSize;
 }
 
 
 void CentralCache::ReturnFromThreadCache(void* start, size_t alignSize) {
+	assert(start);
+	assert(alignSize > 0 && alignSize < MAX_SIZE);
 	// 将ThreadCache返回的批量结点挂回CentralCache
 	size_t index = Utils::Index(alignSize);
+
+	// 要向CentralCache插入结点需要加锁
+	_centralCache[index]._mutex.lock();
 
 	// 归还给哪一个Span？
 	SpanNode* returnSpan = PageCache::GetInstance()->MapAddressToSpan(start);
 
-	// 要向CentralCache插入结点需要加锁
-	_centralCache[index]._mutex.lock();
 
 	while (start) {
 		// 头插到该span的freeList;
@@ -107,23 +141,22 @@ void CentralCache::ReturnFromThreadCache(void* start, size_t alignSize) {
 
 			_centralCache[index].Erase(returnSpan);  
 			// PageCache能通过_pageID找到地址，不需要管理_freeList的连接，所以直接指空
-			returnSpan->_freeList == nullptr;
+			returnSpan->_freeList = nullptr;
 
 			// 归还给PageCache表示没有被使用
 			returnSpan->_isUse = false;
 
 			// 归还到PageCache解除CentralCache的锁，加上PageCache的锁
 			_centralCache[index]._mutex.unlock();
-			PageCache::GetInstance()->_centralMutex.lock();
+			PageCache::GetInstance()->_pageMutex.lock();
 			PageCache::GetInstance()->ReturnFromCentralCache(returnSpan);
 			// 回到CentralCache解除PageCache的锁，加上CentralChe的锁
-			PageCache::GetInstance()->_centralMutex.unlock();
+			PageCache::GetInstance()->_pageMutex.unlock();
 			_centralCache[index]._mutex.lock();
 		}
 		start = next;
 	}
 	_centralCache[index]._mutex.unlock();
-
 
 }
 

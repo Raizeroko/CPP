@@ -47,8 +47,7 @@ public:
 			return _AlignSize(size, 8*1024);
 		}
 		else {
-			assert(false);
-			return -1;
+			return _AlignSize(size, 1 << PAGE_SHIFT);
 		}
 	}
 
@@ -103,17 +102,26 @@ public:
 
 
 	static void* SystemAllocate(size_t kPages) {
-		#ifdef _WIN32
+#ifdef _WIN32
 		void* newMemory = VirtualAlloc(NULL, kPages << 13, MEM_COMMIT | MEM_RESERVE, PAGE_READWRITE);
-		#elif 
+#elif 
 		//linux
-		#endif
+#endif
 		if (newMemory == nullptr) {
 			throw std::bad_alloc();
 		}
 		return newMemory;
 	}
 
+	static void SystemDeallocate(void* ptr) {
+		assert(ptr);
+#ifdef _WIN32
+		bool result = VirtualFree(ptr, 0, MEM_RELEASE);
+#elif 
+		//linux
+#endif
+		assert(result);
+	}
 
 private:
 	static size_t _Index(size_t bytes, size_t alignShift) {

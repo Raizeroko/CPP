@@ -6,6 +6,10 @@
 #include <iostream>
 #include <vector>
 
+using std::cout;
+using std::endl;
+
+
 // TestCode
 void TestAlignSize() {
 	// Utils utils;
@@ -82,11 +86,11 @@ void TestConcurrentAlloc1()
 	cout << p4 << endl;
 	cout << p5 << endl;
 
-	ConcurrentAllocate::cmfree(p1, 6);
-	ConcurrentAllocate::cmfree(p2, 8);
-	ConcurrentAllocate::cmfree(p3, 1);
-	ConcurrentAllocate::cmfree(p4, 7);
-	ConcurrentAllocate::cmfree(p5, 8);
+	ConcurrentAllocate::cfree(p1);
+	ConcurrentAllocate::cfree(p2);
+	ConcurrentAllocate::cfree(p3);
+	ConcurrentAllocate::cfree(p4);
+	ConcurrentAllocate::cfree(p5);
 
 
 
@@ -117,7 +121,7 @@ void MultiThreadAlloc1()
 
 	for (auto e : v)
 	{
-		ConcurrentAllocate::cmfree(e, 6);
+		ConcurrentAllocate::cfree(e);
 	}
 }
 
@@ -131,7 +135,7 @@ void MultiThreadAlloc2()
 	}
 	for (auto e : v)
 	{
-		ConcurrentAllocate::cmfree(e, 16);
+		ConcurrentAllocate::cfree(e);
 	}
 }
 
@@ -146,15 +150,15 @@ void TestMultiThread()
 
 
 
-int main() {
-	//TestFixedLengthMemoryPool();
-	//TestAlignSize();
-	//TestIndex();
-	//TestAllocationProcess();
-	//TLSTest();
-	//TestConcurrentAlloc1();
-	//TestConcurrentAlloc2();
-	TestMultiThread();
-}
+//int main() {
+//	//TestFixedLengthMemoryPool();
+//	//TestAlignSize();
+//	//TestIndex();
+//	//TestAllocationProcess();
+//	//TLSTest();
+//	//TestConcurrentAlloc1();
+//	//TestConcurrentAlloc2();
+//	TestMultiThread();
+//}
 
 
