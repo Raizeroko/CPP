@@ -59,19 +59,19 @@ SpanNode* CentralCache::GetOneSpan(SpanList& spanList, size_t alignSize)
 		debugLength++;
 	}
 	size_t expectedLength = (numPage << PAGE_SHIFT) / alignSize;
+
+	//测试：在 _centralCache[index] 插入前检查链表
 	/*if (debugLength != expectedLength) {
 		printf("Debug: GetOneSpan - Linked list length mismatch. Expected: %zu, Actual: %zu\n", expectedLength, debugLength);
 	}*/
-
-	// 在 _centralCache[index] 插入前检查链表
 	/*if (kPage->_freeList == nullptr) {
 		printf("Debug: GetOneSpan - kPage->_freeList is null before inserting into _centralCache.\n");
 	}*/
-	// 将连接好的内存放入中心缓存中
+	//
 
-	//DebugPrintSpanList(spanList);
+	// 将连接好的内存放入中心缓存中
 	spanList.PushFront(kPage);
-	//DebugPrintSpanList(spanList);
+
 	
 	return kPage;
 }
@@ -105,6 +105,7 @@ size_t CentralCache::FetchToThreadCache(void*& start, void*& end, size_t batchSi
 	spanHead->_useCount += actualSize;
 	_centralCache[index]._mutex.unlock();
 
+	// 测试
 	/*size_t debugLength = 0;
 	void* debugCur = start;
 	while (debugCur) {
@@ -139,21 +140,18 @@ void CentralCache::ReturnFromThreadCache(void* start, size_t alignSize) {
 		returnSpan->_freeList = start;
 		returnSpan->_useCount--;
 		if (returnSpan->_useCount == 0) {
-			// 从CentralCache分离该span
-
 			/*
 			_centralCache->Erase(returnSpan); 这种写法为什么不会报错？？？？？
 			数组名退化为指针：当使用 _centralCache-> 时，数组名 _centralCache 会隐式退化为指向数组首元素的指针
 			(&_centralCache[0])->Erase(returnSpan);
 			*/ 
 
+			// 从CentralCache分离该span
 			_centralCache[index].Erase(returnSpan);  
 			// PageCache能通过_pageID找到地址，不需要管理_freeList的连接，所以直接指空
 			returnSpan->_freeList = nullptr;
 			returnSpan->_next = nullptr;
 			returnSpan->_prev = nullptr;
-
-			
 
 			// 归还到PageCache解除CentralCache的锁，加上PageCache的锁
 			_centralCache[index]._mutex.unlock();
