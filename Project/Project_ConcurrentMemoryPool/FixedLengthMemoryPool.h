@@ -39,7 +39,7 @@ public:
 
 		// 已有空间，使用定位new在该空间构造对象
 		new(object)T();
-
+		memset(object, 0, sizeof(*object)); // 初始化
 		return object;
 
 	}
@@ -51,7 +51,6 @@ public:
 		*((void**)object) = _freeList;
 		_freeList = (void*)object;
 	}
-
 
 private:
 	char* _memory;		// 定长内存池

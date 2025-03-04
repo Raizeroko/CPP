@@ -13,7 +13,11 @@ SpanNode* PageCache::GetKPage(size_t k) {
 		bigSpan->_pageNum = k;
 		bigSpan->_pageID = (PAGE_ID)newMemory >> PAGE_SHIFT;
 		bigSpan->_isUse = true;
-		_pageIDToSpan[bigSpan->_pageID] = bigSpan;
+		// 哈希建立映射
+		// _pageIDToSpan[bigSpan->_pageID] = bigSpan;
+		// 基数树建立映射
+		_pageIDToSpan.set(bigSpan->_pageID, bigSpan);
+
 		return bigSpan;
 	}
 
@@ -28,7 +32,11 @@ SpanNode* PageCache::GetKPage(size_t k) {
 		//
 
 		for (int i = 0; i < splitSpan->_pageNum; i++) {
-			_pageIDToSpan[splitSpan->_pageID + i] = splitSpan;
+			// 哈希建立映射
+			//_pageIDToSpan[splitSpan->_pageID + i] = splitSpan;
+			// 基数树建立映射
+			_pageIDToSpan.set(splitSpan->_pageID + i, splitSpan);
+
 		}
 		return splitSpan;
 	}
@@ -50,11 +58,20 @@ SpanNode* PageCache::GetKPage(size_t k) {
 
 			// 映射管理
 			// bigSpan只由PageCache管理，所以只需要将该Span页区间首位映射到该Span，方便pageCache合并连续Span
-			_pageIDToSpan[RemainSpan->_pageID] = RemainSpan;
-			_pageIDToSpan[RemainSpan->_pageID + RemainSpan->_pageNum - 1] = RemainSpan;
+			// 哈希建立映射
+			// _pageIDToSpan[RemainSpan->_pageID] = RemainSpan;
+			// _pageIDToSpan[RemainSpan->_pageID + RemainSpan->_pageNum - 1] = RemainSpan;
+			// 基数树建立映射
+			_pageIDToSpan.set(RemainSpan->_pageID, RemainSpan);
+			_pageIDToSpan.set(RemainSpan->_pageID + RemainSpan->_pageNum - 1, RemainSpan);
+
+
 			// 取出的所有页都要进行映射，释放时才能找到对应Span
 			for (int i = 0; i < splitSpan->_pageNum; i++) {
-				_pageIDToSpan[splitSpan->_pageID + i] = splitSpan;
+				// 哈希建立映射
+				//_pageIDToSpan[splitSpan->_pageID + i] = splitSpan;
+				// 基数树建立映射
+				_pageIDToSpan.set(splitSpan->_pageID + i, splitSpan);
 			}
 			// 挂到CentralCache表示当前Span被使用
 
@@ -65,7 +82,7 @@ SpanNode* PageCache::GetKPage(size_t k) {
 			}*/
 			// 测试：确保 splitSpan 和 RemainSpan 的页号范围正确映射。
 			/*for (int i = 0; i < splitSpan->_pageNum; i++) {
-				assert(_pageIDToSpan[splitSpan->_pageID + i] == splitSpan);
+				assert(_pageIDToSpan[splitSpan->_pageID + i] == splitSpan;
 			}
 			for (int i = 0; i < RemainSpan->_pageNum; i++) {
 				assert(_pageIDToSpan[RemainSpan->_pageID + i] == RemainSpan);
@@ -114,12 +131,17 @@ void PageCache::ReturnFromCentralCache(SpanNode* returnSpan) {
 	// 合并检查
 	// 归还Span的前一个Span是否在PageCache中
 	while (1) {
-		auto prev = _pageIDToSpan.find(returnSpan->_pageID - 1);
-		// 没找到，结束合并
-		if (prev == _pageIDToSpan.end()) {
+		//auto prev = _pageIDToSpan.find(returnSpan->_pageID - 1);
+		//// 没找到，结束合并
+		//if (prev == _pageIDToSpan.end()) {
+		//	break;
+		//}
+		//SpanNode* prevSpan = prev->second;
+		SpanNode* prevSpan = (SpanNode*)_pageIDToSpan.find(returnSpan->_pageID - 1);
+		if (prevSpan == nullptr) {
 			break;
 		}
-		SpanNode* prevSpan = prev->second;
+
 		// 如果该span在使用，结束合并
 		if (prevSpan->_isUse == true) {
 			break;
@@ -134,12 +156,19 @@ void PageCache::ReturnFromCentralCache(SpanNode* returnSpan) {
 		_spanNodePool.Delete(prevSpan);
 	}
 	while (1) {
-		auto next = _pageIDToSpan.find(returnSpan->_pageID + returnSpan->_pageNum);
-		// 没找到，结束合并
-		if (next == _pageIDToSpan.end()) {
+		// 哈希建立映射
+		//auto next = _pageIDToSpan.find(returnSpan->_pageID + returnSpan->_pageNum);
+		//// 没找到，结束合并
+		//if (next == _pageIDToSpan.end()) {
+		//	break;
+		//}
+		//SpanNode* nextSpan = next->second;
+		// 基数树建立映射
+		SpanNode* nextSpan = (SpanNode*)_pageIDToSpan.find(returnSpan->_pageID + returnSpan->_pageNum);
+		if (nextSpan == nullptr) {
 			break;
 		}
-		SpanNode* nextSpan = next->second;
+	
 		// 如果该span在使用，结束合并
 		if (nextSpan->_isUse == true) {
 			break;
@@ -156,24 +185,34 @@ void PageCache::ReturnFromCentralCache(SpanNode* returnSpan) {
 	_pageCache[returnSpan->_pageNum].PushFront(returnSpan);
 	// 合并完才能更改为是否使用
 	returnSpan->_isUse = false;
-	_pageIDToSpan[returnSpan->_pageID] = returnSpan;
-	_pageIDToSpan[returnSpan->_pageID + returnSpan->_pageNum - 1] = returnSpan;
+	// 哈希建立映射
+	//_pageIDToSpan[returnSpan->_pageID] = returnSpan;
+	//_pageIDToSpan[returnSpan->_pageID + returnSpan->_pageNum - 1] = returnSpan;
+	// 基数树建立映射
+	_pageIDToSpan.set(returnSpan->_pageID, returnSpan);
+	_pageIDToSpan.set(returnSpan->_pageID + returnSpan->_pageNum - 1, returnSpan);
 	
 } 
 
 // 地址映射Span
 SpanNode* PageCache::MapAddressToSpan(void* address) {
 	assert(address);
-	std::unique_lock<std::mutex> lock(_pageMutex);
 	size_t pageID = (PAGE_ID)address >> PAGE_SHIFT;
-	auto map = _pageIDToSpan.find(pageID);
+	// 哈希建立映射
+	// std::unique_lock<std::mutex> lock(_pageMutex);
+	/*auto map = _pageIDToSpan.find(pageID);
 	if (map != _pageIDToSpan.end()) {
 		return map->second;
 	}
 	else {
 		assert(false);
 		return nullptr;
-	}
+	}*/
+	// 基数树建立映射
+	SpanNode* mapNode = (SpanNode*)_pageIDToSpan.find(pageID);
+	assert(mapNode);
+	return mapNode;
+
 }
 
 // 测试代码
