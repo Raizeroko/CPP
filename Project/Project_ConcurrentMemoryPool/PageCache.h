@@ -14,7 +14,7 @@ public:
 private:
 	// 成员变量
 	SpanList _pageCache[MAX_PAGE];
-	std::unordered_map<size_t, SpanNode*> _pageIDToSpan;
+	std::unordered_map<PAGE_ID, SpanNode*> _pageIDToSpan;
 public:
 	FixedLengthMemoryPool<SpanNode> _spanNodePool;
 	std::mutex _pageMutex;

@@ -12,14 +12,21 @@ SpanNode* PageCache::GetKPage(size_t k) {
 		SpanNode* bigSpan = _spanNodePool.New();
 		bigSpan->_pageNum = k;
 		bigSpan->_pageID = (PAGE_ID)newMemory >> PAGE_SHIFT;
-		bigSpan->_size = k << PAGE_SHIFT;
+		bigSpan->_isUse = true;
 		_pageIDToSpan[bigSpan->_pageID] = bigSpan;
 		return bigSpan;
 	}
 
 	// 当前页缓存第k个不为空
 	if (!_pageCache[k].Empty()) {
+		// 测试
+		//DebugPrintPageCache2(_pageCache[k]);
+		//
 		SpanNode* splitSpan = _pageCache[k].PopFront();
+		//测试
+		//DebugPrintPageCache2(_pageCache[k]);
+		//
+
 		for (int i = 0; i < splitSpan->_pageNum; i++) {
 			_pageIDToSpan[splitSpan->_pageID + i] = splitSpan;
 		}
@@ -31,6 +38,7 @@ SpanNode* PageCache::GetKPage(size_t k) {
 		if (!_pageCache[i].Empty()) {
 			// 分割
 			SpanNode* RemainSpan = _pageCache[i].PopFront();
+			//assert((RemainSpan->_pageID & ((1 << PAGE_SHIFT))) == 0 && "PageID misaligned before split");
 			SpanNode* splitSpan = _spanNodePool.New();
 			// 切分后页数更新
 			splitSpan->_pageNum = k;
@@ -49,12 +57,44 @@ SpanNode* PageCache::GetKPage(size_t k) {
 				_pageIDToSpan[splitSpan->_pageID + i] = splitSpan;
 			}
 			// 挂到CentralCache表示当前Span被使用
-			splitSpan->_isUse = true;
+
+			// 测试：在 RemainSpan 和 splitSpan 的生成后，添加检查和打印。
+			/*if (RemainSpan->_pageNum + splitSpan->_pageNum != i) {
+				printf("Debug: PageCache split error! RemainSpan pageNum: %zu, splitSpan pageNum: %zu\n",
+					RemainSpan->_pageNum, splitSpan->_pageNum);
+			}*/
+			// 测试：确保 splitSpan 和 RemainSpan 的页号范围正确映射。
+			/*for (int i = 0; i < splitSpan->_pageNum; i++) {
+				assert(_pageIDToSpan[splitSpan->_pageID + i] == splitSpan);
+			}
+			for (int i = 0; i < RemainSpan->_pageNum; i++) {
+				assert(_pageIDToSpan[RemainSpan->_pageID + i] == RemainSpan);
+			}*/
+			/*printf("Debug: RemainSpan - pageID: %llu, pageNum: %zu\n", RemainSpan->_pageID, RemainSpan->_pageNum);
+			printf("Debug: splitSpan - pageID: %llu, pageNum: %zu\n", splitSpan->_pageID, splitSpan->_pageNum);
+			for (int i = 0; i < RemainSpan->_pageNum; i++) {
+				printf("Debug: _pageIDToSpan[%llu] = %p\n", RemainSpan->_pageID + i, _pageIDToSpan[RemainSpan->_pageID + i]);
+			}
+			for (int i = 0; i < splitSpan->_pageNum; i++) {
+				printf("Debug: _pageIDToSpan[%llu] = %p\n", splitSpan->_pageID + i, _pageIDToSpan[splitSpan->_pageID + i]);
+			}
+			assert((RemainSpan->_pageID & ((1 << PAGE_SHIFT))) == 0);
+			assert((splitSpan->_pageID & ((1 << PAGE_SHIFT) - 1)) == 0);*/
+			//
+			
 			return splitSpan;
 		}
 	}
 	// 从堆空间申请新的内存
 	void* newMemory = Utils::SystemAllocate(MAX_PAGE - 1);
+
+	// 测试：确认系统分配内存的大小和起始地址正确
+	//printf("Debug: SystemAllocate - newMemory: %p, size: %zu\n", newMemory, MAX_PAGE - 1);
+	/*assert(((uintptr_t)newMemory & ((1 << PAGE_SHIFT) - 1)) == 0);
+	printf("Debug: SystemAllocate - newMemory is aligned\n");*/
+	//assert(((PAGE_ID)newMemory & ((1 << PAGE_SHIFT))) == 0 && "SystemAllocate returned misaligned address");
+	//
+
 	SpanNode* newSpan = _spanNodePool.New();
 	newSpan->_pageNum = MAX_PAGE - 1;
 	newSpan->_pageID = (PAGE_ID)newMemory >> PAGE_SHIFT;
@@ -67,6 +107,7 @@ void PageCache::ReturnFromCentralCache(SpanNode* returnSpan) {
 	if (returnSpan->_pageNum >= MAX_PAGE) {
 		void* freeAddress = (void*)(returnSpan->_pageID << PAGE_SHIFT);
 		Utils::SystemDeallocate(freeAddress);
+		_spanNodePool.Delete(returnSpan);
 		return;
 	}
 
@@ -93,7 +134,7 @@ void PageCache::ReturnFromCentralCache(SpanNode* returnSpan) {
 		_spanNodePool.Delete(prevSpan);
 	}
 	while (1) {
-		auto next = _pageIDToSpan.find(returnSpan->_pageID - returnSpan->_pageNum);
+		auto next = _pageIDToSpan.find(returnSpan->_pageID + returnSpan->_pageNum);
 		// 没找到，结束合并
 		if (next == _pageIDToSpan.end()) {
 			break;
@@ -113,6 +154,8 @@ void PageCache::ReturnFromCentralCache(SpanNode* returnSpan) {
 	}
 
 	_pageCache[returnSpan->_pageNum].PushFront(returnSpan);
+	// 合并完才能更改为是否使用
+	returnSpan->_isUse = false;
 	_pageIDToSpan[returnSpan->_pageID] = returnSpan;
 	_pageIDToSpan[returnSpan->_pageID + returnSpan->_pageNum - 1] = returnSpan;
 	
@@ -132,3 +175,15 @@ SpanNode* PageCache::MapAddressToSpan(void* address) {
 		return nullptr;
 	}
 }
+
+// 测试代码
+//void PageCache::DebugPrintPageCache2(SpanList& pageCache) {
+//	SpanNode* current = pageCache.Begin();
+//	while (current != pageCache.End()) {
+//		printf("  SpanNode - pageID: %llu, pageNum: %zu, isUse: %d\n",
+//			current->_pageID, current->_pageNum, current->_isUse);
+//		current = current->_next;
+//	}
+//	printf("End of PageCache\n");
+//}
+

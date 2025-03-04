@@ -26,6 +26,8 @@ SpanNode* CentralCache::GetOneSpan(SpanList& spanList, size_t alignSize)
 	PageCache::GetInstance()->_pageMutex.lock();
 	// 从PageCache获取K页的内存信息（页号，页数）
 	SpanNode* kPage = PageCache::GetInstance()->GetKPage(numPage);
+	kPage->_isUse = true;
+	kPage->_size = alignSize;
 	PageCache::GetInstance()->_pageMutex.unlock();
 
 	// 根据页号获取申请的内存地址,用char*方便利用alignSize决定分割地址
@@ -49,19 +51,28 @@ SpanNode* CentralCache::GetOneSpan(SpanList& spanList, size_t alignSize)
 	// 要对中心缓存操作，所以加锁
 	spanList._mutex.lock();
 
-
-	/*size_t i = 0;
-	void* tmp = kPage->_freeList;
-	while (tmp) {
-		tmp = FreeList::Next(tmp);
-		i++;
+	//  在链表初始化完成后打印链表长度
+	size_t debugLength = 0;
+	void* debugCur = kPage->_freeList;
+	while (debugCur) {
+		debugCur = FreeList::Next(debugCur);
+		debugLength++;
 	}
-	if (i != bytes/ kPage->_size) {
-		int x = 0;
+	size_t expectedLength = (numPage << PAGE_SHIFT) / alignSize;
+	/*if (debugLength != expectedLength) {
+		printf("Debug: GetOneSpan - Linked list length mismatch. Expected: %zu, Actual: %zu\n", expectedLength, debugLength);
 	}*/
 
+	// 在 _centralCache[index] 插入前检查链表
+	/*if (kPage->_freeList == nullptr) {
+		printf("Debug: GetOneSpan - kPage->_freeList is null before inserting into _centralCache.\n");
+	}*/
 	// 将连接好的内存放入中心缓存中
+
+	//DebugPrintSpanList(spanList);
 	spanList.PushFront(kPage);
+	//DebugPrintSpanList(spanList);
+	
 	return kPage;
 }
 
@@ -69,8 +80,8 @@ SpanNode* CentralCache::GetOneSpan(SpanList& spanList, size_t alignSize)
 size_t CentralCache::FetchToThreadCache(void*& start, void*& end, size_t batchSize, size_t alignSize)
 {
 
-	assert(batchSize > 0 && batchSize < UPPER);
-	assert(alignSize > 0 && alignSize < MAX_SIZE);
+	assert(batchSize > 0 && batchSize <= UPPER);
+	assert(alignSize > 0 && alignSize <= MAX_SIZE);
 	size_t index = Utils::Index(alignSize);
 
 	// 不同线程可能同时对中心缓存同一个SpanList访问，所以需要加锁
@@ -94,17 +105,14 @@ size_t CentralCache::FetchToThreadCache(void*& start, void*& end, size_t batchSi
 	spanHead->_useCount += actualSize;
 	_centralCache[index]._mutex.unlock();
 
-	size_t i = 0;
-	void* cur = start;
-	/*while (cur && FreeList::Next(cur)) {
-		cur = FreeList::Next(cur);
-		i++;
+	/*size_t debugLength = 0;
+	void* debugCur = start;
+	while (debugCur) {
+		debugCur = FreeList::Next(debugCur);
+		debugLength++;
 	}
-	if (i != actualSize) {
-		int x = 0;
-	}
-	if (cur != end) {
-		int x;
+	if (debugLength != actualSize) {
+		printf("Debug: FetchToThreadCache - Mismatch in actualSize and linked list length.\n");
 	}*/
 
 	return actualSize;
@@ -120,15 +128,15 @@ void CentralCache::ReturnFromThreadCache(void* start, size_t alignSize) {
 	// 要向CentralCache插入结点需要加锁
 	_centralCache[index]._mutex.lock();
 
-	// 归还给哪一个Span？
-	SpanNode* returnSpan = PageCache::GetInstance()->MapAddressToSpan(start);
-
 
 	while (start) {
+		// 归还给哪一个Span？ (要放到循环内！！！！）
+		SpanNode* returnSpan = PageCache::GetInstance()->MapAddressToSpan(start);
+
 		// 头插到该span的freeList;
 		void* next = FreeList::Next(start);
 		FreeList::Next(start) = returnSpan->_freeList;
-		returnSpan->_freeList;
+		returnSpan->_freeList = start;
 		returnSpan->_useCount--;
 		if (returnSpan->_useCount == 0) {
 			// 从CentralCache分离该span
@@ -142,9 +150,10 @@ void CentralCache::ReturnFromThreadCache(void* start, size_t alignSize) {
 			_centralCache[index].Erase(returnSpan);  
 			// PageCache能通过_pageID找到地址，不需要管理_freeList的连接，所以直接指空
 			returnSpan->_freeList = nullptr;
+			returnSpan->_next = nullptr;
+			returnSpan->_prev = nullptr;
 
-			// 归还给PageCache表示没有被使用
-			returnSpan->_isUse = false;
+			
 
 			// 归还到PageCache解除CentralCache的锁，加上PageCache的锁
 			_centralCache[index]._mutex.unlock();
@@ -160,7 +169,7 @@ void CentralCache::ReturnFromThreadCache(void* start, size_t alignSize) {
 
 }
 
-
+// 重写了
 //void CentralCache::ReturnFromCentralCache(void* start, size_t alignSize) {
 //	// 将ThreadCache返回的批量结点挂回CentralCache
 //	size_t index = Utils::Index(alignSize);
@@ -190,4 +199,20 @@ void CentralCache::ReturnFromThreadCache(void* start, size_t alignSize) {
 //	}
 //
 //}
+
+
+// 测试：打印 SpanList 链表状态
+//void CentralCache::DebugPrintSpanList(SpanList& spanList) {
+//	printf("Debug: SpanList State:\n");
+//
+//	SpanNode* current = spanList.Begin();
+//	while (current != spanList.End()) {
+//		printf("  SpanNode - pageID: %llu, pageNum: %zu, freeList: %p, isUse: %d\n",
+//			current->_pageID, current->_pageNum, current->_freeList, current->_isUse);
+//		current = current->_next;
+//	}
+//	printf("End of SpanList\n");
+//}
+
+
 

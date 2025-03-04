@@ -22,7 +22,7 @@ void* ThreadCache::FetchFromCentralCache(size_t index, size_t alignSize) {
 	size_t actualSize = CentralCache::GetInstance()->FetchToThreadCache(start, end, batchSize, alignSize);
 	assert(actualSize != 0);
 
-	size_t i = 0;
+	/*size_t i = 0;
 	void* cur = start;
 	while (cur) {
 		cur = FreeList::Next(cur);
@@ -30,7 +30,7 @@ void* ThreadCache::FetchFromCentralCache(size_t index, size_t alignSize) {
 	}
 	if (i != actualSize) {
 		int x = 0;
-	}
+	}*/
 
 	if (actualSize == 1) {
 		// 为1就直接就把内存返回，不用挂入ThreadCache

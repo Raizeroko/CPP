@@ -75,7 +75,8 @@ public:
 			assert(false);
 			return -1;
 		}
-		return index - 1;
+
+		return -1;
 	}
 
 	static size_t MoveBatchUpperLimit(size_t alignSize)
@@ -129,7 +130,7 @@ private:
 		// return (bytes >> alignShift) - 1;
 			
 		// 向上对齐算法
-		return ((bytes + (1 << alignShift)) >> alignShift) - 1;
+		return ((bytes + (1 << alignShift) - 1) >> alignShift) - 1;
 	}
 
 	static size_t _AlignSize(size_t bytes, size_t alignByte) {

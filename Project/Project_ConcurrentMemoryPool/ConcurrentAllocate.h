@@ -13,6 +13,7 @@ public:
 			// 直接找PageCache申请，需要加锁
 			PageCache::GetInstance()->_pageMutex.lock();
 			SpanNode* bigSpan = PageCache::GetInstance()->GetKPage(numPages);
+			bigSpan->_size = alignSize;
 			PageCache::GetInstance()->_pageMutex.unlock();
 
 			void* address = (void*)(bigSpan->_pageID << PAGE_SHIFT);
@@ -23,7 +24,7 @@ public:
 				static FixedLengthMemoryPool<ThreadCache> threadCachePool;
 				LocalThreadCache = threadCachePool.New();
 			}
-			std::cout << std::this_thread::get_id() << ":" << LocalThreadCache << std::endl;
+			//std::cout << std::this_thread::get_id() << ":" << LocalThreadCache << std::endl;
 			return LocalThreadCache->Allocate(allocateMemorySize);
 		}
 		
@@ -38,7 +39,10 @@ public:
 			PageCache::GetInstance()->ReturnFromCentralCache(freeSpan);
 			PageCache::GetInstance()->_pageMutex.unlock();
 		}
+		// else 不能省略
+		else {
+			LocalThreadCache->Deallocate(freeAddress, freeSpan->_size);
 
-		LocalThreadCache->Deallocate(freeAddress, freeSpan->_size);
+		}
 	}
 };
