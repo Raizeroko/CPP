@@ -89,8 +89,8 @@ public:
 		SpanNode* next = pos->_next;
 		prev->_next = next;
 		next->_prev = prev;
-		pos->_prev = nullptr;
-		pos->_next = nullptr;
+		/*pos->_prev = nullptr;
+		pos->_next = nullptr;*/
 	}
 	
 

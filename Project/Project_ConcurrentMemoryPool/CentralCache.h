@@ -8,6 +8,7 @@ public:
 	size_t FetchToThreadCache(void*& start, void*& end, size_t batchSize, size_t alignSize);
 	void ReturnFromThreadCache(void* start, size_t alignSize);
 
+
 private:
 	// CentralCache结构，n个SpanList的哈希结构
 	SpanList _centralCache[HARSH_SIZE];

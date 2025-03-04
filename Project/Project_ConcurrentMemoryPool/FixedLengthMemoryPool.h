@@ -2,15 +2,15 @@
 
 #include <iostream>
 #include <vector>
-#define MEMORY_LENGTH 1024*8 //256KB
+#define MEMORY_LENGTH 1024*128 //128KB
 
 template<class T>
 class FixedLengthMemoryPool {
 public:
 	FixedLengthMemoryPool()
 		:_memory(nullptr)
-		,_freeList(nullptr)
-		,_remainSize(0)
+		, _freeList(nullptr)
+		, _remainSize(0)
 	{}
 
 	T* New()
@@ -36,12 +36,12 @@ public:
 			_memory += objectSize;
 			_remainSize -= objectSize;
 		}
-		
+
 		// 已有空间，使用定位new在该空间构造对象
 		new(object)T();
 
 		return object;
-		
+
 	}
 
 	void Delete(T* object)
@@ -111,4 +111,3 @@ private:
 //	cout << "new cost time:" << end1 - begin1 << endl;
 //	cout << "object pool cost time:" << end2 - begin2 << endl;
 //}
-

@@ -15,7 +15,7 @@ void TestAlignSize() {
 	// Utils utils;
 
 	// 测试 AlignSize 方法
-	assert(Utils::AlignSize(10) == 16); // 8 byte对齐
+	assert(Utils::AlignSize(8) == 8); // 8 byte对齐
 	assert(Utils::AlignSize(128) == 128); // 16 byte对齐
 	assert(Utils::AlignSize(150) == 160); // 16 byte对齐
 	assert(Utils::AlignSize(1025) == 1152); // 128 byte对齐
@@ -29,7 +29,7 @@ void TestIndex() {
 	//Utils utils;
 
 	// 测试 Index 方法
-	assert(Utils::Index(10) == 1); // 在第一个区间
+	assert(Utils::Index(8) == 0); // 在第一个区间
 	assert(Utils::Index(100) == 12); // 在第一个区间
 	assert(Utils::Index(500) == 47); // 在第二个区间
 	assert(Utils::Index(1500) == 83); // 在第三个区间
@@ -152,13 +152,13 @@ void TestMultiThread()
 
 //int main() {
 //	//TestFixedLengthMemoryPool();
-//	//TestAlignSize();
-//	//TestIndex();
+//	TestAlignSize();
+//	TestIndex();
 //	//TestAllocationProcess();
 //	//TLSTest();
 //	//TestConcurrentAlloc1();
 //	//TestConcurrentAlloc2();
-//	TestMultiThread();
+//	//TestMultiThread();
 //}
 
 
