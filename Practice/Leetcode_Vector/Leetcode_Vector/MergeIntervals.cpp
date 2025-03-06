@@ -111,3 +111,25 @@ public:
         return ret;
     }
 };
+
+
+// Review 2025_03_06
+class Solution {
+public:
+    vector<vector<int>> merge(vector<vector<int>>& intervals) {
+        sort(intervals.begin(), intervals.end());
+        vector<vector<int>> ret;
+        int i = 0;
+        while (i < intervals.size()) {
+            vector<int> interval = intervals[i];
+            int cur = i + 1;
+            while (cur < intervals.size() && interval[1] >= intervals[cur][0]) {
+                interval[1] = max(intervals[cur][1], interval[1]);
+                cur++;
+            }
+            ret.push_back(interval);
+            i = cur;
+        }
+        return ret;
+    }
+};
