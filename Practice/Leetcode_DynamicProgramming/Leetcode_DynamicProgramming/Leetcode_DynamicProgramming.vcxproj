@@ -134,8 +134,10 @@
     <ClCompile Include="JumpGame.cpp" />
     <ClCompile Include="JumpGame_II.cpp" />
     <ClCompile Include="LongestPalindromicSubstring.cpp" />
+    <ClCompile Include="MaximumSubarray.cpp" />
     <ClCompile Include="MinimumCostOfClimbingStairs.cpp" />
     <ClCompile Include="PartitionEqualSubsetSum.cpp" />
+    <ClCompile Include="TrappingRainWater.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DP.h" />

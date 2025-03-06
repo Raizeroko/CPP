@@ -42,6 +42,12 @@
     <ClCompile Include="PartitionEqualSubsetSum.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="TrappingRainWater.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MaximumSubarray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DP.h">
