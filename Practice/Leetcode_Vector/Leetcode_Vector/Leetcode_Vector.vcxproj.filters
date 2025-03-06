@@ -78,6 +78,21 @@
     <ClCompile Include="RemoveDuplicatesFromSortedArray_II.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ContainerWithMostWater.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3sum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveZeroes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestSubstringWithoutRepeatingCharacters.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductOfArrayExceptSelf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Vector.h">
