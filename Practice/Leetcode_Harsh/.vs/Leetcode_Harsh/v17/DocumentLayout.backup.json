@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9E6AE484-E297-4C5F-9A66-97E06E3D99B9}|Leetcode_Harsh\\Leetcode_Harsh.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\StatisticalCharacters.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9E6AE484-E297-4C5F-9A66-97E06E3D99B9}|Leetcode_Harsh\\Leetcode_Harsh.vcxproj|solutionrelative:Leetcode_Harsh\\StatisticalCharacters.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9E6AE484-E297-4C5F-9A66-97E06E3D99B9}|Leetcode_Harsh\\Leetcode_Harsh.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\ColorfulBricks.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9E6AE484-E297-4C5F-9A66-97E06E3D99B9}|Leetcode_Harsh\\Leetcode_Harsh.vcxproj|solutionrelative:Leetcode_Harsh\\ColorfulBricks.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -75,19 +79,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "StatisticalCharacters.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\StatisticalCharacters.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Harsh\\StatisticalCharacters.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\StatisticalCharacters.cpp",
+              "RelativeToolTip": "Leetcode_Harsh\\StatisticalCharacters.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-25T02:20:06.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ColorfulBricks.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\ColorfulBricks.cpp",
               "RelativeDocumentMoniker": "Leetcode_Harsh\\ColorfulBricks.cpp",
               "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\ColorfulBricks.cpp",
               "RelativeToolTip": "Leetcode_Harsh\\ColorfulBricks.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-22T11:27:06.527Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DeleteCommonCharacters.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\DeleteCommonCharacters.cpp",
               "RelativeDocumentMoniker": "Leetcode_Harsh\\DeleteCommonCharacters.cpp",
@@ -95,12 +112,11 @@
               "RelativeToolTip": "Leetcode_Harsh\\DeleteCommonCharacters.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-19T07:55:28.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-19T07:55:28.389Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IsUniqueLcci.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\IsUniqueLcci.cpp",
               "RelativeDocumentMoniker": "Leetcode_Harsh\\IsUniqueLcci.cpp",
@@ -112,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "SubarraySumEqualsK.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\SubarraySumEqualsK.cpp",
               "RelativeDocumentMoniker": "Leetcode_Harsh\\SubarraySumEqualsK.cpp",
@@ -124,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "HappyNumber.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\HappyNumber.cpp",
               "RelativeDocumentMoniker": "Leetcode_Harsh\\HappyNumber.cpp",
@@ -136,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "FirstUniqueCharacterInAString.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\FirstUniqueCharacterInAString.cpp",
               "RelativeDocumentMoniker": "Leetcode_Harsh\\FirstUniqueCharacterInAString.cpp",
@@ -148,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Harsh.h",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\Harsh.h",
               "RelativeDocumentMoniker": "Leetcode_Harsh\\Harsh.h",
@@ -160,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ContainsDuplicate.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\ContainsDuplicate.cpp",
               "RelativeDocumentMoniker": "Leetcode_Harsh\\ContainsDuplicate.cpp",
@@ -168,12 +184,11 @@
               "RelativeToolTip": "Leetcode_Harsh\\ContainsDuplicate.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-02T13:42:20.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T13:42:20.11Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IsomorphicStrings.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\IsomorphicStrings.cpp",
               "RelativeDocumentMoniker": "Leetcode_Harsh\\IsomorphicStrings.cpp",
@@ -185,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "SortCharactersByFrequency.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\SortCharactersByFrequency.cpp",
               "RelativeDocumentMoniker": "Leetcode_Harsh\\SortCharactersByFrequency.cpp",
@@ -197,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "LongestHarmoniousSubsequence.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\LongestHarmoniousSubsequence.cpp",
               "RelativeDocumentMoniker": "Leetcode_Harsh\\LongestHarmoniousSubsequence.cpp",
@@ -209,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ContainsDuplicate_II.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\ContainsDuplicate_II.cpp",
               "RelativeDocumentMoniker": "Leetcode_Harsh\\ContainsDuplicate_II.cpp",
@@ -221,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "MinimumConsecutiveCardsToPickUp.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\MinimumConsecutiveCardsToPickUp.cpp",
               "RelativeDocumentMoniker": "Leetcode_Harsh\\MinimumConsecutiveCardsToPickUp.cpp",
@@ -233,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "TwoSum.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\TwoSum.cpp",
               "RelativeDocumentMoniker": "Leetcode_Harsh\\TwoSum.cpp",
@@ -245,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "LongestConsecutiveSequence.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Harsh\\Leetcode_Harsh\\LongestConsecutiveSequence.cpp",
               "RelativeDocumentMoniker": "Leetcode_Harsh\\LongestConsecutiveSequence.cpp",
