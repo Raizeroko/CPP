@@ -150,6 +150,7 @@
     <ClCompile Include="RemoveElement.cpp" />
     <ClCompile Include="RotateArray.cpp" />
     <ClCompile Include="SearchA2dMatrix_II.cpp" />
+    <ClCompile Include="SetMatrixZeroes.cpp" />
     <ClCompile Include="SortColors.cpp" />
     <ClCompile Include="SpiralMatrix.cpp" />
     <ClCompile Include="SubarrayProductLessThanK.cpp" />
