@@ -46,3 +46,49 @@ public:
         return true;
     }
 };
+
+
+// Review 2025_03_08
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+    bool isPalindrome(ListNode* head) {
+        ListNode* fast = head;
+        ListNode* slow = head;
+        while (fast) {
+            slow = slow->next;
+            fast = fast->next;
+            if (!fast) break;
+            fast = fast->next;
+        }
+        if (!slow) return true;
+        // 逆转链表后半部分
+        ListNode* mid = slow;
+        ListNode* next = mid->next;
+        mid->next = nullptr;
+        while (next) {
+            ListNode* tmp = next->next;
+            next->next = mid;
+            mid = next;
+            next = tmp;
+        }
+        ListNode* cur = head;
+        while (mid) {
+            if (cur->val != mid->val) {
+                return false;
+            }
+            mid = mid->next;
+            cur = cur->next;
+        }
+        return true;
+    }
+};
