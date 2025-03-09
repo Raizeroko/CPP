@@ -51,3 +51,31 @@ public:
         return head;
     }
 };
+
+
+// Remove 2025/03/09
+class Solution {
+public:
+    ListNode* removeNthFromEnd(ListNode* head, int n) {
+        int num = 0;
+        ListNode* tmp = head;
+        while (tmp) {
+            tmp = tmp->next;
+            num++;
+        }
+        int k = 0;
+        ListNode* prev = nullptr;
+        ListNode* cur = head;
+        while (k < num - n) {
+            prev = cur;
+            cur = cur->next;
+            k++;
+        }
+        if (!prev) {
+            return head->next;
+        }
+        prev->next = cur->next;
+        delete cur;
+        return head;
+    }
+};

@@ -23,3 +23,27 @@ public:
         return nullptr;
     }
 };
+
+// Review 2025_03_09
+class Solution {
+public:
+    ListNode* detectCycle(ListNode* head) {
+        ListNode* slow = head;
+        ListNode* fast = head;
+        while (fast != nullptr) {
+            fast = fast->next;
+            if (!fast)   break;
+            slow = slow->next;
+            fast = fast->next;
+            if (fast == slow) {
+                fast = head;
+                while (fast != slow) {
+                    fast = fast->next;
+                    slow = slow->next;
+                }
+                return slow;
+            }
+        }
+        return nullptr;
+    }
+};

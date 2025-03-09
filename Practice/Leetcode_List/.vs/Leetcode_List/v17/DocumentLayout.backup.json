@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\LinkedListCycle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|solutionrelative:Leetcode_List\\LinkedListCycle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\LinkedLlistCycle_II.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|solutionrelative:Leetcode_List\\LinkedLlistCycle_II.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\PalindromeLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|solutionrelative:Leetcode_List\\PalindromeLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\InsertGreatestCommonDivisorsInLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|solutionrelative:Leetcode_List\\InsertGreatestCommonDivisorsInLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\RotateList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|solutionrelative:Leetcode_List\\RotateList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\PalindromeLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|solutionrelative:Leetcode_List\\PalindromeLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\SortList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -29,14 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\List.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|solutionrelative:Leetcode_List\\List.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\LinkedLlistCycle_II.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|solutionrelative:Leetcode_List\\LinkedLlistCycle_II.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\LinkedListCycle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|solutionrelative:Leetcode_List\\LinkedListCycle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\RemoveDuplicatesFromSortedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -70,11 +70,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "InsertGreatestCommonDivisorsInLinkedList.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\InsertGreatestCommonDivisorsInLinkedList.cpp",
               "RelativeDocumentMoniker": "Leetcode_List\\InsertGreatestCommonDivisorsInLinkedList.cpp",
@@ -84,43 +84,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-10T07:43:58.155Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RotateList.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\RotateList.cpp",
-              "RelativeDocumentMoniker": "Leetcode_List\\RotateList.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\RotateList.cpp",
-              "RelativeToolTip": "Leetcode_List\\RotateList.cpp",
-              "ViewState": "AgIAACIAAAAAAAAAAAAwwDMAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-10T13:35:22.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SortList.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\SortList.cpp",
-              "RelativeDocumentMoniker": "Leetcode_List\\SortList.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\SortList.cpp",
-              "RelativeToolTip": "Leetcode_List\\SortList.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-04T11:40:45.779Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddTwoNumbers_II .cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\AddTwoNumbers_II .cpp",
-              "RelativeDocumentMoniker": "Leetcode_List\\AddTwoNumbers_II .cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\AddTwoNumbers_II .cpp",
-              "RelativeToolTip": "Leetcode_List\\AddTwoNumbers_II .cpp",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAlwFcAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-19T11:22:38.901Z"
             },
             {
               "$type": "Document",
@@ -148,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "List.h",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\List.h",
               "RelativeDocumentMoniker": "Leetcode_List\\List.h",
@@ -172,7 +135,82 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PalindromeLinkedList.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\PalindromeLinkedList.cpp",
+              "RelativeDocumentMoniker": "Leetcode_List\\PalindromeLinkedList.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\PalindromeLinkedList.cpp",
+              "RelativeToolTip": "Leetcode_List\\PalindromeLinkedList.cpp",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAF0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-19T12:47:40.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LinkedLlistCycle_II.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\LinkedLlistCycle_II.cpp",
+              "RelativeDocumentMoniker": "Leetcode_List\\LinkedLlistCycle_II.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\LinkedLlistCycle_II.cpp",
+              "RelativeToolTip": "Leetcode_List\\LinkedLlistCycle_II.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-28T12:37:00.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LinkedListCycle.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\LinkedListCycle.cpp",
+              "RelativeDocumentMoniker": "Leetcode_List\\LinkedListCycle.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\LinkedListCycle.cpp",
+              "RelativeToolTip": "Leetcode_List\\LinkedListCycle.cpp",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAywCQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-28T12:30:09.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddTwoNumbers_II .cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\AddTwoNumbers_II .cpp",
+              "RelativeDocumentMoniker": "Leetcode_List\\AddTwoNumbers_II .cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\AddTwoNumbers_II .cpp",
+              "RelativeToolTip": "Leetcode_List\\AddTwoNumbers_II .cpp",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAlwFcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-19T11:22:38.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SortList.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\SortList.cpp",
+              "RelativeDocumentMoniker": "Leetcode_List\\SortList.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\SortList.cpp",
+              "RelativeToolTip": "Leetcode_List\\SortList.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-04T11:40:45.779Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "RotateList.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\RotateList.cpp",
+              "RelativeDocumentMoniker": "Leetcode_List\\RotateList.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\RotateList.cpp",
+              "RelativeToolTip": "Leetcode_List\\RotateList.cpp",
+              "ViewState": "AgIAACIAAAAAAAAAAAAwwDMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-10T13:35:22.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MergeTwoLists.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\MergeTwoLists.cpp",
               "RelativeDocumentMoniker": "Leetcode_List\\MergeTwoLists.cpp",
@@ -181,42 +219,6 @@
               "ViewState": "AgIAABIAAAAAAAAAAAAAABkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-30T12:22:44.991Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PalindromeLinkedList.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\PalindromeLinkedList.cpp",
-              "RelativeDocumentMoniker": "Leetcode_List\\PalindromeLinkedList.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\PalindromeLinkedList.cpp",
-              "RelativeToolTip": "Leetcode_List\\PalindromeLinkedList.cpp",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAAC8AAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-19T12:47:40.121Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LinkedLlistCycle_II.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\LinkedLlistCycle_II.cpp",
-              "RelativeDocumentMoniker": "Leetcode_List\\LinkedLlistCycle_II.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\LinkedLlistCycle_II.cpp",
-              "RelativeToolTip": "Leetcode_List\\LinkedLlistCycle_II.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-28T12:37:00.903Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LinkedListCycle.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\LinkedListCycle.cpp",
-              "RelativeDocumentMoniker": "Leetcode_List\\LinkedListCycle.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\LinkedListCycle.cpp",
-              "RelativeToolTip": "Leetcode_List\\LinkedListCycle.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-28T12:30:09.887Z"
             },
             {
               "$type": "Document",

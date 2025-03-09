@@ -5,6 +5,7 @@
 #include <algorithm>
 using namespace std;
 
+
 class ListNode {
 public:
     ListNode()
@@ -14,6 +15,10 @@ public:
     ListNode(int data)
         :val(data)
         , next(nullptr)
+    {}
+    ListNode(int x, ListNode* next) 
+        : val(x)
+        , next(next) 
     {}
 
 public:

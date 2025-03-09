@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="AddTwoNumbers_II .cpp" />
     <ClCompile Include="InsertGreatestCommonDivisorsInLinkedList.cpp" />
     <ClCompile Include="IntersectionOfTwoLinkedLists.cpp" />
