@@ -134,6 +134,7 @@
     <ClCompile Include="ImplementStackUsingQueues.cpp" />
     <ClCompile Include="IsSubsequence.cpp" />
     <ClCompile Include="MinStack.cpp" />
+    <ClCompile Include="RottingOranges.cpp" />
     <ClCompile Include="ValidateStackSequences.cpp" />
   </ItemGroup>
   <ItemGroup>
