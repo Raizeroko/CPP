@@ -130,6 +130,7 @@
     <ClCompile Include="3sum.cpp" />
     <ClCompile Include="BeautifulArray.cpp" />
     <ClCompile Include="ContainerWithMostWater.cpp" />
+    <ClCompile Include="CourseSchedule.cpp" />
     <ClCompile Include="FindAllNumbersDisappearedInAnArray.cpp" />
     <ClCompile Include="FindFirstAndLastPositionOfElementInSortedArray.cpp" />
     <ClCompile Include="HScore.cpp" />
