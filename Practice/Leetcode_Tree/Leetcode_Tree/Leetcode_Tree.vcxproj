@@ -138,6 +138,7 @@
     <ClCompile Include="DiameterOfBinaryTree.cpp" />
     <ClCompile Include="FindBottomLeftTreeValue.cpp" />
     <ClCompile Include="HouseRobber_III.cpp" />
+    <ClCompile Include="ImplementTriePrefixTree.cpp" />
     <ClCompile Include="InvertBinaryTree.cpp" />
     <ClCompile Include="IsCompleteTree.cpp" />
     <ClCompile Include="KthSmallestElementInABst.cpp" />
