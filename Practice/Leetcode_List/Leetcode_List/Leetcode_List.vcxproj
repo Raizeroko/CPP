@@ -139,6 +139,7 @@
     <ClCompile Include="RemoveDuplicatesFromSortedList.cpp" />
     <ClCompile Include="RemoveNthNodeFromEndofList.cpp" />
     <ClCompile Include="ReverseList.cpp" />
+    <ClCompile Include="ReverseNodesInKGroup.cpp" />
     <ClCompile Include="RotateList.cpp" />
     <ClCompile Include="SortList.cpp" />
     <ClCompile Include="SplitLinkedListInParts.cpp" />

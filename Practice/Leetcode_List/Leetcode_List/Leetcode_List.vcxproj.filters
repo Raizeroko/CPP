@@ -63,6 +63,9 @@
     <ClCompile Include="AddTwoNumbers.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ReverseNodesInKGroup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="List.h">
