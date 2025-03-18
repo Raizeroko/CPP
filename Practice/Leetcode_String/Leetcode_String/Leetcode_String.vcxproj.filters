@@ -60,6 +60,9 @@
     <ClCompile Include="FindTheKthLargestElement.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="DecodeString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="String.h">

@@ -1,0 +1,29 @@
+﻿  CharacterOverlay.cpp
+  DecodeString.cpp
+  FindTheKthLargestElement.cpp
+  JewelsAndStones.cpp
+  LengthOfLastWord.cpp
+E:\git_repository\CPP\Practice\Leetcode_String\Leetcode_String\LengthOfLastWord.cpp(7,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  LongestPalindrome.cpp
+  MinimumWindowSubstring.cpp
+  MultiplyStrings.cpp
+  ReverseOnlyLetters.cpp
+E:\git_repository\CPP\Practice\Leetcode_String\Leetcode_String\ReverseOnlyLetters.cpp(8,19): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  ReverseSubstringsBetweenEachPairOfParentheses.cpp
+  ReverseWordsInAString.cpp
+  SimplifyPath.cpp
+  URL.cpp
+  ValidAnagram.cpp
+  RepeatedDnaSequences.cpp
+E:\git_repository\CPP\Practice\Leetcode_String\Leetcode_String\RepeatedDnaSequences.cpp(24,7): error C2011: “Solution”:“class”类型重定义
+      E:\git_repository\CPP\Practice\Leetcode_String\Leetcode_String\RepeatedDnaSequences.cpp(4,7):
+      参见“Solution”的声明
+  
+  ValidPalindrome_II.cpp
+E:\git_repository\CPP\Practice\Leetcode_String\Leetcode_String\ValidPalindrome_II.cpp(8,19): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\git_repository\CPP\Practice\Leetcode_String\Leetcode_String\ValidPalindrome_II.cpp(37,7): error C2011: “Solution”:“class”类型重定义
+      E:\git_repository\CPP\Practice\Leetcode_String\Leetcode_String\ValidPalindrome_II.cpp(4,7):
+      参见“Solution”的声明
+  
+  WordAbbreviations.cpp
+  正在生成代码...
