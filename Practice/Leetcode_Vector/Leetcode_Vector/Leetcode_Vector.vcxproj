@@ -137,6 +137,7 @@
     <ClCompile Include="LongestSubstringWithoutRepeatingCharacters.cpp" />
     <ClCompile Include="MaximumDifference.cpp" />
     <ClCompile Include="MaximumLengthOfRepeatedSubarray.cpp" />
+    <ClCompile Include="MaximumProductOfThreeNumbers.cpp" />
     <ClCompile Include="MergeIntervals.cpp" />
     <ClCompile Include="MergeSortedArray.cpp" />
     <ClCompile Include="MinimumSizeSubarraySum.cpp" />
@@ -144,6 +145,7 @@
     <ClCompile Include="MoveZeroes.cpp" />
     <ClCompile Include="NextGreaterElement_I.cpp" />
     <ClCompile Include="NextGreaterElement_II.cpp" />
+    <ClCompile Include="Permutations.cpp" />
     <ClCompile Include="Permutations_II.cpp" />
     <ClCompile Include="PlusOne.cpp" />
     <ClCompile Include="ProductOfArrayExceptSelf.cpp" />

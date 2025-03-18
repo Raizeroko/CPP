@@ -102,6 +102,12 @@
     <ClCompile Include="CourseSchedule.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Permutations.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MaximumProductOfThreeNumbers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Vector.h">
