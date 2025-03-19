@@ -17,3 +17,18 @@ public:
         return maxPrft;
     }
 };
+
+
+// Review 2025/03/18
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        int profit = 0;
+        int cost = INT_MAX;
+        for (auto price : prices) {
+            cost = min(cost, price);
+            profit = max(profit, price - cost);
+        }
+        return profit;
+    }
+};
