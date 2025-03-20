@@ -48,6 +48,9 @@
     <ClCompile Include="MaximumSubarray.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="HouseRobber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DP.h">
