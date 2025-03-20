@@ -131,6 +131,7 @@
     <ClCompile Include="BestTimeToBuyAndSellStockWithTransactionFee.cpp" />
     <ClCompile Include="BestTimeToBuyAndSellStock_II.cpp" />
     <ClCompile Include="ContinuousMaximumSum.cpp" />
+    <ClCompile Include="HouseRobber.cpp" />
     <ClCompile Include="JumpGame.cpp" />
     <ClCompile Include="JumpGame_II.cpp" />
     <ClCompile Include="LongestPalindromicSubstring.cpp" />
