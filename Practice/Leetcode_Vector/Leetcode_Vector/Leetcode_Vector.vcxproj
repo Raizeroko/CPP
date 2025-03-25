@@ -155,6 +155,7 @@
     <ClCompile Include="SearchA2dMatrix-ii.cpp" />
     <ClCompile Include="SearchA2dMatrix_II.cpp" />
     <ClCompile Include="SetMatrixZeroes.cpp" />
+    <ClCompile Include="SlidingWindowMaximum.cpp" />
     <ClCompile Include="SortColors.cpp" />
     <ClCompile Include="SpiralMatrix.cpp" />
     <ClCompile Include="SubarrayProductLessThanK.cpp" />
