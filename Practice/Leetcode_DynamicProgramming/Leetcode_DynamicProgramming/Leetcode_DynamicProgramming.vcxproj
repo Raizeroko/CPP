@@ -139,6 +139,7 @@
     <ClCompile Include="MinimumCostOfClimbingStairs.cpp" />
     <ClCompile Include="PartitionEqualSubsetSum.cpp" />
     <ClCompile Include="TrappingRainWater.cpp" />
+    <ClCompile Include="UniquePaths.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DP.h" />
