@@ -11,9 +11,9 @@ int main(){
     //     signal(i, sigfpe_handler);
     // }
 
-    while(1){
-        // char* k = new char[1024*1024*10];
-    }
+    // while(1){
+    //     // char* k = new char[1024*1024*10];
+    // }
     int c = 1;
     std::cout<<"hello world" << std::endl;
 
