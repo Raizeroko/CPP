@@ -52,20 +52,21 @@ namespace cs_compile
                 {
                     LOG(ERROR) << "execlp fail" << std::endl;
                 }
-                exit(2);
+                exit(-1);
             }
             else
             {
                 waitpid(child, nullptr, 0);
-                if (FileUtil::IsFileExist(PathUtil::Target(file_name)))
+                if (!FileUtil::IsFileExist(PathUtil::Target(file_name)))
                 {
-                    // 编译成功
-                    LOG(Info) << "编译成功" << std::endl;
-                    return true;
+                    // 编译失败
+                    LOG(Info) << "编译失败" << std::endl;
+                    return false;
                 }
-                // 编译失败
-                LOG(Info) << "编译失败" << std::endl;
-                return false;
+            
+                // 编译成功
+                LOG(Info) << "编译成功" << std::endl;
+                return true;
             }
         }
     };

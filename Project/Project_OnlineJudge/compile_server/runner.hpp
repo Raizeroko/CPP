@@ -22,34 +22,38 @@ namespace cs_run{
         ~Runner(){}
     public:
         // 避免执行的程序运行超时或占用过多内存
-        static void SetLimit(){
+        static bool SetLimit(const int cpu_limit, const int mem_limit){
             // CPU运行时间限制
             struct rlimit cpu_rlim;
             cpu_rlim.rlim_max = RLIM_INFINITY;
-            cpu_rlim.rlim_cur = 5;           // 5s
+            cpu_rlim.rlim_cur = cpu_limit;           // 5s
             int r_cpu = setrlimit(RLIMIT_CPU, &cpu_rlim);
             if(r_cpu < 0){
                 LOG(ERROR) << "set run time error" << std::endl;
+                return false;
             }
             
             // 最大运行内存限制
             struct rlimit mem_rlim;
             mem_rlim.rlim_max = RLIM_INFINITY;
-            mem_rlim.rlim_cur = 40*1024*1024; // 40MB
+            mem_rlim.rlim_cur = mem_limit; // 40MB
             int r_mem = setrlimit(RLIMIT_AS, &mem_rlim);
             if(r_mem < 0){
                 LOG(ERROR) << "set run memory error" << std::endl;
+                return false;
             }
-
+            return true;
+            
         }
 
-        static int ExcuteCode(const std::string& file_name){
+        static int Run(const std::string& file_name, const int cpu_limit, const int mem_limit){
             int stdin_fd = open(PathUtil::Stdin(file_name).c_str(), O_CREAT | O_RDONLY, 0664);
             int stdout_fd = open(PathUtil::Stdout(file_name).c_str(), O_CREAT | O_WRONLY, 0664);
             int stderr_fd = open(PathUtil::Stderr(file_name).c_str(), O_CREAT | O_WRONLY, 0664);
             
             if(stdin_fd < 0 | stdout_fd < 0 | stderr_fd < 0){
                 LOG(ERROR) << "open excute file error" << std::endl;
+                return -1;
             }
             pid_t pid = fork();
             if(pid < 0){
@@ -66,11 +70,14 @@ namespace cs_run{
                 int rdup_err = dup2(stderr_fd, 2);
                 if(rdup_in < 0 | rdup_out < 0 | rdup_err < 0){
                     LOG(ERROR) << "dup error" << std::endl;
+                    return -1;
                 }
 
-                const char* execl_name = PathUtil::Target(file_name).c_str();
-                SetLimit();
-                int rexecl = execl(execl_name, execl_name, nullptr);
+                std::string execl_name = PathUtil::Target(file_name);
+                if(!SetLimit(cpu_limit, mem_limit)){
+                    return -1;
+                }
+                int rexecl = execl(execl_name.c_str(), execl_name.c_str(), nullptr);
                 if(rexecl < 0){
                     LOG(ERROR) << "execl error" << std::endl;
                 }
@@ -85,6 +92,7 @@ namespace cs_run{
                 int rwp = waitpid(pid, &status, 0);
                 if(rwp < 0){
                     LOG(ERROR) << "wait error"<< std::endl;
+                    return -1;
                 }
                 int child_signal = WTERMSIG(status);
                 LOG(INFO) << "chlid exit, exit code:" << child_signal << std::endl;
