@@ -30,4 +30,3 @@ int main() {
     cout<<input;
 
 }
-// 64 位输出请用 printf("%lld")
