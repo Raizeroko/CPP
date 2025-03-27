@@ -6,6 +6,7 @@
 #include <vector>
 #include <algorithm>
 #include <climits>
+#include <stack>
 using namespace std;
 
 using namespace std;
