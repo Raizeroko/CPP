@@ -56,37 +56,38 @@ namespace cs_compile_run
         }
 
         // 状态码对应描述
-        static std::string CodeToDescribe(int status_code)
+        static std::string CodeToDescribe(int status_code, const std::string file_name)
         {
             std::string describe;
+            std::string compile_err;
             switch (status_code)
             {
             case 0:
-                describe = "运行成功";
+                describe = "[运行成功]";
                 break;
             case -1:
-                describe = "代码为空";
+                describe = "[代码为空]";
                 break;
             case -2:
-                describe = "编译出错";
+                describe = "[编译错误]";
                 break;
             case -3:
-                describe = "未知错误";
+                describe = "[未知错误]";
                 break;
             case -4:
-                describe = "json错误";
+                describe = "[json错误]";
                 break;
             case SIGABRT:
-                describe = "内存溢出";
+                describe = "[内存溢出]";
                 break;
             case SIGXCPU:
-                describe = "运行超时";
+                describe = "[运行超时]";
                 break;
             case SIGFPE:
-                describe = "浮点溢出";
+                describe = "[浮点溢出]";
                 break;
             default:
-                describe = "未知, " + std::to_string(status_code);
+                describe = "[未知, " + std::to_string(status_code) + "]";
             }
             return describe;
         }
@@ -96,7 +97,7 @@ namespace cs_compile_run
         {
             Json::Value ret_json;
             ret_json["status"] = status_code;
-            ret_json["reason"] = CodeToDescribe(status_code);
+            ret_json["reason"] = CodeToDescribe(status_code, file_name);
             if (status_code == 0)
             {
                 std::string out_content;
@@ -107,6 +108,14 @@ namespace cs_compile_run
                 ret_json["stdout"] = out_content;
                 std::string err_content;
                 if (!FileUtil::ReadFile(PathUtil::Stderr(file_name), err_content))
+                {
+                    LOG(ERROR) << "read stderr error" << std::endl;
+                }
+                ret_json["stderr"] = err_content;
+            }
+            else if(status_code < 0){
+                std::string err_content;
+                if (!FileUtil::ReadFile(PathUtil::CompileError(file_name), err_content))
                 {
                     LOG(ERROR) << "read stderr error" << std::endl;
                 }
