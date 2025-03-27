@@ -47,3 +47,26 @@ public:
         return ret;
     }
 };
+
+
+// Review 2025/03/27
+class Solution {
+    vector<vector<int>> ret;
+public:
+    void dfs(vector<int> nums, int level){
+        if(level == nums.size()){
+            ret.push_back(nums);
+            return;
+        }
+        for(int i = level; i < nums.size(); i++){
+            swap(nums[level], nums[i]);
+            dfs(nums, level+1);
+            swap(nums[level], nums[i]);
+        }
+    }
+
+    vector<vector<int>> permute(vector<int>& nums) {
+        dfs(nums, 0);
+        return ret;
+    }
+};
