@@ -60,6 +60,12 @@
     <ClCompile Include="SingleNumber.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Subsets.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LetterCombinationsOfAPhoneNumber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Puzzle.h">
