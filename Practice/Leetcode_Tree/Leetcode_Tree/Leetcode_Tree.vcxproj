@@ -133,6 +133,7 @@
     <ClCompile Include="AverageOfLevelsInBinaryTree.cpp" />
     <ClCompile Include="BalancedBinaryTree.cpp" />
     <ClCompile Include="BinaryTreeInorderTraversal.cpp" />
+    <ClCompile Include="BinaryTreeLevelOrderTraversal.cpp" />
     <ClCompile Include="BinaryTreePostorderTraversal.cpp" />
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
     <ClCompile Include="DiameterOfBinaryTree.cpp" />

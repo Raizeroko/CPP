@@ -113,5 +113,8 @@
     <ClCompile Include="ImplementTriePrefixTree.cpp">
       <Filter>源文件\Recursion</Filter>
     </ClCompile>
+    <ClCompile Include="BinaryTreeLevelOrderTraversal.cpp">
+      <Filter>源文件\Level Order Traversal</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
