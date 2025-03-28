@@ -8,7 +8,8 @@
 #include <sys/time.h>
 #include <atomic>
 #include <fstream>
-
+#include <sstream>
+#include <boost/algorithm/string.hpp> 
 
 namespace com_utils
 {
@@ -105,17 +106,33 @@ namespace com_utils
             write_file.close();  // 确保关闭文件
             return true;
         }
-        static bool ReadFile(const std::string& path_name, std::string& content){
-            content.clear();
+        static bool ReadFile(const std::string& path_name, std::string* content, bool keep = false){
+            content->clear();
             std::ifstream read_file(path_name);
             if(!read_file){
                 return false;
             }
             std::string line;
             while(getline(read_file, line)){
-                content += line;
+                (*content) += line;
+                (*content) += (keep ? "\n" : ""); 
             }
             read_file.close();
+            return true;
+        }
+    };
+
+    class StringUtil{
+    public:
+        static bool SplitString(const std::string input/*输入型参数*/, std::vector<std::string>& output/*输出型参数*/, const std::string& split_by){
+            // output.resize(0);
+            // std::stringstream ss(input);
+            // std::string tmp;
+            // while(getline(ss, tmp, split_by)){
+            //     output.push_back(tmp);
+            // }
+            boost::split(output, input, boost::is_any_of(split_by), boost::algorithm::token_compress_on);
+
             return true;
         }
     };

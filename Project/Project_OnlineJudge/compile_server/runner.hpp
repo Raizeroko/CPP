@@ -36,7 +36,7 @@ namespace cs_run{
             // 最大运行内存限制
             struct rlimit mem_rlim;
             mem_rlim.rlim_max = RLIM_INFINITY;
-            mem_rlim.rlim_cur = mem_limit; // 40MB
+            mem_rlim.rlim_cur = mem_limit*1024; // 40MB
             int r_mem = setrlimit(RLIMIT_AS, &mem_rlim);
             if(r_mem < 0){
                 LOG(ERROR) << "set run memory error" << std::endl;

@@ -101,13 +101,13 @@ namespace cs_compile_run
             if (status_code == 0)
             {
                 std::string out_content;
-                if (!FileUtil::ReadFile(PathUtil::Stdout(file_name), out_content))
+                if (!FileUtil::ReadFile(PathUtil::Stdout(file_name), &out_content, true))
                 {
                     LOG(ERROR) << "read stdout error" << std::endl;
                 }
                 ret_json["stdout"] = out_content;
                 std::string err_content;
-                if (!FileUtil::ReadFile(PathUtil::Stderr(file_name), err_content))
+                if (!FileUtil::ReadFile(PathUtil::Stderr(file_name), &err_content, true))
                 {
                     LOG(ERROR) << "read stderr error" << std::endl;
                 }
@@ -115,7 +115,7 @@ namespace cs_compile_run
             }
             else if(status_code < 0){
                 std::string err_content;
-                if (!FileUtil::ReadFile(PathUtil::CompileError(file_name), err_content))
+                if (!FileUtil::ReadFile(PathUtil::CompileError(file_name), &err_content, true))
                 {
                     LOG(ERROR) << "read stderr error" << std::endl;
                 }
@@ -148,7 +148,7 @@ namespace cs_compile_run
              * - stderr: 我的程序运⾏完的错误结果
              *
              * 参数：
-             * in_json: {"code": "#include...", "input": "","cpu_limit":1, "mem_limit":10240}
+             * in_json: {"code": "#include...", "input": "","cpu_limit":1(s), "mem_limit":10240(KB)}
              * out_json: {"status":"0", "reason":"","stdout":"","stderr":"",}
              ****************************************/
             // 形成临时文件名
