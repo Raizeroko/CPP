@@ -3,42 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test HTML</title>
+    <title>Online Judge</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
             margin: 0;
-            padding: 20px;
-        }
-        h1 {
+            padding: 0;
+            background-color: #f9f9f9;
             color: #333;
         }
-        p {
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .container p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
             color: #555;
+        }
+
+        a.button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: white;
+            background-color: #4CAF50;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        a.button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to the Test Page</h1>
-    <p>This is a simple test HTML page.</p>
+    <header>
+        <h1>Welcome to Online Judge</h1>
+        <p>Your platform for competitive programming challenges</p>
+    </header>
 
-    <h2>Form Example</h2>
-    <form action="#" method="POST">
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
+    <div class="container">
+        <h2>Explore Thousands of Programming Challenges</h2>
+        <p>Join our community of programmers and improve your coding skills by solving a variety of challenges ranging from beginner to advanced levels.</p>
+        <a href="all_questions" class="button">View All Questions</a>
+    </div>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
-
-        <input type="submit" value="Submit">
-    </form>
-
-    <h2>Links Example</h2>
-    <p><a href="https://www.example.com" target="_blank">Visit Example</a></p>
-
-    <h2>Image Example</h2>
-    <img src="https://via.placeholder.com/150" alt="Placeholder Image">
-
+    <footer>
+        <p>&copy; 2025 Online Judge. All rights reserved.</p>
+    </footer>
 </body>
 </html>
