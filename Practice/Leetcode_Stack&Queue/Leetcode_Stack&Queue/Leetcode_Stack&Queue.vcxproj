@@ -136,6 +136,7 @@
     <ClCompile Include="KthLargestElementInAnArray.cpp" />
     <ClCompile Include="MinStack.cpp" />
     <ClCompile Include="RottingOranges.cpp" />
+    <ClCompile Include="TopKFrequentElements.cpp" />
     <ClCompile Include="ValidateStackSequences.cpp" />
   </ItemGroup>
   <ItemGroup>
