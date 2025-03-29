@@ -124,14 +124,14 @@ namespace com_utils
 
     class StringUtil{
     public:
-        static bool SplitString(const std::string input/*输入型参数*/, std::vector<std::string>& output/*输出型参数*/, const std::string& split_by){
+        static bool SplitString(const std::string input/*输入型参数*/, std::vector<std::string>* output/*输出型参数*/, const std::string& split_by){
             // output.resize(0);
             // std::stringstream ss(input);
             // std::string tmp;
             // while(getline(ss, tmp, split_by)){
             //     output.push_back(tmp);
             // }
-            boost::split(output, input, boost::is_any_of(split_by), boost::algorithm::token_compress_on);
+            boost::split(*output, input, boost::is_any_of(split_by), boost::algorithm::token_compress_on);
 
             return true;
         }

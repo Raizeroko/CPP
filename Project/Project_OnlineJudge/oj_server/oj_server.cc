@@ -7,6 +7,7 @@ using namespace os_control;
 int main(){
     Server svr;
     Control ctl;
+    // cout << "test" << endl;
 
     // svr.Get()
     svr.Get("/all_questions", [&ctl](const Request& req, Response& resp) {
@@ -22,9 +23,12 @@ int main(){
         resp.set_content(html, "text/html; charset=utf-8");
     });
 
-    svr.Get(R"(/judge/(\d+))", [](const Request& req, Response& resp) {
+    svr.Get(R"(/judge/(\d+))", [&ctl](const Request& req, Response& resp) {
         std::string number = req.matches[1];
-        resp.set_content("判断题目：" + number, "text/plain; charset=utf-8");
+        string in_json = req.body;
+        string out_json;
+        ctl.JudgeQuestion(number, in_json, &out_json);
+        resp.set_content(out_json, "text/plain; charset=utf-8");
     });
 
     svr.set_base_dir("./root");

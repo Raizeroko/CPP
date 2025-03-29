@@ -29,7 +29,6 @@ int main(int argc, char* argv[]){
 
     svr.Post("/compile_run", [](const Request& req, Response &resp){
         std::string in_json = req.body;
-        std::cout << in_json;
         std::string out_json;
         cs_compile_run::CompileRun::Start(in_json, out_json);
         resp.set_content(out_json, "application/json; charset=utf-8");

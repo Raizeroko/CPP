@@ -45,9 +45,10 @@ namespace cs_compile
                     // dup fail
                     LOG(ERROR) << "dup fail" << std::endl;
                 }
-                // g++ -o target src -std=c++11
+                // COMPILER_ONLINE 条件编译去除tail.cpp中的 #include "header.cpp"
+                // g++ -o target src -D COMPILER_ONLINE -std=c++11
                 int rexe = execlp("g++", "g++", "-o", PathUtil::Target(file_name).c_str(), PathUtil::Source(file_name).c_str(),
-                                  "-std=c++11");
+                                  "-D", "COMPILER_ONLINE", "-std=c++11");
                 if (rexe == -1)
                 {
                     LOG(ERROR) << "execlp fail" << std::endl;
