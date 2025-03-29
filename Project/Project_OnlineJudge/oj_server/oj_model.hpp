@@ -42,7 +42,7 @@ namespace os_model{
             string line;
             while(getline(in, line)){
                 vector<string> tokens;
-                if(!StringUtil::SplitString(line, tokens, ",")){
+                if(!StringUtil::SplitString(line, &tokens, ",")){
                     LOG(ERROR) << "SplitString error" << endl;
                     return false;
                 }

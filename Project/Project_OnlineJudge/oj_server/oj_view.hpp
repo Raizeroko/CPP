@@ -61,7 +61,4 @@ namespace os_view{
 
         }
     };
-
-
-
 };
