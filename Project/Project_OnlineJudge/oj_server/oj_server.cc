@@ -23,7 +23,7 @@ int main(){
         resp.set_content(html, "text/html; charset=utf-8");
     });
 
-    svr.Get(R"(/judge/(\d+))", [&ctl](const Request& req, Response& resp) {
+    svr.Post(R"(/judge/(\d+))", [&ctl](const Request& req, Response& resp) {
         std::string number = req.matches[1];
         string in_json = req.body;
         string out_json;
