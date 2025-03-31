@@ -2,7 +2,8 @@
 #include <string>
 #include <ctemplate/template.h>
 
-#include "oj_model.hpp"
+// #include "oj_model.hpp"
+#include "oj_model_mysql.hpp"
 
 // 使用ctemplate完成页面渲染
 // 将传入的html页面使用ctemplate替换其中的key为questions中对应的字段
