@@ -239,7 +239,7 @@ namespace os_control{
                 CompileMachine* machine;
                 // 获得负载最低的服务id和对应编译服务器信息
                 if(!_load_balance.SmartChoice(&id, &machine)){
-                    LOG(FATAL) << "all compile server offline" << endl;
+                    LOG(FATAL) << "all compile server offline, use ^\\ to restart compile server" << endl;
                     break;
                 }
                 // 有了json，有了服务器，将信息发送带服务器完成编译
