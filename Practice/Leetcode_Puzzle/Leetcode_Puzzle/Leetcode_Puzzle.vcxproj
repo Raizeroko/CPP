@@ -131,8 +131,10 @@
     <ClCompile Include="BinarySearch.cpp" />
     <ClCompile Include="BuyApples.cpp" />
     <ClCompile Include="ClimbingStairs.cpp" />
+    <ClCompile Include="CombinationSum.cpp" />
     <ClCompile Include="EmployeeAttendanceRecords.cpp" />
     <ClCompile Include="FindFirstAndLastPositionOfElementInSortedArray.cpp" />
+    <ClCompile Include="GenerateParentheses.cpp" />
     <ClCompile Include="LetterCombinationsOfAPhoneNumber.cpp" />
     <ClCompile Include="LineGame.cpp" />
     <ClCompile Include="MinCostClimbingStairs.cpp" />
