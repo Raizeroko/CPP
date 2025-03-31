@@ -4,10 +4,21 @@
 
 using namespace httplib;
 using namespace os_control;
+
+static Control* ctl_ptr = nullptr;
+
+void Restart(int sig){
+    ctl_ptr->RestartMachines();
+    
+}
+
 int main(){
     Server svr;
     Control ctl;
+    ctl_ptr = &ctl;
     // cout << "test" << endl;
+
+    signal(SIGQUIT, Restart);
 
     // svr.Get()
     svr.Get("/all_questions", [&ctl](const Request& req, Response& resp) {

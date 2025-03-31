@@ -3,7 +3,8 @@
 #include <mutex>
 
 #include "../common/httplib.h"
-#include "oj_model.hpp"
+// #include "oj_model.hpp"
+#include "oj_model_mysql.hpp"
 #include "oj_view.hpp"
 
 
@@ -32,11 +33,14 @@ namespace os_control{
         }
         // 增加负载
         void IncreaseLoad(){
-            (*_load)++;
+            _load->fetch_add(1, std::memory_order_relaxed);
         }
         // 减少负载
         void DecreaseLoad(){
-            (*_load)--;
+            _load->fetch_sub(1, std::memory_order_relaxed);
+        }
+        void ResetLoad(){
+            (*_load) = 0;
         }
         // 当前负载
         uint64_t Load(){
@@ -54,6 +58,12 @@ namespace os_control{
     private:
         bool LoadAllMachines(){
             ifstream in(service_machines_conf);
+
+            if (!in.is_open()) {
+                LOG(ERROR) << "Service machine config file not found!" << endl;
+                return false;
+            }
+
             string line;
             while(getline(in, line)){
                 // 获取conf信息
@@ -65,10 +75,10 @@ namespace os_control{
                 }
                 // 将信息形成Machine对象
                 // cout << machine[0] << machine[1] << endl;
+
                 CompileMachine cm(machine[0], stoi(machine[1]));
                 _online_machines.push_back(_compile_machines.size());
                 _compile_machines.push_back(move(cm));
-                
             }
             in.close();
             return true;
@@ -81,12 +91,18 @@ namespace os_control{
                 if(*it == id){
                     _online_machines.erase(it);
                     _offline_machines.push_back(id);
+                    // 离线后将负载清零
+                    _compile_machines[id].ResetLoad();
                     break;
                 }
             }            
         }
         void OnlineMachine(){
-            //
+            //重启所有机器
+            std::lock_guard<std::mutex> lock(_mutex);
+            _online_machines.insert(_online_machines.end(), _offline_machines.begin(), _offline_machines.end());
+            _offline_machines.clear();  
+            LOG(INFO) << "reload all service" << endl;
         }
 
         bool SmartChoice(int* id/*输出型参数*/, CompileMachine** machine/*输出型参数*/){
@@ -94,14 +110,14 @@ namespace os_control{
             std::lock_guard<std::mutex> lock(_mutex);
             // 均衡负载选择合适编译服务器和id返回
             if(_online_machines.size() == 0){
-                LOG(Fatal) << "no online compile service" << endl;
+                LOG(FATAL) << "no online compile service" << endl;
                 return false;
             }
 
             int min_id = _online_machines[0];
             // 没有赋值构造，也不能赋值构造，否则原子变量有问题，除了在LoadAllMachine中可以构造CompileMachine对象其他地方都不行
             CompileMachine* min = &_compile_machines[_online_machines[0]];
-            for(int i = 1; i < _compile_machines.size(); i++){
+            for(int i = 1; i < _online_machines.size(); i++){
                 CompileMachine* cur = &_compile_machines[_online_machines[i]];
                 if(cur->Load() < min->Load()){
                     min = cur;
@@ -110,7 +126,6 @@ namespace os_control{
             }
             *id = min_id;
             *machine = min;
-            _mutex.unlock();
             return true;
         }
 
@@ -120,7 +135,7 @@ namespace os_control{
                 std::cout << id << " ";
             } 
             std::cout << std::endl;
-            std::cout << "当前离线主机列表: ";
+            std::cout << "offline machine list: ";
             for(auto &id : _offline_machines) {
                 std::cout << id << " ";
             } 
@@ -132,7 +147,7 @@ namespace os_control{
             if(!LoadAllMachines()){
                 LOG(ERROR) << "load all machine fail" << endl;
             }
-            LOG(Info) << "load all machine success" << endl;
+            LOG(INFO) << "load all machine success" << endl;
         }
         ~LoadBalance(){}
     };
@@ -147,6 +162,13 @@ namespace os_control{
     public:
         Control(){}
         ~Control(){}
+
+        void RestartMachines(){
+            _load_balance.OnlineMachine();
+            // debug
+            // _load_balance.ShowMachines();
+
+        }
 
         bool AllQuestions(string *html/*输出型参数*/){
             // 使用model获取信息，使用veiw对信息渲染，将html返回
@@ -192,7 +214,8 @@ namespace os_control{
             std::istringstream jsonStream(in_json);
             if (!Json::parseFromStream(reader, jsonStream, &json_value, &errors))
             {
-                LOG(ERROR) << "judge json error" << std::endl;
+                LOG(ERROR) << "Judge JSON parsing error: " << errors;
+                *out_json = R"({"error": "Invalid JSON format"})";
                 return;
             }
             // 拼接形成完整代码, 完整的json请求
@@ -223,6 +246,7 @@ namespace os_control{
                 httplib::Client cli(machine->GetIp(), machine->GetPort());
                 // 使用该服务增加对应负载
                 machine->IncreaseLoad();
+                LOG(INFO) << machine->GetIp() << ":" <<  machine->GetPort() << " load: "<< machine->Load() << endl;
 
                 // 发起http返回结果
                 // 发送Post请求，发送json
@@ -238,6 +262,7 @@ namespace os_control{
                     }
                     // 得到结果但是不是预期结果，涉及到其他退出码的
                     machine->DecreaseLoad();
+                    continue;
                 }
                 else{
                     // 没收到请求，当前服务器没能完成编译工作，表示服务器出问题，将其加入到离线服务器列表中，选择其他服务器
@@ -245,7 +270,7 @@ namespace os_control{
                     LOG(ERROR) << "service[" << id << "] already offline" << endl;
 
                     // 用于测试
-                    // _load_balance.ShowMachines();
+                    _load_balance.ShowMachines();
 
                 }
             }
