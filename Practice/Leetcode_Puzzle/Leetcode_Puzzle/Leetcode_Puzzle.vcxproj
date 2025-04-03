@@ -141,6 +141,7 @@
     <ClCompile Include="NumberOf1Bits.cpp" />
     <ClCompile Include="NumberOfIslands.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
+    <ClCompile Include="SortColors.cpp" />
     <ClCompile Include="SpiralMatrix.cpp" />
     <ClCompile Include="Sqrtx.cpp" />
     <ClCompile Include="Subsets.cpp" />
