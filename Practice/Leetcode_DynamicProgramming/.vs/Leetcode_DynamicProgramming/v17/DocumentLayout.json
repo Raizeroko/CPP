@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\git_repository\\CPP\\Practice\\Leetcode_DynamicProgramming\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F81488D0-E8A8-49CE-BC25-A5785DD0DFCA}|Leetcode_DynamicProgramming\\Leetcode_DynamicProgramming.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_DynamicProgramming\\Leetcode_DynamicProgramming\\CoinChange.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F81488D0-E8A8-49CE-BC25-A5785DD0DFCA}|Leetcode_DynamicProgramming\\Leetcode_DynamicProgramming.vcxproj|solutionrelative:Leetcode_DynamicProgramming\\CoinChange.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F81488D0-E8A8-49CE-BC25-A5785DD0DFCA}|Leetcode_DynamicProgramming\\Leetcode_DynamicProgramming.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_DynamicProgramming\\Leetcode_DynamicProgramming\\UniquePaths.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F81488D0-E8A8-49CE-BC25-A5785DD0DFCA}|Leetcode_DynamicProgramming\\Leetcode_DynamicProgramming.vcxproj|solutionrelative:Leetcode_DynamicProgramming\\UniquePaths.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -71,6 +75,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CoinChange.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_DynamicProgramming\\Leetcode_DynamicProgramming\\CoinChange.cpp",
+              "RelativeDocumentMoniker": "Leetcode_DynamicProgramming\\CoinChange.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_DynamicProgramming\\Leetcode_DynamicProgramming\\CoinChange.cpp",
+              "RelativeToolTip": "Leetcode_DynamicProgramming\\CoinChange.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-01T07:09:26.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UniquePaths.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_DynamicProgramming\\Leetcode_DynamicProgramming\\UniquePaths.cpp",
               "RelativeDocumentMoniker": "Leetcode_DynamicProgramming\\UniquePaths.cpp",
@@ -83,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HouseRobber.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_DynamicProgramming\\Leetcode_DynamicProgramming\\HouseRobber.cpp",
               "RelativeDocumentMoniker": "Leetcode_DynamicProgramming\\HouseRobber.cpp",
@@ -91,12 +108,11 @@
               "RelativeToolTip": "Leetcode_DynamicProgramming\\HouseRobber.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-19T14:22:52.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-19T14:22:52.011Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MaximumSubarray.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_DynamicProgramming\\Leetcode_DynamicProgramming\\MaximumSubarray.cpp",
               "RelativeDocumentMoniker": "Leetcode_DynamicProgramming\\MaximumSubarray.cpp",
@@ -108,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "PartitionEqualSubsetSum.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_DynamicProgramming\\Leetcode_DynamicProgramming\\PartitionEqualSubsetSum.cpp",
               "RelativeDocumentMoniker": "Leetcode_DynamicProgramming\\PartitionEqualSubsetSum.cpp",
@@ -120,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "MinimumCostOfClimbingStairs.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_DynamicProgramming\\Leetcode_DynamicProgramming\\MinimumCostOfClimbingStairs.cpp",
               "RelativeDocumentMoniker": "Leetcode_DynamicProgramming\\MinimumCostOfClimbingStairs.cpp",
@@ -132,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ContinuousMaximumSum.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_DynamicProgramming\\Leetcode_DynamicProgramming\\ContinuousMaximumSum.cpp",
               "RelativeDocumentMoniker": "Leetcode_DynamicProgramming\\ContinuousMaximumSum.cpp",
@@ -144,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "LongestPalindromicSubstring.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_DynamicProgramming\\Leetcode_DynamicProgramming\\LongestPalindromicSubstring.cpp",
               "RelativeDocumentMoniker": "Leetcode_DynamicProgramming\\LongestPalindromicSubstring.cpp",
@@ -156,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "BestTimeToBuyAndSellStock.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_DynamicProgramming\\Leetcode_DynamicProgramming\\BestTimeToBuyAndSellStock.cpp",
               "RelativeDocumentMoniker": "Leetcode_DynamicProgramming\\BestTimeToBuyAndSellStock.cpp",
@@ -168,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "JumpGame.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_DynamicProgramming\\Leetcode_DynamicProgramming\\JumpGame.cpp",
               "RelativeDocumentMoniker": "Leetcode_DynamicProgramming\\JumpGame.cpp",
@@ -180,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "TrappingRainWater.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_DynamicProgramming\\Leetcode_DynamicProgramming\\TrappingRainWater.cpp",
               "RelativeDocumentMoniker": "Leetcode_DynamicProgramming\\TrappingRainWater.cpp",
@@ -192,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "DP.h",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_DynamicProgramming\\Leetcode_DynamicProgramming\\DP.h",
               "RelativeDocumentMoniker": "Leetcode_DynamicProgramming\\DP.h",
@@ -204,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "BestTimeToBuyAndSellStock_II.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_DynamicProgramming\\Leetcode_DynamicProgramming\\BestTimeToBuyAndSellStock_II.cpp",
               "RelativeDocumentMoniker": "Leetcode_DynamicProgramming\\BestTimeToBuyAndSellStock_II.cpp",
@@ -216,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "JumpGame_II.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_DynamicProgramming\\Leetcode_DynamicProgramming\\JumpGame_II.cpp",
               "RelativeDocumentMoniker": "Leetcode_DynamicProgramming\\JumpGame_II.cpp",
@@ -228,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "BestTimeToBuyAndSellStockWithTransactionFee.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_DynamicProgramming\\Leetcode_DynamicProgramming\\BestTimeToBuyAndSellStockWithTransactionFee.cpp",
               "RelativeDocumentMoniker": "Leetcode_DynamicProgramming\\BestTimeToBuyAndSellStockWithTransactionFee.cpp",
