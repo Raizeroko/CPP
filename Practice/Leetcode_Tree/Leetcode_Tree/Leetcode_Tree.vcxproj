@@ -136,8 +136,12 @@
     <ClCompile Include="BinaryTreeLevelOrderTraversal.cpp" />
     <ClCompile Include="BinaryTreePostorderTraversal.cpp" />
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
+    <ClCompile Include="BinaryTreeRightSideView.cpp" />
+    <ClCompile Include="ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp" />
+    <ClCompile Include="ConvertSortedArrayToBinarySearchTree.cpp" />
     <ClCompile Include="DiameterOfBinaryTree.cpp" />
     <ClCompile Include="FindBottomLeftTreeValue.cpp" />
+    <ClCompile Include="FlattenBinaryTreeToLinkedList.cpp" />
     <ClCompile Include="HouseRobber_III.cpp" />
     <ClCompile Include="ImplementTriePrefixTree.cpp" />
     <ClCompile Include="InvertBinaryTree.cpp" />
@@ -158,6 +162,7 @@
     <ClCompile Include="SumRootToLeafNumbers.cpp" />
     <ClCompile Include="SymmetricTree.cpp" />
     <ClCompile Include="TrimABinarySearchTree.cpp" />
+    <ClCompile Include="ValidateBinarySearchTree.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
