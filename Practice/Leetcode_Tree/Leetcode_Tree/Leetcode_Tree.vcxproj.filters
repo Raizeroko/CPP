@@ -116,5 +116,20 @@
     <ClCompile Include="BinaryTreeLevelOrderTraversal.cpp">
       <Filter>源文件\Level Order Traversal</Filter>
     </ClCompile>
+    <ClCompile Include="ConvertSortedArrayToBinarySearchTree.cpp">
+      <Filter>源文件\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="ValidateBinarySearchTree.cpp">
+      <Filter>源文件\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreeRightSideView.cpp">
+      <Filter>源文件\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="FlattenBinaryTreeToLinkedList.cpp">
+      <Filter>源文件\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp">
+      <Filter>源文件\Recursion</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
