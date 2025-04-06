@@ -24,4 +24,4 @@ public:
         TreeNode* ret = _buildTree(preorder, inorder, cur, 0, inorder.size() - 1);
         return ret;
     }
-};
+};  
