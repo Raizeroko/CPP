@@ -42,3 +42,25 @@ public:
         return ret;
     }
 };
+
+
+
+// Review 2025/05/06
+class Solution {
+public:
+    int subarraySum(vector<int>& nums, int k) {
+        // 前缀和各值的个数
+        unordered_map<int, int> harsh;
+        int sum = 0;
+        int ret = 0;
+        // 默认存在前缀和为0的前缀和个数为1
+        harsh[0] = 1;
+        for (int i = 0; i < nums.size(); i++) {
+            sum += nums[i];
+            if (harsh.count(sum - k)) ret += harsh[sum - k];
+            // 前缀和每个都要加入哈希表中
+            harsh[sum]++;
+        }
+        return ret;
+    }
+};
