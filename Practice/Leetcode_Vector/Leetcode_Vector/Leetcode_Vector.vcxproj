@@ -159,6 +159,7 @@
     <ClCompile Include="SortColors.cpp" />
     <ClCompile Include="SpiralMatrix.cpp" />
     <ClCompile Include="SubarrayProductLessThanK.cpp" />
+    <ClCompile Include="WordSearch.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Vector.h" />
