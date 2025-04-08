@@ -35,3 +35,26 @@ public:
         return ret;
     }
 };
+
+// Leetcode
+// Review 2025/04/08
+class Solution {
+public:
+    string longestPalindrome(string s) {
+        int len = s.size();
+        vector<vector<bool>> dp(len, vector<bool>(len, false));
+        string ret;
+        // 遍历顺序调整，确保 dp[i+1][j-1] 已经计算过
+        for (int i = len - 1; i >= 0; i--) {
+            for (int j = i; j < len; j++) {
+                if (s[i] == s[j] && (j - i <= 1 || dp[i + 1][j - 1])) {
+                    dp[i][j] = true;
+                    if (j - i + 1 > ret.size()) {
+                        ret = s.substr(i, j - i + 1);
+                    }
+                }
+            }
+        }
+        return ret;
+    }
+};

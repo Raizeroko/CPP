@@ -57,6 +57,9 @@
     <ClCompile Include="CoinChange.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="MinimumPathSum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DP.h">
