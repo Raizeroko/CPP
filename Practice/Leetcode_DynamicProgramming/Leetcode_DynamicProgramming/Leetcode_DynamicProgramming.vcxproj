@@ -138,6 +138,7 @@
     <ClCompile Include="LongestPalindromicSubstring.cpp" />
     <ClCompile Include="MaximumSubarray.cpp" />
     <ClCompile Include="MinimumCostOfClimbingStairs.cpp" />
+    <ClCompile Include="MinimumPathSum.cpp" />
     <ClCompile Include="PartitionEqualSubsetSum.cpp" />
     <ClCompile Include="TrappingRainWater.cpp" />
     <ClCompile Include="UniquePaths.cpp" />
