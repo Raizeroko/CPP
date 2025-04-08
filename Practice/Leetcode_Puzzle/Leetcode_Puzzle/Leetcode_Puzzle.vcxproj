@@ -137,6 +137,7 @@
     <ClCompile Include="GenerateParentheses.cpp" />
     <ClCompile Include="LetterCombinationsOfAPhoneNumber.cpp" />
     <ClCompile Include="LineGame.cpp" />
+    <ClCompile Include="MajorityElement.cpp" />
     <ClCompile Include="MinCostClimbingStairs.cpp" />
     <ClCompile Include="NumberOf1Bits.cpp" />
     <ClCompile Include="NumberOfIslands.cpp" />
