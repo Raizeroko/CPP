@@ -139,8 +139,10 @@
     <ClCompile Include="LineGame.cpp" />
     <ClCompile Include="MajorityElement.cpp" />
     <ClCompile Include="MinCostClimbingStairs.cpp" />
+    <ClCompile Include="NextPermutation.cpp" />
     <ClCompile Include="NumberOf1Bits.cpp" />
     <ClCompile Include="NumberOfIslands.cpp" />
+    <ClCompile Include="PalindromePartitioning.cpp" />
     <ClCompile Include="SearchInRotatedSortedArray.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
     <ClCompile Include="SortColors.cpp" />
