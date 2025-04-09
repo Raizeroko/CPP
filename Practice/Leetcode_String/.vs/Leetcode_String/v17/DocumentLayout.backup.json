@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FB474AF6-B5F8-457C-838F-3D1C0227C3EF}|Leetcode_String\\Leetcode_String.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\MinimumWindowSubstring.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FB474AF6-B5F8-457C-838F-3D1C0227C3EF}|Leetcode_String\\Leetcode_String.vcxproj|solutionrelative:Leetcode_String\\MinimumWindowSubstring.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FB474AF6-B5F8-457C-838F-3D1C0227C3EF}|Leetcode_String\\Leetcode_String.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\RepeatedDnaSequences.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FB474AF6-B5F8-457C-838F-3D1C0227C3EF}|Leetcode_String\\Leetcode_String.vcxproj|solutionrelative:Leetcode_String\\RepeatedDnaSequences.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -43,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{FB474AF6-B5F8-457C-838F-3D1C0227C3EF}|Leetcode_String\\Leetcode_String.vcxproj|solutionrelative:Leetcode_String\\SimplifyPath.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB474AF6-B5F8-457C-838F-3D1C0227C3EF}|Leetcode_String\\Leetcode_String.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\MinimumWindowSubstring.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FB474AF6-B5F8-457C-838F-3D1C0227C3EF}|Leetcode_String\\Leetcode_String.vcxproj|solutionrelative:Leetcode_String\\MinimumWindowSubstring.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FB474AF6-B5F8-457C-838F-3D1C0227C3EF}|Leetcode_String\\Leetcode_String.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\ReverseOnlyLetters.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FB474AF6-B5F8-457C-838F-3D1C0227C3EF}|Leetcode_String\\Leetcode_String.vcxproj|solutionrelative:Leetcode_String\\ReverseOnlyLetters.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -78,11 +78,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DecodeString.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\DecodeString.cpp",
               "RelativeDocumentMoniker": "Leetcode_String\\DecodeString.cpp",
@@ -94,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "WordAbbreviations.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\WordAbbreviations.cpp",
               "RelativeDocumentMoniker": "Leetcode_String\\WordAbbreviations.cpp",
@@ -106,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CharacterOverlay.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\CharacterOverlay.cpp",
               "RelativeDocumentMoniker": "Leetcode_String\\CharacterOverlay.cpp",
@@ -118,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "LengthOfLastWord.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\LengthOfLastWord.cpp",
               "RelativeDocumentMoniker": "Leetcode_String\\LengthOfLastWord.cpp",
@@ -130,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "SimplifyPath.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\SimplifyPath.cpp",
               "RelativeDocumentMoniker": "Leetcode_String\\SimplifyPath.cpp",
@@ -142,19 +142,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "MinimumWindowSubstring.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\MinimumWindowSubstring.cpp",
               "RelativeDocumentMoniker": "Leetcode_String\\MinimumWindowSubstring.cpp",
               "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\MinimumWindowSubstring.cpp",
               "RelativeToolTip": "Leetcode_String\\MinimumWindowSubstring.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC0AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-27T07:36:35.055Z"
+              "WhenOpened": "2025-01-27T07:36:35.055Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "String.h",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\String.h",
               "RelativeDocumentMoniker": "Leetcode_String\\String.h",
@@ -166,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "RepeatedDnaSequences.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\RepeatedDnaSequences.cpp",
               "RelativeDocumentMoniker": "Leetcode_String\\RepeatedDnaSequences.cpp",
@@ -179,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FindTheKthLargestElement.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\FindTheKthLargestElement.cpp",
               "RelativeDocumentMoniker": "Leetcode_String\\FindTheKthLargestElement.cpp",
@@ -191,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ValidAnagram.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\ValidAnagram.cpp",
               "RelativeDocumentMoniker": "Leetcode_String\\ValidAnagram.cpp",
@@ -203,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ValidPalindrome_II.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\ValidPalindrome_II.cpp",
               "RelativeDocumentMoniker": "Leetcode_String\\ValidPalindrome_II.cpp",

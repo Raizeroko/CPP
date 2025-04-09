@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FB474AF6-B5F8-457C-838F-3D1C0227C3EF}|Leetcode_String\\Leetcode_String.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\LongestPalindrome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FB474AF6-B5F8-457C-838F-3D1C0227C3EF}|Leetcode_String\\Leetcode_String.vcxproj|solutionrelative:Leetcode_String\\LongestPalindrome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FB474AF6-B5F8-457C-838F-3D1C0227C3EF}|Leetcode_String\\Leetcode_String.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\MinimumWindowSubstring.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FB474AF6-B5F8-457C-838F-3D1C0227C3EF}|Leetcode_String\\Leetcode_String.vcxproj|solutionrelative:Leetcode_String\\MinimumWindowSubstring.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -63,10 +67,6 @@
       "RelativeMoniker": "D:0:0:{FB474AF6-B5F8-457C-838F-3D1C0227C3EF}|Leetcode_String\\Leetcode_String.vcxproj|solutionrelative:Leetcode_String\\ReverseSubstringsBetweenEachPairOfParentheses.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB474AF6-B5F8-457C-838F-3D1C0227C3EF}|Leetcode_String\\Leetcode_String.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\LongestPalindrome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FB474AF6-B5F8-457C-838F-3D1C0227C3EF}|Leetcode_String\\Leetcode_String.vcxproj|solutionrelative:Leetcode_String\\LongestPalindrome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FB474AF6-B5F8-457C-838F-3D1C0227C3EF}|Leetcode_String\\Leetcode_String.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\JewelsAndStones.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FB474AF6-B5F8-457C-838F-3D1C0227C3EF}|Leetcode_String\\Leetcode_String.vcxproj|solutionrelative:Leetcode_String\\JewelsAndStones.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -78,23 +78,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DecodeString.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\DecodeString.cpp",
-              "RelativeDocumentMoniker": "Leetcode_String\\DecodeString.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\DecodeString.cpp",
-              "RelativeToolTip": "Leetcode_String\\DecodeString.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-18T05:20:37.523Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "WordAbbreviations.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\WordAbbreviations.cpp",
               "RelativeDocumentMoniker": "Leetcode_String\\WordAbbreviations.cpp",
@@ -106,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CharacterOverlay.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\CharacterOverlay.cpp",
               "RelativeDocumentMoniker": "Leetcode_String\\CharacterOverlay.cpp",
@@ -118,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "LengthOfLastWord.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\LengthOfLastWord.cpp",
               "RelativeDocumentMoniker": "Leetcode_String\\LengthOfLastWord.cpp",
@@ -130,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "SimplifyPath.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\SimplifyPath.cpp",
               "RelativeDocumentMoniker": "Leetcode_String\\SimplifyPath.cpp",
@@ -142,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MinimumWindowSubstring.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\MinimumWindowSubstring.cpp",
               "RelativeDocumentMoniker": "Leetcode_String\\MinimumWindowSubstring.cpp",
@@ -155,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "String.h",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\String.h",
               "RelativeDocumentMoniker": "Leetcode_String\\String.h",
@@ -167,7 +155,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "LongestPalindrome.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\LongestPalindrome.cpp",
+              "RelativeDocumentMoniker": "Leetcode_String\\LongestPalindrome.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\LongestPalindrome.cpp",
+              "RelativeToolTip": "Leetcode_String\\LongestPalindrome.cpp",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswBUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-27T12:46:05.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DecodeString.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\DecodeString.cpp",
+              "RelativeDocumentMoniker": "Leetcode_String\\DecodeString.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\DecodeString.cpp",
+              "RelativeToolTip": "Leetcode_String\\DecodeString.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-18T05:20:37.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "RepeatedDnaSequences.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\RepeatedDnaSequences.cpp",
               "RelativeDocumentMoniker": "Leetcode_String\\RepeatedDnaSequences.cpp",
@@ -175,12 +188,11 @@
               "RelativeToolTip": "Leetcode_String\\RepeatedDnaSequences.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-06T08:34:46.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T08:34:46.591Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "FindTheKthLargestElement.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\FindTheKthLargestElement.cpp",
               "RelativeDocumentMoniker": "Leetcode_String\\FindTheKthLargestElement.cpp",
@@ -192,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ValidAnagram.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\ValidAnagram.cpp",
               "RelativeDocumentMoniker": "Leetcode_String\\ValidAnagram.cpp",
@@ -204,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ValidPalindrome_II.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\ValidPalindrome_II.cpp",
               "RelativeDocumentMoniker": "Leetcode_String\\ValidPalindrome_II.cpp",
@@ -216,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ReverseOnlyLetters.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\ReverseOnlyLetters.cpp",
               "RelativeDocumentMoniker": "Leetcode_String\\ReverseOnlyLetters.cpp",
@@ -228,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "MultiplyStrings.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\MultiplyStrings.cpp",
               "RelativeDocumentMoniker": "Leetcode_String\\MultiplyStrings.cpp",
@@ -240,19 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "LongestPalindrome.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\LongestPalindrome.cpp",
-              "RelativeDocumentMoniker": "Leetcode_String\\LongestPalindrome.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\LongestPalindrome.cpp",
-              "RelativeToolTip": "Leetcode_String\\LongestPalindrome.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-27T12:46:05.238Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ReverseWordsInAString.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\ReverseWordsInAString.cpp",
               "RelativeDocumentMoniker": "Leetcode_String\\ReverseWordsInAString.cpp",
@@ -264,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ReverseSubstringsBetweenEachPairOfParentheses.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_String\\Leetcode_String\\ReverseSubstringsBetweenEachPairOfParentheses.cpp",
               "RelativeDocumentMoniker": "Leetcode_String\\ReverseSubstringsBetweenEachPairOfParentheses.cpp",
