@@ -134,6 +134,7 @@
     <ClCompile Include="IntersectionOfTwoLinkedLists.cpp" />
     <ClCompile Include="LinkedListCycle.cpp" />
     <ClCompile Include="LinkedLlistCycle_II.cpp" />
+    <ClCompile Include="LRUCache.cpp" />
     <ClCompile Include="MergeTwoLists.cpp" />
     <ClCompile Include="OddEvenLinkedList.cpp" />
     <ClCompile Include="PalindromeLinkedList.cpp" />
