@@ -1,0 +1,4 @@
+﻿  HeapSort.cpp
+E:\git_repository\CPP\Practice\SortAlgorithm\SortAlgorithm\HeapSort.cpp(32,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\git_repository\CPP\Practice\SortAlgorithm\SortAlgorithm\HeapSort.cpp(23,1): warning C4715: “Heap::top”: 不是所有的控件路径都返回值
+  SortAlgorithm.vcxproj -> E:\git_repository\CPP\Practice\SortAlgorithm\x64\Debug\SortAlgorithm.exe

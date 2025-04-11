@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\git_repository\\CPP\\Practice\\SortAlgorithm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A545810-65BC-4AA0-8446-7505BE470F77}|SortAlgorithm\\SortAlgorithm.vcxproj|E:\\git_repository\\CPP\\Practice\\SortAlgorithm\\SortAlgorithm\\HeapSort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6A545810-65BC-4AA0-8446-7505BE470F77}|SortAlgorithm\\SortAlgorithm.vcxproj|solutionrelative:SortAlgorithm\\HeapSort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HeapSort.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\SortAlgorithm\\SortAlgorithm\\HeapSort.cpp",
+              "RelativeDocumentMoniker": "SortAlgorithm\\HeapSort.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\SortAlgorithm\\SortAlgorithm\\HeapSort.cpp",
+              "RelativeToolTip": "SortAlgorithm\\HeapSort.cpp",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAADUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-11T03:23:10.137Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
