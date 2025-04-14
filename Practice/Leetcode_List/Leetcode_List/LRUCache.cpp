@@ -40,3 +40,49 @@ public:
     }
 };
 
+
+
+// MySolution
+class LRUCache {
+private:
+    list<pair<int, int>> _list; //key,value
+    unordered_map<int, list<pair<int, int>>::iterator> _map; // key, list_ptr
+    int _capacity;
+
+public:
+    LRUCache(int capacity)
+        :_capacity(capacity)
+    {
+    }
+
+    int get(int key) {
+        // 不在缓存中
+        if (!_map.count(key)) return -1;
+        auto it = _map[key];
+        // 更新位置
+        _list.splice(_list.begin(), _list, it);
+        return it->second;
+    }
+
+    void put(int key, int value) {
+        if (_map.count(key)) {
+            // 在缓存中
+            auto it = _map[key];
+            // 更新位置
+            it->second = value;
+            _list.splice(_list.begin(), _list, it);
+        }
+        else {
+            // 不在缓存中
+            if (_list.size() == _capacity) {
+                int pop_key = _list.back().first;
+                _map.erase(pop_key);
+                _list.pop_back();
+
+            }
+            _list.push_front({ key, value });
+            _map[key] = _list.begin();
+        }
+
+    }
+};
