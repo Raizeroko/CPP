@@ -20,13 +20,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="directory_scanner.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="task_queue.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="thread_pool.h">
+    <ClInclude Include="scanner.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
