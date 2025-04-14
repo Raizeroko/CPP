@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|solutionrelative:Leetcode_List\\LRUCache.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\ReverseNodesInKGroup.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|solutionrelative:Leetcode_List\\ReverseNodesInKGroup.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\RemoveDuplicatesFromSortedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|solutionrelative:Leetcode_List\\RemoveDuplicatesFromSortedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\AddTwoNumbers_II .cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|solutionrelative:Leetcode_List\\AddTwoNumbers_II .cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\ReverseNodesInKGroup.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|solutionrelative:Leetcode_List\\ReverseNodesInKGroup.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BEFA208-B248-4B2B-BAEA-38BFA3100593}|Leetcode_List\\Leetcode_List.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\RemoveNthNodeFromEndofList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -96,26 +96,14 @@
               "RelativeDocumentMoniker": "Leetcode_List\\LRUCache.cpp",
               "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\LRUCache.cpp",
               "RelativeToolTip": "Leetcode_List\\LRUCache.cpp",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFcAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-10T05:41:59.441Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CopyListWithRandomPointer.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\CopyListWithRandomPointer.cpp",
-              "RelativeDocumentMoniker": "Leetcode_List\\CopyListWithRandomPointer.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\CopyListWithRandomPointer.cpp",
-              "RelativeToolTip": "Leetcode_List\\CopyListWithRandomPointer.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-26T06:07:04.69Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "List.h",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\List.h",
               "RelativeDocumentMoniker": "Leetcode_List\\List.h",
@@ -163,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AddTwoNumbers_II .cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\AddTwoNumbers_II .cpp",
               "RelativeDocumentMoniker": "Leetcode_List\\AddTwoNumbers_II .cpp",
@@ -176,6 +164,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ReverseNodesInKGroup.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\ReverseNodesInKGroup.cpp",
+              "RelativeDocumentMoniker": "Leetcode_List\\ReverseNodesInKGroup.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\ReverseNodesInKGroup.cpp",
+              "RelativeToolTip": "Leetcode_List\\ReverseNodesInKGroup.cpp",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAYwFYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-16T11:58:42.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CopyListWithRandomPointer.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\CopyListWithRandomPointer.cpp",
+              "RelativeDocumentMoniker": "Leetcode_List\\CopyListWithRandomPointer.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\CopyListWithRandomPointer.cpp",
+              "RelativeToolTip": "Leetcode_List\\CopyListWithRandomPointer.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-26T06:07:04.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "RemoveDuplicatesFromSortedList.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\RemoveDuplicatesFromSortedList.cpp",
               "RelativeDocumentMoniker": "Leetcode_List\\RemoveDuplicatesFromSortedList.cpp",
@@ -183,24 +196,11 @@
               "RelativeToolTip": "Leetcode_List\\RemoveDuplicatesFromSortedList.cpp",
               "ViewState": "AgIAABkAAAAAAAAAAAAAACAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-18T12:05:17.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T12:05:17.114Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ReverseNodesInKGroup.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\ReverseNodesInKGroup.cpp",
-              "RelativeDocumentMoniker": "Leetcode_List\\ReverseNodesInKGroup.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\ReverseNodesInKGroup.cpp",
-              "RelativeToolTip": "Leetcode_List\\ReverseNodesInKGroup.cpp",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-16T11:58:42.917Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "InsertGreatestCommonDivisorsInLinkedList.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_List\\Leetcode_List\\InsertGreatestCommonDivisorsInLinkedList.cpp",
               "RelativeDocumentMoniker": "Leetcode_List\\InsertGreatestCommonDivisorsInLinkedList.cpp",

@@ -46,3 +46,42 @@ public:
         return ret_head;
     }
 };
+
+
+// Review 2025/04/14
+class Solution {
+public:
+    void Reverse(ListNode* start, ListNode* end) {
+        ListNode* prev = nullptr;
+        ListNode* cur = start;
+        while (cur != end) {
+            ListNode* next = cur->next;
+            cur->next = prev;
+            prev = cur;
+            cur = next;
+        }
+    }
+
+    ListNode* reverseKGroup(ListNode* head, int k) {
+        ListNode* prev_head = new ListNode(0);
+        prev_head->next = head;
+        ListNode* start = head;
+        ListNode* prev = prev_head;
+        while (start) {
+            ListNode* end = start;
+            for (int i = 1; i < k; i++) {
+                end = end->next;
+                if (!end) {
+                    return prev_head->next;
+                }
+            }
+            ListNode* next = end->next;
+            Reverse(start, end->next);
+            prev->next = end;
+            start->next = next;
+            prev = start;
+            start = next;
+        }
+        return prev_head->next;
+    }
+};
