@@ -75,3 +75,35 @@ public:
     }
 
 };
+
+
+// Review 2025/04/16
+class Solution {
+public:
+    ListNode* oddEvenList(ListNode* head) {
+        if (!head || !head->next || !head->next->next) return head;
+        ListNode* pprev = head;
+        ListNode* oven_head = head->next;
+        ListNode* prev = head->next;
+        ListNode* cur = prev->next;
+        bool flag = true;
+        while (cur) {
+            if (flag) {
+                pprev->next = cur;
+                pprev = pprev->next;
+                cur = cur->next;
+                flag = false;
+            }
+            else {
+                prev->next = cur;
+                prev = prev->next;
+                cur = cur->next;
+                flag = true;
+            }
+        }
+        pprev->next = oven_head;
+        prev->next = nullptr;
+        return head;
+
+    }
+};
