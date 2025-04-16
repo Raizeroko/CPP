@@ -152,8 +152,8 @@ void TestMultiThread()
 
 //int main() {
 //	//TestFixedLengthMemoryPool();
-//	TestAlignSize();
-//	TestIndex();
+//	//TestAlignSize();
+//	//TestIndex();
 //	//TestAllocationProcess();
 //	//TLSTest();
 //	//TestConcurrentAlloc1();

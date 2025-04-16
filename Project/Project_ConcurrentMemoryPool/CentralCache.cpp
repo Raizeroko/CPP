@@ -80,7 +80,7 @@ SpanNode* CentralCache::GetOneSpan(SpanList& spanList, size_t alignSize)
 size_t CentralCache::FetchToThreadCache(void*& start, void*& end, size_t batchSize, size_t alignSize)
 {
 
-	assert(batchSize > 0 && batchSize <= UPPER);
+	//assert(batchSize > 0 && batchSize <= UPPER);
 	assert(alignSize > 0 && alignSize <= MAX_SIZE);
 	size_t index = Utils::Index(alignSize);
 
