@@ -138,6 +138,7 @@
     <ClCompile Include="RottingOranges.cpp" />
     <ClCompile Include="TopKFrequentElements.cpp" />
     <ClCompile Include="ValidateStackSequences.cpp" />
+    <ClCompile Include="Valid_Parentheses.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Stack&amp;Queue.h" />
