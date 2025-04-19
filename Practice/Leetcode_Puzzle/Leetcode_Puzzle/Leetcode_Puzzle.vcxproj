@@ -135,6 +135,7 @@
     <ClCompile Include="EmployeeAttendanceRecords.cpp" />
     <ClCompile Include="FindFirstAndLastPositionOfElementInSortedArray.cpp" />
     <ClCompile Include="GenerateParentheses.cpp" />
+    <ClCompile Include="ImplementRand10UsingRand7.cpp" />
     <ClCompile Include="LetterCombinationsOfAPhoneNumber.cpp" />
     <ClCompile Include="LineGame.cpp" />
     <ClCompile Include="MajorityElement.cpp" />
