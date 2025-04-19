@@ -22,3 +22,27 @@ public:
 };
 
 
+// Review 2025/04/19
+class Solution {
+    int _k = 0;
+    int _ret = 0;
+
+    void _kthSmallest(TreeNode* root) {
+        if (!root) return;
+        if (_ret) return;
+        _kthSmallest(root->left);
+        _k--;
+        if (_k == 0) {
+            _ret = root->val;
+        }
+        _kthSmallest(root->right);
+    }
+
+
+public:
+    int kthSmallest(TreeNode* root, int k) {
+        _k = k;
+        _kthSmallest(root);
+        return _ret;
+    }
+};
