@@ -37,3 +37,25 @@ public:
         return v;
     }
 };
+
+
+// Review 2025/04/19
+class Solution {
+public:
+    vector<int> inorderTraversal(TreeNode* root) {
+        TreeNode* cur = root;
+        stack<TreeNode*> st;
+        vector<int> ret;
+        while (cur || !st.empty()) {
+            while (cur) {
+                st.push(cur);
+                cur = cur->left;
+            }
+            ret.push_back(st.top()->val);
+            cur = st.top()->right;
+            st.pop();
+        }
+
+        return ret;
+    }
+};

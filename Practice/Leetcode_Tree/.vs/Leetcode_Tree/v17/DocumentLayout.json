@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6CDD2A3C-8F3C-4F31-B48A-A33C69752792}|Leetcode_Tree\\Leetcode_Tree.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\BinaryTreeInorderTraversal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CDD2A3C-8F3C-4F31-B48A-A33C69752792}|Leetcode_Tree\\Leetcode_Tree.vcxproj|solutionrelative:Leetcode_Tree\\BinaryTreeInorderTraversal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CDD2A3C-8F3C-4F31-B48A-A33C69752792}|Leetcode_Tree\\Leetcode_Tree.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\KthSmallestElementInABst.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6CDD2A3C-8F3C-4F31-B48A-A33C69752792}|Leetcode_Tree\\Leetcode_Tree.vcxproj|solutionrelative:Leetcode_Tree\\KthSmallestElementInABst.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6CDD2A3C-8F3C-4F31-B48A-A33C69752792}|Leetcode_Tree\\Leetcode_Tree.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\LowestCommonAncestorOfABinaryTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6CDD2A3C-8F3C-4F31-B48A-A33C69752792}|Leetcode_Tree\\Leetcode_Tree.vcxproj|solutionrelative:Leetcode_Tree\\LowestCommonAncestorOfABinaryTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -73,14 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6CDD2A3C-8F3C-4F31-B48A-A33C69752792}|Leetcode_Tree\\Leetcode_Tree.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\BinaryTreePreorderTraversal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6CDD2A3C-8F3C-4F31-B48A-A33C69752792}|Leetcode_Tree\\Leetcode_Tree.vcxproj|solutionrelative:Leetcode_Tree\\BinaryTreePreorderTraversal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CDD2A3C-8F3C-4F31-B48A-A33C69752792}|Leetcode_Tree\\Leetcode_Tree.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\BinaryTreeInorderTraversal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6CDD2A3C-8F3C-4F31-B48A-A33C69752792}|Leetcode_Tree\\Leetcode_Tree.vcxproj|solutionrelative:Leetcode_Tree\\BinaryTreeInorderTraversal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CDD2A3C-8F3C-4F31-B48A-A33C69752792}|Leetcode_Tree\\Leetcode_Tree.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\KthSmallestElementInABst.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6CDD2A3C-8F3C-4F31-B48A-A33C69752792}|Leetcode_Tree\\Leetcode_Tree.vcxproj|solutionrelative:Leetcode_Tree\\KthSmallestElementInABst.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CDD2A3C-8F3C-4F31-B48A-A33C69752792}|Leetcode_Tree\\Leetcode_Tree.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\TrimABinarySearchTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -157,31 +157,81 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ValidateBinarySearchTree.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\ValidateBinarySearchTree.cpp",
-              "RelativeDocumentMoniker": "Leetcode_Tree\\ValidateBinarySearchTree.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\ValidateBinarySearchTree.cpp",
-              "RelativeToolTip": "Leetcode_Tree\\ValidateBinarySearchTree.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "ImplementTriePrefixTree.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\ImplementTriePrefixTree.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Tree\\ImplementTriePrefixTree.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\ImplementTriePrefixTree.cpp",
+              "RelativeToolTip": "Leetcode_Tree\\ImplementTriePrefixTree.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-05T08:32:36.956Z"
+              "WhenOpened": "2025-03-11T05:13:09.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PathSum_III.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\PathSum_III.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Tree\\PathSum_III.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\PathSum_III.cpp",
+              "RelativeToolTip": "Leetcode_Tree\\PathSum_III.cpp",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwEkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-21T13:15:21.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LowestCommonAncestorOfABinaryTree.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\LowestCommonAncestorOfABinaryTree.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Tree\\LowestCommonAncestorOfABinaryTree.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\LowestCommonAncestorOfABinaryTree.cpp",
+              "RelativeToolTip": "Leetcode_Tree\\LowestCommonAncestorOfABinaryTree.cpp",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-19T10:42:01.514Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ConvertSortedArrayToBinarySearchTree.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\ConvertSortedArrayToBinarySearchTree.cpp",
-              "RelativeDocumentMoniker": "Leetcode_Tree\\ConvertSortedArrayToBinarySearchTree.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\ConvertSortedArrayToBinarySearchTree.cpp",
-              "RelativeToolTip": "Leetcode_Tree\\ConvertSortedArrayToBinarySearchTree.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Title": "BinaryTreeRightSideView.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\BinaryTreeRightSideView.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Tree\\BinaryTreeRightSideView.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\BinaryTreeRightSideView.cpp",
+              "RelativeToolTip": "Leetcode_Tree\\BinaryTreeRightSideView.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-05T08:02:22.713Z"
+              "WhenOpened": "2025-04-05T08:40:08.194Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
+              "Title": "KthSmallestElementInABst.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\KthSmallestElementInABst.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Tree\\KthSmallestElementInABst.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\KthSmallestElementInABst.cpp",
+              "RelativeToolTip": "Leetcode_Tree\\KthSmallestElementInABst.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-25T10:47:23.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BinaryTreeInorderTraversal.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\BinaryTreeInorderTraversal.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Tree\\BinaryTreeInorderTraversal.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\BinaryTreeInorderTraversal.cpp",
+              "RelativeToolTip": "Leetcode_Tree\\BinaryTreeInorderTraversal.cpp",
+              "ViewState": "AgIAACkAAAAAAAAAAAAYwDwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-25T09:26:24.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "BinaryTreeLevelOrderTraversal.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\BinaryTreeLevelOrderTraversal.cpp",
               "RelativeDocumentMoniker": "Leetcode_Tree\\BinaryTreeLevelOrderTraversal.cpp",
@@ -194,56 +244,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "ImplementTriePrefixTree.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\ImplementTriePrefixTree.cpp",
-              "RelativeDocumentMoniker": "Leetcode_Tree\\ImplementTriePrefixTree.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\ImplementTriePrefixTree.cpp",
-              "RelativeToolTip": "Leetcode_Tree\\ImplementTriePrefixTree.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAACAAAAAAAAAA==",
+              "Title": "ConvertSortedArrayToBinarySearchTree.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\ConvertSortedArrayToBinarySearchTree.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Tree\\ConvertSortedArrayToBinarySearchTree.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\ConvertSortedArrayToBinarySearchTree.cpp",
+              "RelativeToolTip": "Leetcode_Tree\\ConvertSortedArrayToBinarySearchTree.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-11T05:13:09.044Z"
+              "WhenOpened": "2025-04-05T08:02:22.713Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PathSum_III.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\PathSum_III.cpp",
-              "RelativeDocumentMoniker": "Leetcode_Tree\\PathSum_III.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\PathSum_III.cpp",
-              "RelativeToolTip": "Leetcode_Tree\\PathSum_III.cpp",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwEkAAAACAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "ValidateBinarySearchTree.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\ValidateBinarySearchTree.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Tree\\ValidateBinarySearchTree.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\ValidateBinarySearchTree.cpp",
+              "RelativeToolTip": "Leetcode_Tree\\ValidateBinarySearchTree.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-21T13:15:21.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LowestCommonAncestorOfABinaryTree.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\LowestCommonAncestorOfABinaryTree.cpp",
-              "RelativeDocumentMoniker": "Leetcode_Tree\\LowestCommonAncestorOfABinaryTree.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\LowestCommonAncestorOfABinaryTree.cpp",
-              "RelativeToolTip": "Leetcode_Tree\\LowestCommonAncestorOfABinaryTree.cpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACYAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-19T10:42:01.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T08:32:36.956Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BinaryTreeRightSideView.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\BinaryTreeRightSideView.cpp",
-              "RelativeDocumentMoniker": "Leetcode_Tree\\BinaryTreeRightSideView.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\BinaryTreeRightSideView.cpp",
-              "RelativeToolTip": "Leetcode_Tree\\BinaryTreeRightSideView.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-05T08:40:08.194Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp",
               "RelativeDocumentMoniker": "Leetcode_Tree\\ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp",
@@ -255,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "FlattenBinaryTreeToLinkedList.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\FlattenBinaryTreeToLinkedList.cpp",
               "RelativeDocumentMoniker": "Leetcode_Tree\\FlattenBinaryTreeToLinkedList.cpp",
@@ -267,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "IsCompleteTree.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\IsCompleteTree.cpp",
               "RelativeDocumentMoniker": "Leetcode_Tree\\IsCompleteTree.cpp",
@@ -279,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "OpeningCeremonyFireworks.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\OpeningCeremonyFireworks.cpp",
               "RelativeDocumentMoniker": "Leetcode_Tree\\OpeningCeremonyFireworks.cpp",
@@ -291,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "SumRootToLeafNumbers.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\SumRootToLeafNumbers.cpp",
               "RelativeDocumentMoniker": "Leetcode_Tree\\SumRootToLeafNumbers.cpp",
@@ -303,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "SumOfRootToLeafBinaryNumbers.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\SumOfRootToLeafBinaryNumbers.cpp",
               "RelativeDocumentMoniker": "Leetcode_Tree\\SumOfRootToLeafBinaryNumbers.cpp",
@@ -315,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Tree.h",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\Tree.h",
               "RelativeDocumentMoniker": "Leetcode_Tree\\Tree.h",
@@ -328,18 +352,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "BinaryTreeInorderTraversal.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\BinaryTreeInorderTraversal.cpp",
-              "RelativeDocumentMoniker": "Leetcode_Tree\\BinaryTreeInorderTraversal.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\BinaryTreeInorderTraversal.cpp",
-              "RelativeToolTip": "Leetcode_Tree\\BinaryTreeInorderTraversal.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-25T09:26:24.752Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
               "Title": "BinaryTreePostorderTraversal.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\BinaryTreePostorderTraversal.cpp",
               "RelativeDocumentMoniker": "Leetcode_Tree\\BinaryTreePostorderTraversal.cpp",
@@ -351,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "BinaryTreePreorderTraversal.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\BinaryTreePreorderTraversal.cpp",
               "RelativeDocumentMoniker": "Leetcode_Tree\\BinaryTreePreorderTraversal.cpp",
@@ -363,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "DiameterOfBinaryTree.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\DiameterOfBinaryTree.cpp",
               "RelativeDocumentMoniker": "Leetcode_Tree\\DiameterOfBinaryTree.cpp",
@@ -387,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "BalancedBinaryTree.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\BalancedBinaryTree.cpp",
               "RelativeDocumentMoniker": "Leetcode_Tree\\BalancedBinaryTree.cpp",
@@ -396,18 +408,6 @@
               "ViewState": "AgIAABkAAAAAAAAAAAAawBwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-20T12:38:27.194Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "KthSmallestElementInABst.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\KthSmallestElementInABst.cpp",
-              "RelativeDocumentMoniker": "Leetcode_Tree\\KthSmallestElementInABst.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Tree\\Leetcode_Tree\\KthSmallestElementInABst.cpp",
-              "RelativeToolTip": "Leetcode_Tree\\KthSmallestElementInABst.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-25T10:47:23.092Z"
             },
             {
               "$type": "Document",
