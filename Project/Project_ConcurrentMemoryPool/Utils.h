@@ -89,6 +89,7 @@ public:
 		if (upper > UPPER) {
 			upper = UPPER;
 		}
+		if (upper == 0) std::cout << upper << " ";
 		return upper;
 	}
 

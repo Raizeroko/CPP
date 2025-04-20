@@ -5,6 +5,7 @@ class FreeList {
 public:
 	FreeList()
 		:_freeListHead(nullptr)
+		, _batchSize(1)
 	{}
 
 	void Push(void* pushNode)
@@ -74,8 +75,12 @@ public:
 		return _freeListHead == nullptr;
 	}
 
-	size_t& BatchSize() {
+	size_t BatchSize() {
 		return _batchSize;
+	}
+
+	void AddBatchSize() {
+		_batchSize += 1;
 	}
 
 	static void*& Next(void* cur) {
@@ -89,7 +94,7 @@ public:
 private:
 	void* _freeListHead;
 	// 申请/归还批量
-	size_t _batchSize = 1;
+	size_t _batchSize;
 	// 当前_freeList中结点个数
 	size_t _size = 0;
 };

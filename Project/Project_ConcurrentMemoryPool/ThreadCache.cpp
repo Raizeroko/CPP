@@ -10,8 +10,9 @@ void* ThreadCache::FetchFromCentralCache(size_t index, size_t alignSize) {
 	// 慢启动，随着需求的增大而增大，但是最大也不能超过移动批量的上限
 	size_t upper = Utils::MoveBatchUpperLimit(alignSize);
 	size_t batchSize = min(_threadCache[index].BatchSize(), upper);
+	//if (_threadCache[index].BatchSize() == 0) std::cout << batchSize << " ";
 	if (batchSize == _threadCache[index].BatchSize()) {
-		_threadCache[index].BatchSize() += 1;
+		_threadCache[index].AddBatchSize();
 	}
 
 	// 从中心缓存取出批量的内存
