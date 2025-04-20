@@ -121,6 +121,7 @@ SpanNode* PageCache::GetKPage(size_t k) {
 
 void PageCache::ReturnFromCentralCache(SpanNode* returnSpan) {
 	assert(returnSpan);
+	// ´óÄÚ´æ
 	if (returnSpan->_pageNum >= MAX_PAGE) {
 		void* freeAddress = (void*)(returnSpan->_pageID << PAGE_SHIFT);
 		Utils::SystemDeallocate(freeAddress);

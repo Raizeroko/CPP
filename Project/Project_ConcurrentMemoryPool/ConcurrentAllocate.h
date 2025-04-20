@@ -23,6 +23,7 @@ public:
 			if (LocalThreadCache == nullptr) {
 				static FixedLengthMemoryPool<ThreadCache> threadCachePool;
 				LocalThreadCache = threadCachePool.New();
+				
 			}
 			//std::cout << std::this_thread::get_id() << ":" << LocalThreadCache << std::endl;
 			return LocalThreadCache->Allocate(allocateMemorySize);
