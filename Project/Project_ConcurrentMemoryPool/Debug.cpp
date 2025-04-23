@@ -147,18 +147,25 @@ void TestMultiThread()
 	t1.join();
 	t2.join();
 }
+#include <atomic>
 
+void TestCAS() {
+	std::atomic<int> atomic_value(0);
+	int expected = 0;
+	bool success = atomic_value.compare_exchange_strong(expected, 1);
+}
 
+int main() {
+	TestCAS();
+	//TestFixedLengthMemoryPool();
+	//TestAlignSize();
+	//TestIndex();
+	//TestAllocationProcess();
+	//TLSTest();
+	//TestConcurrentAlloc1();
+	//TestConcurrentAlloc2();
+	//TestMultiThread();
+}
 
-//int main() {
-//	//TestFixedLengthMemoryPool();
-//	//TestAlignSize();
-//	//TestIndex();
-//	//TestAllocationProcess();
-//	//TLSTest();
-//	//TestConcurrentAlloc1();
-//	//TestConcurrentAlloc2();
-//	//TestMultiThread();
-//}
 
 
