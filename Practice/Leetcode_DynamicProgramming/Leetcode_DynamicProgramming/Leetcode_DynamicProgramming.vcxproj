@@ -132,6 +132,7 @@
     <ClCompile Include="BestTimeToBuyAndSellStock_II.cpp" />
     <ClCompile Include="CoinChange.cpp" />
     <ClCompile Include="ContinuousMaximumSum.cpp" />
+    <ClCompile Include="DanCiChaiFenByLeetcodeSolution.cpp" />
     <ClCompile Include="HouseRobber.cpp" />
     <ClCompile Include="JumpGame.cpp" />
     <ClCompile Include="JumpGame_II.cpp" />
