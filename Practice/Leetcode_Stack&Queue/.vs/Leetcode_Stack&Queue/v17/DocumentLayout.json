@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A54BA10B-3E8A-4F4F-81DA-DF6753428469}|Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\EvaluateReversePolishNotation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A54BA10B-3E8A-4F4F-81DA-DF6753428469}|Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue.vcxproj|solutionrelative:Leetcode_Stack\u0026Queue\\EvaluateReversePolishNotation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A54BA10B-3E8A-4F4F-81DA-DF6753428469}|Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\DailyTemperatures.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A54BA10B-3E8A-4F4F-81DA-DF6753428469}|Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue.vcxproj|solutionrelative:Leetcode_Stack\u0026Queue\\DailyTemperatures.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A54BA10B-3E8A-4F4F-81DA-DF6753428469}|Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\CompleteBracketMatching.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A54BA10B-3E8A-4F4F-81DA-DF6753428469}|Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue.vcxproj|solutionrelative:Leetcode_Stack\u0026Queue\\CompleteBracketMatching.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A54BA10B-3E8A-4F4F-81DA-DF6753428469}|Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\Valid_Parentheses.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A54BA10B-3E8A-4F4F-81DA-DF6753428469}|Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue.vcxproj|solutionrelative:Leetcode_Stack\u0026Queue\\Valid_Parentheses.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -27,10 +39,6 @@
       "RelativeMoniker": "D:0:0:{A54BA10B-3E8A-4F4F-81DA-DF6753428469}|Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue.vcxproj|solutionrelative:Leetcode_Stack\u0026Queue\\RottingOranges.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A54BA10B-3E8A-4F4F-81DA-DF6753428469}|Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\CompleteBracketMatching.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A54BA10B-3E8A-4F4F-81DA-DF6753428469}|Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue.vcxproj|solutionrelative:Leetcode_Stack\u0026Queue\\CompleteBracketMatching.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A54BA10B-3E8A-4F4F-81DA-DF6753428469}|Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\ValidateStackSequences.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A54BA10B-3E8A-4F4F-81DA-DF6753428469}|Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue.vcxproj|solutionrelative:Leetcode_Stack\u0026Queue\\ValidateStackSequences.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -45,14 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A54BA10B-3E8A-4F4F-81DA-DF6753428469}|Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\ImplementQueueUsingStacks.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A54BA10B-3E8A-4F4F-81DA-DF6753428469}|Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue.vcxproj|solutionrelative:Leetcode_Stack\u0026Queue\\ImplementQueueUsingStacks.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A54BA10B-3E8A-4F4F-81DA-DF6753428469}|Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\EvaluateReversePolishNotation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A54BA10B-3E8A-4F4F-81DA-DF6753428469}|Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue.vcxproj|solutionrelative:Leetcode_Stack\u0026Queue\\EvaluateReversePolishNotation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A54BA10B-3E8A-4F4F-81DA-DF6753428469}|Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\DailyTemperatures.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A54BA10B-3E8A-4F4F-81DA-DF6753428469}|Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue.vcxproj|solutionrelative:Leetcode_Stack\u0026Queue\\DailyTemperatures.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,11 +62,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Valid_Parentheses.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\Valid_Parentheses.cpp",
               "RelativeDocumentMoniker": "Leetcode_Stack\u0026Queue\\Valid_Parentheses.cpp",
@@ -79,7 +79,82 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "KthLargestElementInAnArray.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\KthLargestElementInAnArray.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Stack\u0026Queue\\KthLargestElementInAnArray.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\KthLargestElementInAnArray.cpp",
+              "RelativeToolTip": "Leetcode_Stack\u0026Queue\\KthLargestElementInAnArray.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-18T05:59:50.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RottingOranges.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\RottingOranges.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Stack\u0026Queue\\RottingOranges.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\RottingOranges.cpp",
+              "RelativeToolTip": "Leetcode_Stack\u0026Queue\\RottingOranges.cpp",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-10T10:57:52.156Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "CompleteBracketMatching.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\CompleteBracketMatching.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Stack\u0026Queue\\CompleteBracketMatching.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\CompleteBracketMatching.cpp",
+              "RelativeToolTip": "Leetcode_Stack\u0026Queue\\CompleteBracketMatching.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-14T09:06:17.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Stack\u0026Queue.h",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\Stack\u0026Queue.h",
+              "RelativeDocumentMoniker": "Leetcode_Stack\u0026Queue\\Stack\u0026Queue.h",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\Stack\u0026Queue.h",
+              "RelativeToolTip": "Leetcode_Stack\u0026Queue\\Stack\u0026Queue.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-10T13:30:46.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EvaluateReversePolishNotation.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\EvaluateReversePolishNotation.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Stack\u0026Queue\\EvaluateReversePolishNotation.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\EvaluateReversePolishNotation.cpp",
+              "RelativeToolTip": "Leetcode_Stack\u0026Queue\\EvaluateReversePolishNotation.cpp",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwD8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-10T13:30:12.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DailyTemperatures.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\DailyTemperatures.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Stack\u0026Queue\\DailyTemperatures.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\DailyTemperatures.cpp",
+              "RelativeToolTip": "Leetcode_Stack\u0026Queue\\DailyTemperatures.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-05T14:29:01.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "TopKFrequentElements.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\TopKFrequentElements.cpp",
               "RelativeDocumentMoniker": "Leetcode_Stack\u0026Queue\\TopKFrequentElements.cpp",
@@ -92,66 +167,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "KthLargestElementInAnArray.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\KthLargestElementInAnArray.cpp",
-              "RelativeDocumentMoniker": "Leetcode_Stack\u0026Queue\\KthLargestElementInAnArray.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\KthLargestElementInAnArray.cpp",
-              "RelativeToolTip": "Leetcode_Stack\u0026Queue\\KthLargestElementInAnArray.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-18T05:59:50.938Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RottingOranges.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\RottingOranges.cpp",
-              "RelativeDocumentMoniker": "Leetcode_Stack\u0026Queue\\RottingOranges.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\RottingOranges.cpp",
-              "RelativeToolTip": "Leetcode_Stack\u0026Queue\\RottingOranges.cpp",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAACoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-10T10:57:52.156Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CompleteBracketMatching.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\CompleteBracketMatching.cpp",
-              "RelativeDocumentMoniker": "Leetcode_Stack\u0026Queue\\CompleteBracketMatching.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\CompleteBracketMatching.cpp",
-              "RelativeToolTip": "Leetcode_Stack\u0026Queue\\CompleteBracketMatching.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-14T09:06:17.934Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Stack\u0026Queue.h",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\Stack\u0026Queue.h",
-              "RelativeDocumentMoniker": "Leetcode_Stack\u0026Queue\\Stack\u0026Queue.h",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\Stack\u0026Queue.h",
-              "RelativeToolTip": "Leetcode_Stack\u0026Queue\\Stack\u0026Queue.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-10T13:30:46.129Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EvaluateReversePolishNotation.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\EvaluateReversePolishNotation.cpp",
-              "RelativeDocumentMoniker": "Leetcode_Stack\u0026Queue\\EvaluateReversePolishNotation.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\EvaluateReversePolishNotation.cpp",
-              "RelativeToolTip": "Leetcode_Stack\u0026Queue\\EvaluateReversePolishNotation.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-10T13:30:12.51Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "ImplementStackUsingQueues.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\ImplementStackUsingQueues.cpp",
               "RelativeDocumentMoniker": "Leetcode_Stack\u0026Queue\\ImplementStackUsingQueues.cpp",
@@ -159,12 +174,11 @@
               "RelativeToolTip": "Leetcode_Stack\u0026Queue\\ImplementStackUsingQueues.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-11T13:11:56.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T13:11:56.182Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "ImplementQueueUsingStacks.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\ImplementQueueUsingStacks.cpp",
               "RelativeDocumentMoniker": "Leetcode_Stack\u0026Queue\\ImplementQueueUsingStacks.cpp",
@@ -176,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "IsSubsequence.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\IsSubsequence.cpp",
               "RelativeDocumentMoniker": "Leetcode_Stack\u0026Queue\\IsSubsequence.cpp",
@@ -188,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "MinStack.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\MinStack.cpp",
               "RelativeDocumentMoniker": "Leetcode_Stack\u0026Queue\\MinStack.cpp",
@@ -200,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "ValidateStackSequences.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\ValidateStackSequences.cpp",
               "RelativeDocumentMoniker": "Leetcode_Stack\u0026Queue\\ValidateStackSequences.cpp",
@@ -209,18 +223,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-24T07:45:38.811Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DailyTemperatures.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\DailyTemperatures.cpp",
-              "RelativeDocumentMoniker": "Leetcode_Stack\u0026Queue\\DailyTemperatures.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Stack\u0026Queue\\Leetcode_Stack\u0026Queue\\DailyTemperatures.cpp",
-              "RelativeToolTip": "Leetcode_Stack\u0026Queue\\DailyTemperatures.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-05T14:29:01.056Z"
             }
           ]
         }
