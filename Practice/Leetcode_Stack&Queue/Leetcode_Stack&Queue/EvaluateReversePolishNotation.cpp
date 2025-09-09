@@ -60,3 +60,47 @@ public:
         return s.top();
     }
 };
+
+// Review 2025/09/09
+class Solution {
+public:
+    int evalRPN(vector<string>& tokens) {
+        stack<int> s;
+        for (auto token : tokens) {
+            if (token == "+") {
+                int right = s.top();
+                s.pop();
+                int left = s.top();
+                s.pop();
+                s.push(left + right);
+            }
+            else if (token == "-") {
+                int right = s.top();
+                s.pop();
+                int left = s.top();
+                s.pop();
+                s.push(left - right);
+            }
+            else if (token == "*") {
+                int right = s.top();
+                s.pop();
+                int left = s.top();
+                s.pop();
+                s.push(left * right);
+            }
+            else if (token == "/") {
+                int right = s.top();
+                s.pop();
+                int left = s.top();
+                s.pop();
+                s.push(left / right);
+            }
+            else {
+                // int num = StringToNumer(token);
+                int num = atoi(token.c_str());
+                s.push(num);
+            }
+        }
+        return s.top();
+    }
+};

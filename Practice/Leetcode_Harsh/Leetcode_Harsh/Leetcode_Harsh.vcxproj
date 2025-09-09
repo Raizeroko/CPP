@@ -139,6 +139,7 @@
     <ClCompile Include="LongestConsecutiveSequence.cpp" />
     <ClCompile Include="LongestHarmoniousSubsequence.cpp" />
     <ClCompile Include="MinimumConsecutiveCardsToPickUp.cpp" />
+    <ClCompile Include="RandomNote.cpp" />
     <ClCompile Include="SortCharactersByFrequency.cpp" />
     <ClCompile Include="StatisticalCharacters.cpp" />
     <ClCompile Include="SubarraySumEqualsK.cpp" />
