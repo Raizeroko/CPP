@@ -15,3 +15,24 @@ public:
         }
     }
 };
+
+
+// Review 2025/09/10
+class Solution {
+public:
+    void moveZeroes(vector<int>& nums) {
+        int dist = -1;
+        for (int cur = 0; cur < nums.size(); cur++) {
+            if (nums[cur] != 0) {
+                swap(nums[++dist], nums[cur]);
+            }
+        }
+    }
+};
+
+
+
+
+
+
+

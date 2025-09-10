@@ -131,6 +131,7 @@
     <ClCompile Include="BeautifulArray.cpp" />
     <ClCompile Include="ContainerWithMostWater.cpp" />
     <ClCompile Include="CourseSchedule.cpp" />
+    <ClCompile Include="DuplicateZeros.cpp" />
     <ClCompile Include="FindAllNumbersDisappearedInAnArray.cpp" />
     <ClCompile Include="FindFirstAndLastPositionOfElementInSortedArray.cpp" />
     <ClCompile Include="FindTheDuplicateNumber.cpp" />
@@ -161,6 +162,7 @@
     <ClCompile Include="SortColors.cpp" />
     <ClCompile Include="SpiralMatrix.cpp" />
     <ClCompile Include="SubarrayProductLessThanK.cpp" />
+    <ClCompile Include="ValidTriangleNumber.cpp" />
     <ClCompile Include="WordSearch.cpp" />
   </ItemGroup>
   <ItemGroup>
