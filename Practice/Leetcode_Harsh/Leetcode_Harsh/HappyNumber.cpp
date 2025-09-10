@@ -44,3 +44,30 @@ public:
         return true;
     }
 };
+
+
+// Review 2025/09/10 Ê¹ÓÃË«Ö¸Õë
+class Solution {
+public:
+    int happyNum(int n) {
+        int ret = 0;
+        while (n) {
+            int tmp = n % 10;
+            ret += tmp * tmp;
+            n /= 10;
+        }
+        return ret;
+    }
+
+    bool isHappy(int n) {
+        int slow = n;
+        int fast = happyNum(n);
+        while (slow != fast) {
+            slow = happyNum(slow);
+            fast = happyNum(happyNum(fast));
+        }
+        if (slow != 1) return false;
+        return true;
+
+    }
+};
