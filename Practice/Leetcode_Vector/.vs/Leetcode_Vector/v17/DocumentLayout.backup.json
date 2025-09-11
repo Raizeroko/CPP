@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\MinimumSizeSubarraySum.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|solutionrelative:Leetcode_Vector\\MinimumSizeSubarraySum.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\HeWeiSdeLiangGeShuZiLcof.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|solutionrelative:Leetcode_Vector\\HeWeiSdeLiangGeShuZiLcof.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\FindAllNumbersDisappearedInAnArray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|solutionrelative:Leetcode_Vector\\FindAllNumbersDisappearedInAnArray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\ValidTriangleNumber.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|solutionrelative:Leetcode_Vector\\ValidTriangleNumber.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\ContainerWithMostWater.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|solutionrelative:Leetcode_Vector\\ContainerWithMostWater.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -103,10 +119,6 @@
       "RelativeMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|solutionrelative:Leetcode_Vector\\BeautifulArray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\FindAllNumbersDisappearedInAnArray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|solutionrelative:Leetcode_Vector\\FindAllNumbersDisappearedInAnArray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\SpiralMatrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|solutionrelative:Leetcode_Vector\\SpiralMatrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -131,10 +143,6 @@
       "RelativeMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|solutionrelative:Leetcode_Vector\\SortColors.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\MinimumSizeSubarraySum.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|solutionrelative:Leetcode_Vector\\MinimumSizeSubarraySum.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\MaximumLengthOfRepeatedSubarray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BFB18AE1-EE49-4B35-BEE1-6A699BAEB288}|Leetcode_Vector\\Leetcode_Vector.vcxproj|solutionrelative:Leetcode_Vector\\MaximumLengthOfRepeatedSubarray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -150,36 +158,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DuplicateZeros.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\DuplicateZeros.cpp",
-              "RelativeDocumentMoniker": "Leetcode_Vector\\DuplicateZeros.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\DuplicateZeros.cpp",
-              "RelativeToolTip": "Leetcode_Vector\\DuplicateZeros.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Title": "HeWeiSdeLiangGeShuZiLcof.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\HeWeiSdeLiangGeShuZiLcof.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Vector\\HeWeiSdeLiangGeShuZiLcof.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\HeWeiSdeLiangGeShuZiLcof.cpp",
+              "RelativeToolTip": "Leetcode_Vector\\HeWeiSdeLiangGeShuZiLcof.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-10T09:17:23.928Z",
+              "WhenOpened": "2025-09-11T07:27:00.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FindTheDuplicateNumber.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\FindTheDuplicateNumber.cpp",
-              "RelativeDocumentMoniker": "Leetcode_Vector\\FindTheDuplicateNumber.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\FindTheDuplicateNumber.cpp",
-              "RelativeToolTip": "Leetcode_Vector\\FindTheDuplicateNumber.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ValidTriangleNumber.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\ValidTriangleNumber.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Vector\\ValidTriangleNumber.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\ValidTriangleNumber.cpp",
+              "RelativeToolTip": "Leetcode_Vector\\ValidTriangleNumber.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwAIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-09T14:01:02.22Z"
+              "WhenOpened": "2025-09-10T12:49:50.575Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "WordSearch.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\WordSearch.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\WordSearch.cpp",
@@ -191,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "SlidingWindowMaximum.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\SlidingWindowMaximum.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\SlidingWindowMaximum.cpp",
@@ -203,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "MaximumProductOfThreeNumbers.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\MaximumProductOfThreeNumbers.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\MaximumProductOfThreeNumbers.cpp",
@@ -215,7 +224,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "MinimumSizeSubarraySum.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\MinimumSizeSubarraySum.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Vector\\MinimumSizeSubarraySum.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\MinimumSizeSubarraySum.cpp",
+              "RelativeToolTip": "Leetcode_Vector\\MinimumSizeSubarraySum.cpp",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-16T12:14:56.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FindTheDuplicateNumber.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\FindTheDuplicateNumber.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Vector\\FindTheDuplicateNumber.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\FindTheDuplicateNumber.cpp",
+              "RelativeToolTip": "Leetcode_Vector\\FindTheDuplicateNumber.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-09T14:01:02.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FindAllNumbersDisappearedInAnArray.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\FindAllNumbersDisappearedInAnArray.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Vector\\FindAllNumbersDisappearedInAnArray.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\FindAllNumbersDisappearedInAnArray.cpp",
+              "RelativeToolTip": "Leetcode_Vector\\FindAllNumbersDisappearedInAnArray.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-12T07:06:41.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DuplicateZeros.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\DuplicateZeros.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Vector\\DuplicateZeros.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\DuplicateZeros.cpp",
+              "RelativeToolTip": "Leetcode_Vector\\DuplicateZeros.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-10T09:17:23.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Permutations.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\Permutations.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\Permutations.cpp",
@@ -227,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ContainerWithMostWater.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\ContainerWithMostWater.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\ContainerWithMostWater.cpp",
@@ -235,12 +294,11 @@
               "RelativeToolTip": "Leetcode_Vector\\ContainerWithMostWater.cpp",
               "ViewState": "AgIAADMAAAAAAAAAAAAAAEUAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-04T05:07:29.548Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T05:07:29.548Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "SearchInRotatedSortedArray.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\SearchInRotatedSortedArray.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\SearchInRotatedSortedArray.cpp",
@@ -252,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "MoveZeroes.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\MoveZeroes.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\MoveZeroes.cpp",
@@ -264,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "SearchA2dMatrix-ii.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\SearchA2dMatrix-ii.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\SearchA2dMatrix-ii.cpp",
@@ -276,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "SetMatrixZeroes.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\SetMatrixZeroes.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\SetMatrixZeroes.cpp",
@@ -288,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "ProductOfArrayExceptSelf.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\ProductOfArrayExceptSelf.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\ProductOfArrayExceptSelf.cpp",
@@ -300,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Vector.h",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\Vector.h",
               "RelativeDocumentMoniker": "Leetcode_Vector\\Vector.h",
@@ -312,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "RemoveElement.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\RemoveElement.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\RemoveElement.cpp",
@@ -324,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "MissingNumber.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\MissingNumber.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\MissingNumber.cpp",
@@ -336,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "SearchA2dMatrix_II.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\SearchA2dMatrix_II.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\SearchA2dMatrix_II.cpp",
@@ -348,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "CourseSchedule.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\CourseSchedule.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\CourseSchedule.cpp",
@@ -360,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "BeautifulArray.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\BeautifulArray.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\BeautifulArray.cpp",
@@ -372,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "SpiralMatrix.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\SpiralMatrix.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\SpiralMatrix.cpp",
@@ -384,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "RotateArray.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\RotateArray.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\RotateArray.cpp",
@@ -396,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "PlusOne.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\PlusOne.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\PlusOne.cpp",
@@ -408,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "MergeIntervals.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\MergeIntervals.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\MergeIntervals.cpp",
@@ -420,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "RemoveDuplicatesFromSortedArray_II.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\RemoveDuplicatesFromSortedArray_II.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\RemoveDuplicatesFromSortedArray_II.cpp",
@@ -432,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "MaximumDifference.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\MaximumDifference.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\MaximumDifference.cpp",
@@ -444,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "MergeSortedArray.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\MergeSortedArray.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\MergeSortedArray.cpp",
@@ -456,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "NextGreaterElement_II.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\NextGreaterElement_II.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\NextGreaterElement_II.cpp",
@@ -468,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "NextGreaterElement_I.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\NextGreaterElement_I.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\NextGreaterElement_I.cpp",
@@ -480,31 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "MinimumSizeSubarraySum.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\MinimumSizeSubarraySum.cpp",
-              "RelativeDocumentMoniker": "Leetcode_Vector\\MinimumSizeSubarraySum.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\MinimumSizeSubarraySum.cpp",
-              "RelativeToolTip": "Leetcode_Vector\\MinimumSizeSubarraySum.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-16T12:14:56.76Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "FindAllNumbersDisappearedInAnArray.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\FindAllNumbersDisappearedInAnArray.cpp",
-              "RelativeDocumentMoniker": "Leetcode_Vector\\FindAllNumbersDisappearedInAnArray.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\FindAllNumbersDisappearedInAnArray.cpp",
-              "RelativeToolTip": "Leetcode_Vector\\FindAllNumbersDisappearedInAnArray.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-12T07:06:41.681Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "Permutations_II.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\Permutations_II.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\Permutations_II.cpp",
@@ -516,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "FindFirstAndLastPositionOfElementInSortedArray.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\FindFirstAndLastPositionOfElementInSortedArray.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\FindFirstAndLastPositionOfElementInSortedArray.cpp",
@@ -528,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "SortColors.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\SortColors.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\SortColors.cpp",
@@ -540,7 +574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "SubarrayProductLessThanK.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\SubarrayProductLessThanK.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\SubarrayProductLessThanK.cpp",
@@ -552,7 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "MaximumLengthOfRepeatedSubarray.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\MaximumLengthOfRepeatedSubarray.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\MaximumLengthOfRepeatedSubarray.cpp",
@@ -564,7 +598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "HScore.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Vector\\Leetcode_Vector\\HScore.cpp",
               "RelativeDocumentMoniker": "Leetcode_Vector\\HScore.cpp",

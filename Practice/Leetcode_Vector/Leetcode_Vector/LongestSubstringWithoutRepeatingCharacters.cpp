@@ -18,3 +18,24 @@ public:
         return ret;
     }
 };
+
+// Review 2025/09/11
+class Solution {
+public:
+    int lengthOfLongestSubstring(string s) {
+        int left = 0;
+        int right = 0;
+        int ret = 0;
+        unordered_map<char, int> harsh;
+        while (right < s.size()) {
+            harsh[s[right]]++;
+            while (harsh[s[right]] > 1) {
+                harsh[s[left]]--;
+                left++;
+            }
+            ret = max(ret, right - left + 1);
+            right++;
+        }
+        return ret;
+    }
+};

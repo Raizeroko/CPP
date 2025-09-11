@@ -126,6 +126,9 @@
     <ClCompile Include="ValidTriangleNumber.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="HeWeiSdeLiangGeShuZiLcof.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Vector.h">

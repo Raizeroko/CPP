@@ -135,6 +135,7 @@
     <ClCompile Include="FindAllNumbersDisappearedInAnArray.cpp" />
     <ClCompile Include="FindFirstAndLastPositionOfElementInSortedArray.cpp" />
     <ClCompile Include="FindTheDuplicateNumber.cpp" />
+    <ClCompile Include="HeWeiSdeLiangGeShuZiLcof.cpp" />
     <ClCompile Include="HScore.cpp" />
     <ClCompile Include="LongestSubstringWithoutRepeatingCharacters.cpp" />
     <ClCompile Include="MaximumDifference.cpp" />
