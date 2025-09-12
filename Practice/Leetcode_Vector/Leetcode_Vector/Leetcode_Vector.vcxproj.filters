@@ -129,6 +129,9 @@
     <ClCompile Include="HeWeiSdeLiangGeShuZiLcof.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="MaxConsecutiveOnesIII.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Vector.h">
