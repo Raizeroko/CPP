@@ -133,6 +133,7 @@
     <ClCompile Include="DeleteCommonCharacters.cpp" />
     <ClCompile Include="FindAllAnagramsInAString.cpp" />
     <ClCompile Include="FirstUniqueCharacterInAString.cpp" />
+    <ClCompile Include="FruitIntoBaskets.cpp" />
     <ClCompile Include="HappyNumber.cpp" />
     <ClCompile Include="IsomorphicStrings.cpp" />
     <ClCompile Include="IsUniqueLcci.cpp" />

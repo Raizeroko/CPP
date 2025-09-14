@@ -66,6 +66,9 @@
     <ClCompile Include="RandomNote.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="FruitIntoBaskets.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Harsh.h">
