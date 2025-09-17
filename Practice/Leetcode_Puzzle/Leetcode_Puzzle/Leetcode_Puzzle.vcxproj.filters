@@ -99,6 +99,9 @@
     <ClCompile Include="JumpGame_II.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="LongestIncreasingPathInAMatrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Puzzle.h">
