@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="3sum.cpp" />
     <ClCompile Include="BeautifulArray.cpp" />
+    <ClCompile Include="BinarySearch.cpp" />
     <ClCompile Include="ContainerWithMostWater.cpp" />
     <ClCompile Include="CourseSchedule.cpp" />
     <ClCompile Include="DuplicateZeros.cpp" />

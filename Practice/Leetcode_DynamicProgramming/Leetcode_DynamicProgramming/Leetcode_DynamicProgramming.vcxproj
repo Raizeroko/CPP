@@ -142,6 +142,7 @@
     <ClCompile Include="MinimumPathSum.cpp" />
     <ClCompile Include="PartitionEqualSubsetSum.cpp" />
     <ClCompile Include="PerfectSquares.cpp" />
+    <ClCompile Include="PrefixSum.cpp" />
     <ClCompile Include="TrappingRainWater.cpp" />
     <ClCompile Include="UniquePaths.cpp" />
   </ItemGroup>

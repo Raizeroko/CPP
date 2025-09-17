@@ -140,6 +140,7 @@
     <ClCompile Include="JumpGame_II.cpp" />
     <ClCompile Include="LetterCombinationsOfAPhoneNumber.cpp" />
     <ClCompile Include="LineGame.cpp" />
+    <ClCompile Include="LongestIncreasingPathInAMatrix.cpp" />
     <ClCompile Include="MajorityElement.cpp" />
     <ClCompile Include="MinCostClimbingStairs.cpp" />
     <ClCompile Include="NextPermutation.cpp" />
