@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\FindFirstAndLastPositionOfElementInSortedArray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|solutionrelative:Leetcode_Puzzle\\FindFirstAndLastPositionOfElementInSortedArray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\LongestIncreasingPathInAMatrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|solutionrelative:Leetcode_Puzzle\\LongestIncreasingPathInAMatrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -45,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\CombinationSum.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|solutionrelative:Leetcode_Puzzle\\CombinationSum.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\FindFirstAndLastPositionOfElementInSortedArray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|solutionrelative:Leetcode_Puzzle\\FindFirstAndLastPositionOfElementInSortedArray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{657AD1D6-E069-4C1A-8021-72440E1956EF}|Leetcode_Puzzle\\Leetcode_Puzzle.vcxproj|E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\BinarySearch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -130,11 +130,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LongestIncreasingPathInAMatrix.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\LongestIncreasingPathInAMatrix.cpp",
               "RelativeDocumentMoniker": "Leetcode_Puzzle\\LongestIncreasingPathInAMatrix.cpp",
@@ -147,20 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "JumpGame_II.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\JumpGame_II.cpp",
-              "RelativeDocumentMoniker": "Leetcode_Puzzle\\JumpGame_II.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\JumpGame_II.cpp",
-              "RelativeToolTip": "Leetcode_Puzzle\\JumpGame_II.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-22T14:55:48.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FindMinimumInRotatedSortedArray.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\FindMinimumInRotatedSortedArray.cpp",
               "RelativeDocumentMoniker": "Leetcode_Puzzle\\FindMinimumInRotatedSortedArray.cpp",
@@ -172,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ImplementRand10UsingRand7.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\ImplementRand10UsingRand7.cpp",
               "RelativeDocumentMoniker": "Leetcode_Puzzle\\ImplementRand10UsingRand7.cpp",
@@ -184,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "NextPermutation.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\NextPermutation.cpp",
               "RelativeDocumentMoniker": "Leetcode_Puzzle\\NextPermutation.cpp",
@@ -196,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PalindromePartitioning.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\PalindromePartitioning.cpp",
               "RelativeDocumentMoniker": "Leetcode_Puzzle\\PalindromePartitioning.cpp",
@@ -208,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "MajorityElement.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\MajorityElement.cpp",
               "RelativeDocumentMoniker": "Leetcode_Puzzle\\MajorityElement.cpp",
@@ -220,7 +207,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "FindFirstAndLastPositionOfElementInSortedArray.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\FindFirstAndLastPositionOfElementInSortedArray.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Puzzle\\FindFirstAndLastPositionOfElementInSortedArray.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\FindFirstAndLastPositionOfElementInSortedArray.cpp",
+              "RelativeToolTip": "Leetcode_Puzzle\\FindFirstAndLastPositionOfElementInSortedArray.cpp",
+              "ViewState": "AgIAACkAAAAAAAAAAAAuwD4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-28T03:41:57.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JumpGame_II.cpp",
+              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\JumpGame_II.cpp",
+              "RelativeDocumentMoniker": "Leetcode_Puzzle\\JumpGame_II.cpp",
+              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\JumpGame_II.cpp",
+              "RelativeToolTip": "Leetcode_Puzzle\\JumpGame_II.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-22T14:55:48.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "SearchInRotatedSortedArray.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\SearchInRotatedSortedArray.cpp",
               "RelativeDocumentMoniker": "Leetcode_Puzzle\\SearchInRotatedSortedArray.cpp",
@@ -232,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "SortColors.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\SortColors.cpp",
               "RelativeDocumentMoniker": "Leetcode_Puzzle\\SortColors.cpp",
@@ -244,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "GenerateParentheses.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\GenerateParentheses.cpp",
               "RelativeDocumentMoniker": "Leetcode_Puzzle\\GenerateParentheses.cpp",
@@ -256,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "CombinationSum.cpp",
               "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\CombinationSum.cpp",
               "RelativeDocumentMoniker": "Leetcode_Puzzle\\CombinationSum.cpp",
@@ -265,18 +277,6 @@
               "ViewState": "AgIAACEAAAAAAAAAAAAYwDAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-31T13:21:55.666Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FindFirstAndLastPositionOfElementInSortedArray.cpp",
-              "DocumentMoniker": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\FindFirstAndLastPositionOfElementInSortedArray.cpp",
-              "RelativeDocumentMoniker": "Leetcode_Puzzle\\FindFirstAndLastPositionOfElementInSortedArray.cpp",
-              "ToolTip": "E:\\git_repository\\CPP\\Practice\\Leetcode_Puzzle\\Leetcode_Puzzle\\FindFirstAndLastPositionOfElementInSortedArray.cpp",
-              "RelativeToolTip": "Leetcode_Puzzle\\FindFirstAndLastPositionOfElementInSortedArray.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-28T03:41:57.576Z"
             },
             {
               "$type": "Document",
