@@ -1,0 +1,35 @@
+# Visual Studio 自动生成的文件
+*.suo
+*.user
+*.sln.cache
+*.vcxproj.user
+*.vcxproj.filters.user
+
+# 编译产物（可执行文件、库、调试信息等）
+*.exe
+*.dll
+*.pdb
+*.obj
+*.lib
+*.ilk
+*.aps
+*.tlog
+*.pch
+
+# 编译输出目录
+# 注意：如果你的可执行文件在根目录，上面的 *.exe 已经生效
+# 但标准的VS项目会把它们放在这些文件夹里
+[Dd]ebug/
+[Rr]elease/
+x64/
+Win32/
+[Aa]rm64/
+bin/
+obj/
+
+# VS 2017/2019/2022 的缓存文件夹
+.vs/
+
+# 其他
+*.VC.db
+*.VC.opendb
