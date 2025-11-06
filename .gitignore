@@ -1,28 +1,53 @@
-# VS 缓存文件夹
+## 编译输出目录 (Build output folders)
+# 兼顾大小写
+[Bb]in/
+[Dd]ebug/
+[Oo]bj/
+[Rr]elease/
+[Ww]in32/
+[Ww]in64/
+x64/
+[Aa]rm/
+[Aa]rm64/
+
+## VS 本地缓存和设置 (IDE cache & user settings)
+# 这个 .vs 文件夹通常非常大
 .vs/
 
-# 编译产物（可执行文件、库、调试信息等）
+# 解决方案/项目级别的用户设置，不应共享
+*.suo
+*.user
+*.sln.docstates
+*.vcxproj.user
+*.vcxproj.filters.user
+
+## 编译产物 (Build products)
 *.exe
 *.dll
+*.lib
 *.pdb
 *.obj
-*.lib
 *.ilk
-*.aps
-*.tlog
 *.pch
+*.ipch
 
-# 编译输出目录
-# 注意：如果你的可执行文件在根目录，上面的 *.exe 已经生效
-# 但标准的VS项目会把它们放在这些文件夹里
-[Dd]ebug/
-[Rr]elease/
-x64/
-Win32/
-[Aa]rm64/
-bin/
-obj/
-
-# 其他
+## 调试/分析/日志文件 (Debug, profiling, and log files)
+*.log
+*.tlog
+*.aps
+*.map
+*.sbr
+*.sdf
+*.db
 *.VC.db
 *.VC.opendb
+*.idb
+*.ipdb
+*.iobj
+*.vsidx
+*.recipe
+
+## 其他临时文件 (Other temp files)
+*.tmp
+*.bak
+*.orig
